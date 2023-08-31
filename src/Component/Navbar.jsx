@@ -45,7 +45,7 @@ export const Navbar = () => {
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
-                                {localStorage.getItem("lang")}
+                                {localStorage.getItem("lang") === null ? "eng" : localStorage.getItem("lang")}
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (

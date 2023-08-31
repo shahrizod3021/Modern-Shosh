@@ -15,6 +15,15 @@ export const Ordering = () => {
         if (come_time.substring(8,10) < date.toString()){
             return toast.error(localStorage.getItem("lang") === "uzb" ? "Siz faqat kelish sanasiga bugunki kun yoki keyingi sanalarni kiritishingiz mumkin. Oldingi kunlarni emas" : localStorage.getItem("lang") === "rus" ? "В дату прибытия можно ввести только сегодняшнюю дату или будущие даты. Не в предыдущие дни" : "You can only enter today's date or future dates in the arrival date. Not in previous days", {duration:5000})
         }
+        if (number === null){
+            return toast.error("Honalar soni kiritilnmadi")
+        }
+        if (young === null){
+            return toast.error("Bolalar soni kiritilinmadi. Agar yosh bolalar bo'lmasi maydonda 0 raqamini qoldiring", {duration:6000})
+        }
+        if (older === null){
+            return toast.error("Kattalar soni kiritilinmadi. Agar kattalar bo'lmasa maydonda 0 raqamini qoldiring", {duration:6000})
+        }
         const data = {
             phoneNumber, going_time, come_time, older,child:young,rooms_size:number
         }

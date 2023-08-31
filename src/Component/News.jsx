@@ -31,6 +31,7 @@ export const News = () => {
 
     const getAll = async () => {
         setNews(await GetNews())
+        localStorage.setItem("lang", localStorage.getItem("lang") === null ? "uzb" : localStorage.getItem("lang"))
     }
 
     useEffect(() => {
