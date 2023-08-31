@@ -20,7 +20,7 @@ export const App = () => {
             <Gallarey/>
             <Rooms/>
             <LoveNumbers/>
-            <Comments/>
+            {/*<Comments/>*/}
             <Feature/>
             <News/>
             <AnswerAndQuestion/>
