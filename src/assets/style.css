@@ -238,7 +238,7 @@
     height: 30vh;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .galary{
         margin-left: 15px;
         width: 90%;

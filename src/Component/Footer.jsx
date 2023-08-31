@@ -1,11 +1,11 @@
-import logo from "../assets/img/shosh.png";
+import logo from "../assets/img/logo big.png";
 
 export const Footer = () => {
     return (
         <div>
             <div className={"desktop-nav m-0 w-100 row col-md-12"}>
                 <div className={"col-md-2 mt-3"}>
-                    <img src={logo} alt="topilmadi" width={"100%"}/>
+                    <img src={logo} alt="topilmadi" width={"50%"} style={{marginLeft:"100px"}} height={"100px"}/>
                 </div>
                 <div className={"col-md-8"}>
                     <div className={"d-flex align-items-center mt-4 flex-column  justify-content-center"}>
@@ -45,7 +45,7 @@ export const Footer = () => {
                     </div>
                 </div>
                 <div className={"col-md-2 mt-3"}>
-                    <img src={logo} alt="topilmadi" width={"100%"}/>
+                    <img src={logo} alt="topilmadi" width={"50%"} height={"100px"}/>
                 </div>
             </div>
 

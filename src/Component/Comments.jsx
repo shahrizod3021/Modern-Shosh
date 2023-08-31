@@ -18,16 +18,15 @@ export const Comments = () => {
                                         <h5 className={"text-white text-center lato pt-4"}>John Adam :</h5>
                                         <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                     </div>
-                                    <div className={"col-4"}>
+                                    <div className={"col-4 "}>
                                         <p className={"text-white"}>Отзыв: Очень доволен услугами гостиницы ModernShosh. Вежливый и отзывчивый персонал всегда готов помочь. Номера чистые и удобные, уборка проводилась своевременно. Завтраки в ресторане были вкусными и разнообразными.</p>
-                                        <h5 className={"text-white text-center lato pt-4"}>Lyudmila Safaeva :</h5>
+                                        <h5 className={"text-white text-center lato pt-4 mt-5"}>Lyudmila Safaeva :</h5>
                                         <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
-
                                     </div>
-                                    <div className={"col-4"}>
+                                    <div className={"col-4 "}>
                                         <p className={"text-white"}>Отзыв: Хочу выразить благодарность за отличное обслуживание в гостинице ModernShosh. Все мои просьбы и вопросы решались оперативно. Уровень сервиса на высоте, персонал профессиональный и внимательный.</p>
-                                        <h5 className={"text-white text-center lato pt-4"}>Murad Ivanov :</h5>
-                                        <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                        <h5 className={"text-white text-center lato pt-4 mt-5"}>Murad Ivanov :</h5>
+                                        <p className={"text-center lato text-white "}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                     </div>
                                 </div>
                             </div>

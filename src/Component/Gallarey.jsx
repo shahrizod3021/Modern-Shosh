@@ -4,7 +4,7 @@ import hall from '../assets/img/hall/IMG_6597.jpg'
 import garden from '../assets/img/bog/bog2.jpg'
 import twin from '../assets/img/tvin/tvin1.jpg'
 import restaurant1 from '../assets/img/Restaurant/IMG_0308.jpg'
-import single from '../assets/img/single/single2.jpg'
+import single from '../assets/img/bedroom.png'
 
 export const Gallarey = () => {
     const responsive = {

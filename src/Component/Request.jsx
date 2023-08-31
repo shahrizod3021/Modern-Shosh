@@ -1,5 +1,6 @@
 import {useState} from "react";
 import {RequestAction} from "../Service/service.js";
+import gis from '../assets/img/2gis.png'
 
 export const Request =  () => {
     const [phoneNumber, setPhoneNumber] = useState('')
@@ -12,11 +13,19 @@ export const Request =  () => {
         setName("")
         setPhoneNumber("")
     }
+    // const map = new mapgl.Map('gis', {
+    //     center: [55.31878, 25.23584],
+    //     zoom: 13,
+    // });
+    //
+    // const marker = new mapgl.Marker(map, {
+    //     coor dinates: [55.31878, 25.23584],
+    // });
     return(
         <div id={"contact"}>
             <div className={"container mb-5"}>
                 <div className={"row col-md-12"}>
-                    <div className={"col-md-5 shadow-lg me-md-5"} style={{padding:"20px", borderRadius:"20px"}}>
+                    <div className={"col-md-5 shadow-lg me-md-5 h-75"} style={{padding:"20px", borderRadius:"20px"}}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Bog'lanish uchun" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Request"}</h3>
                         <hr className={"text-white"}/>
                         <form >
@@ -54,6 +63,13 @@ export const Request =  () => {
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Yandexda" : localStorage.getItem("lang") === "rus" ? "Мы в Yandex ." : "We are in Yandex"}</h5>
                                     <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
+                                </div>
+                            </div>
+                            <div className={"maps mb-3"}>
+                                <div id={'gis'}><a target={"_blank"} href="https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"><img src={gis}  width={"300px"} height={"200px"} className={"me-5"} alt=""/></a> </div>
+                                <div className={"d-flex flex-column"}>
+                                    <h5 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz 2GIS da" : localStorage.getItem("lang") === "rus" ? "Мы в 2GIS ." : "We are in 2GIS"}</h5>
+                                    <a target={"_blank"} href={"https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
                                 </div>
                             </div>
                         </div>
