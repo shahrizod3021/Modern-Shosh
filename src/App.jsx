@@ -9,6 +9,7 @@ import {News} from "./Component/News.jsx";
 import {AnswerAndQuestion} from "./Component/AnswerAndQuestion.jsx";
 import {Footer} from "./Component/Footer.jsx";
 import {Request} from "./Component/Request.jsx";
+import {Comments} from "./Component/Comments.jsx";
 
 export const App = () => {
     return(
@@ -19,7 +20,7 @@ export const App = () => {
             <Gallarey/>
             <Rooms/>
             <LoveNumbers/>
-            {/*<Comments/>*/}
+            <Comments/>
             <Feature/>
             <News/>
             <AnswerAndQuestion/>
