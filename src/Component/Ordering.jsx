@@ -24,7 +24,7 @@ export const Ordering = () => {
         if (older === null){
             return toast.error("Kattalar soni kiritilinmadi. Agar kattalar bo'lmasa maydonda 0 raqamini qoldiring", {duration:6000})
         }
-        if (phoneNumber === null){
+        if (phoneNumber.length === 0){
             return toast.error("Telefon raqamingizni kiritishingiz zarur", {duration:4000})
         }
         const data = {
