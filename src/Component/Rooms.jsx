@@ -63,9 +63,9 @@ export const Rooms = () => {
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Lyuks" : localStorage.getItem("lang") === "rus" ? "Люкс" : "Luxury"}</h3>
                         <p className={"text-white"}>
                             {localStorage.getItem("lang") === "uzb" ? "Double Deluxe Asosiy karavotlar soni: 2 Internet va telefoniya bepul Wi-Fi telefon Elektron konditsioner Qulayliklar rasmlari muzlatgich anatomik matraslar qo'shimcha matras (sizning so'rovingiz bo'yicha) xona maydoni - 30 kv.m Mebel stol stul\n" +
-                                "oynali ko'rpa stoli divan Ko'ngilochar televizor Ochiq maydon shahar manzarasi Oziq-ovqat va ichimliklar\n" +
-                                "ichimlik suvi choy shakar Hammom uchun dush idishni hammomi, yuz sochiqlari, shuningdek, oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynasi\n" +
-                                "hojatxona urni parvarishlash kiyimlari\n" +
+                                "oynali ko'rpa stoli, divan,televizor, Ko'ngilochar ochiq maydon, shahar manzarasi Oziq-ovqat va ichimliklar\n" +
+                                "ichimlik suvi, choy shakar. Hammom uchun dush idishni hammomi, yuz sochiqlari, shuningdek, oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynasi\n" +
+                                "hojatxona urni, kiyimlarni dazlmollaydigan uskuna\n" +
                                 "garderob ilgichi\n" : localStorage.getItem("lang") === "rus" ? "Double Deluxe\n" +
                                 "                            Сон\n" +
                                 "                            количество основных мест: 2\n" +
@@ -136,7 +136,7 @@ export const Rooms = () => {
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Bog'" : localStorage.getItem("lang") === "rus" ? "Cад" : "Garden"}</h3>
                         <p className={"text-white"}>
                             {localStorage.getItem("lang") === "uzb" ? "Mehmonxona bog'i mehmonlar shahar shovqinidan dam olishlari va tabiat qo'ynidan bahramand bo'lishlari mumkin bo'lgan shinam va go'zal joy.\n" +
-                                "                            Bog' - bu go'zal daraxtlar va butalar bo'lgan yashil maydon, u erda tashrif buyuruvchilar kitob o'qishlari yoki toza va toza havoda ishlashlari mumkin" : localStorage.getItem("lang") === "rus" ? "   Сад гостиницы – это уютное и красивое место, где гости могут отдохнуть от городской суеты и насладиться природой.\n" +
+                                "                            Bog' - bu go'zal daraxtlar va butalar bo'lgan yashil maydon, u erda tashrif buyuruvchilar kitob o'qishlari yoki toza havoda ishlashlari mumkin" : localStorage.getItem("lang") === "rus" ? "   Сад гостиницы – это уютное и красивое место, где гости могут отдохнуть от городской суеты и насладиться природой.\n" +
                                 "                            Сад представляет собой зеленую зону с живописными деревьями и кустарниками, где посетители могут почитать книги или поработать на свежем и чистом воздухе" : "A spacious and comfortable room for various events. The hall, equipped with its own wardrobe, can accommodate up to 50 people and is equipped with all necessary equipment for conferences, seminars, presentations and other business meetings: projector, screen, audio and video equipment, microphones, interactive whiteboard. , and others."}
                         </p>
                     </div>
@@ -144,7 +144,7 @@ export const Rooms = () => {
                 <div className="row col-md-12 mt-5">
                     <div className={"col-md-5"}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Single" : localStorage.getItem("lang") === "rus" ? "Single" : "Single"}</h3>
-                        <p className={"text-white me-3"}>{localStorage.getItem("lang") === "uzb" ? "Yakka tartibdagi asosiy o'rinlar soni: 2 ta Internet va telefoniya bepul Wi-Fi telefon Elektron konditsioner Qulayliklar rasmlari muzlatgich anatomik matraslar xona maydoni - 12 kv.m Mebel stol stul oynasi karavot Ko'ngilochar televizor Tashqi hudud shahar manzarasi Oziq-ovqat va ichimlik suvi choy shakar Hammom dush kabinasi hammom, yuz va oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynali hojatxona idishi Kiyimlarni parvarish qilish shkafi ilgichlari"
+                        <p className={"text-white me-3"}>{localStorage.getItem("lang") === "uzb" ? "Yakka tartibdagi asosiy o'rinlar soni: 2 ta Internet va telefoniya, bepul Wi-Fi telefon Elektron konditsioner, Qulayliklar: rasmlari, muzlatgich, anatomik matraslar, xona maydoni - 12 kv.m Mebel stol stul oynasi karavot, Ko'ngilochar Tashqi hudud, shahar manzarasi. Oziq-ovqat va ichimlik suvi, choy, shakar Hammom dush kabinasi, hammom, yuz va oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynali hojatxona idishi Kiyimlarni parvarish qilish shkafi ilgichlari"
                             : localStorage.getItem("lang") === "rus" ?
                                 "Single\n" +
                                 "Сон \n" +
@@ -202,7 +202,7 @@ export const Rooms = () => {
                     </div>
                     <div className={"col-md-5"}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Twin" : localStorage.getItem("lang") === "rus" ? "Twin" : "Twin"}</h3>
-                        <p className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Twin Uyqu asosiy karavot soni: 2 ta Internet va telefoniya bepul Wi-Fi telefon Elektron konditsioner Qulayliklar rasmlari xolodilnik anatomik matraslar qo'shimcha matras (sizning so'rovingiz bo'yicha) xona hajmi 20 kv.m Mebel stol stul oynasi karavot Ko'ngilochar televidenie Tashqi hudud shahar ko'rinish Oziq-ovqat va ichimlik suvi choy shakar Hammom dush kabinasi hammom, yuz va oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynali hojatxona idishi Kiyimlarni parvarish qilish shkafi ilgichlari\n" : localStorage.getItem("lang") === "rus" ? "Twin\n" +
+                        <p className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Twin Uyqu asosiy karavot soni: 2 ta Internet va telefoniya, bepul Wi-Fi telefon Elektron konditsioner Qulayliklar: rasmlari, xolodilnik, anatomik matraslar, qo'shimcha matras (sizning so'rovingiz bo'yicha) xona hajmi 20 kv.m Mebel stol stul oynasi, karavot Ko'ngilochar televidenie, Tashqi hudud shahar ko'rinish. Oziq-ovqat va ichimlik suvi choy shakar Hammom dush kabinasi hammom, yuz va oyoq sochiqlari bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun) oynali hojatxona idishi Kiyimlarni parvarish qilish shkafi ilgichlari\n" : localStorage.getItem("lang") === "rus" ? "Twin\n" +
                             "                            Сон\n" +
                             "                            количество основных мест: 2\n" +
                             "                            Интернет и телефония\n" +
