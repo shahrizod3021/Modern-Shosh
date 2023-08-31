@@ -12,8 +12,7 @@ export const Ordering = () => {
     const date = new Date().getDate()
 
     const ordering = async () => {
-        console.log(come_time.substring(6, 8))
-        if (come_time.substring(6,8) < date.toString()){
+        if (come_time.substring(8,10) <= date.toString()){
             return toast.error(localStorage.getItem("lang") === "uzb" ? "Siz faqat kelish sanasiga bugunki kun yoki keyingi sanalarni kiritishingiz mumkin. Oldingi kunlarni emas" : localStorage.getItem("lang") === "rus" ? "В дату прибытия можно ввести только сегодняшнюю дату или будущие даты. Не в предыдущие дни" : "You can only enter today's date or future dates in the arrival date. Not in previous days", {duration:5000})
         }
         if (number === null){
