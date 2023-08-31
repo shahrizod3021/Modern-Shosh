@@ -24,7 +24,7 @@ export const Basic = () => {
         }
     };
     return (
-        <div>
+        <div id={"home"}>
             <Carousel responsive={responsive}
                       infinite
                       arrows={false}
