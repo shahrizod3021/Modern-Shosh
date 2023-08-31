@@ -1,0 +1,361 @@
+.app{
+    width: 100%;
+    background-image: url("img/Group 66 ).svg");
+    background-size: 660px;
+    background-repeat: repeat;
+    background-color: #202020;
+}
+.navbar-basic {
+    height: 13vh;
+}
+
+.desktop-nav {
+    display: flex;
+}
+
+.basic-img{
+    height: 700px;
+}
+
+.media-nav {
+    display: none;
+}
+
+.navbar-ul {
+    list-style: none;
+    margin: 30px 0 0 200px;
+}
+
+.navbar-li {
+    margin-right: 30px;
+}
+
+.navbar-a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-a:hover {
+    color: white;
+}
+
+.navbar-button {
+    margin-top: 25px;
+}
+
+.basic {
+    background-image: url("img/image 1.png");
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.basic-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 100%;
+}
+
+.ordering {
+    width: 100%;
+    height: 50vh;
+}
+
+
+.form-phone {
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-bottom: 10px;
+}
+
+.form-date {
+    width: 100%;
+    background: transparent;
+    border-bottom: 1px solid white;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+.form-phone:focus, .form-phone:valid {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+
+::placeholder {
+    color: white;
+}
+
+.why-we {
+    margin-top: 60px;
+    width: 100%;
+    height: auto;
+
+}
+
+.about-us{
+    height: 100vh;
+    width: 100%;
+}
+
+.services{
+    list-style: none;
+}
+.benefit {
+    font-family: "Playfair Display";
+}
+
+.benefit-icon {
+    height: 5vh;
+}
+
+.service {
+    margin-top: 200px;
+}
+
+.love-numbers {
+    height: 50vh;
+    width: 100%;
+}
+
+.circle {
+    border: 1px solid #f19d6d;
+    border-radius: 50%;
+    padding: 50px;
+}
+
+.comments {
+    width: 100%;
+    height: auto;
+}
+
+.answers{
+    margin: 0 auto;
+}
+
+.loving-numbers {
+    margin-left: 210px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+::-webkit-calendar-picker-indicator {
+    background-image: url("img/calendar.png");
+    color: #fff;
+}
+
+
+::-webkit-inner-spin-button,
+::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.rooms {
+    margin-top: 150px;
+    height: 100vh;
+    width: 100%;
+}
+
+.room{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+.news{
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.answer{
+    height: auto;
+    width: 100%;
+
+}
+
+.questions{
+    width: 20%;
+    height: 100vh;
+}
+
+.playfair{
+    font-family: 'Playfair Display';
+}
+
+.comments-heading{
+    padding-top: 150px;
+}
+
+.lomo{
+    font-family: "Lomo";
+}
+
+.lato{
+    font-family: "Lato";
+}
+
+.contact{
+    width: 100%;
+    height: 50vh;
+}
+
+.info{
+    margin: 50px 200px;
+}
+.media{
+    display: none;
+}
+
+.maps{
+    display: flex;
+}
+
+.panorama{
+    height: 30vh;
+}
+
+.galary{
+    width: 90%;
+    height: 30vh;
+}
+
+@media (max-width: 600px) {
+    .galary{
+        margin-left: 15px;
+        width: 90%;
+        height: 40vh;
+    }
+    .panorama{
+        height: 30vh;
+    }
+    .ordering {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .basic-img{
+        height: 40vh;
+    }
+    .maps{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .why-we{
+        margin-top: 100px;
+        width: 100%;
+        height: auto;
+    }
+
+    .desktop-nav {
+        display: none;
+    }
+
+    .title{
+        margin: 0;
+    }
+
+
+    .media-nav {
+        display: flex;
+        height: 13vh;
+    }
+
+
+    .icon {
+        line-height: 13vh;
+        margin-left: 30px;
+    }
+
+    .benefit-icon {
+        width: 20%;
+        margin-left: 150px;
+    }
+
+    .benefit-card {
+        margin-bottom: 30px;
+        padding: 30px;
+    }
+
+    .love-numbers {
+        width: 100%;
+        height: auto;
+    }
+
+    .loving-numbers {
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rooms {
+        margin-top: 0;
+        height: auto;
+    }
+
+    .comments{
+        background-image: url("img/image 1.png");
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 120px;
+        padding-top: 140px;
+    }
+
+    .media{
+        display: block;
+    }
+
+
+    .room{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-us{
+        height: auto;
+        text-align: center;
+    }
+
+    .news{
+        height: auto;
+        width: 100%;
+    }
+    .answer{
+        height: auto;
+        width: 100%;
+    }
+
+    .contact{
+        margin-top: 100px;
+        height: auto;
+    }
+
+    .info{
+        margin: 0;
+    }
+
+
+
+}
+
