@@ -4,7 +4,6 @@ import {Ordering} from "./Component/Ordering.jsx";
 import {Gallarey} from "./Component/Gallarey.jsx";
 import {Rooms} from "./Component/Rooms.jsx";
 import {LoveNumbers} from "./Component/LoveNumbers.jsx";
-import {Comments} from "./Component/Comments.jsx";
 import {Feature} from "./Component/Feature.jsx";
 import {News} from "./Component/News.jsx";
 import {AnswerAndQuestion} from "./Component/AnswerAndQuestion.jsx";
