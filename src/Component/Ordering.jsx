@@ -37,7 +37,7 @@ export const Ordering = () => {
                         <div className={"col-md-4"}>
                             <form>
                                 <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
-                                <input type={"text"} value={phoneNumber}
+                                <input type={"number"} value={phoneNumber}
                                        onChange={e => setPhoneNumber(e.target.value)}
                                        className={"form-phone rounded-0 p-1 text-light"} placeholder={'+998 (95) 146 40 05'}
                                        required/>
