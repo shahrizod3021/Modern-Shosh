@@ -238,7 +238,36 @@
     height: 30vh;
 }
 
+.ipad-version{
+    display: none;
+}
+
 @media (max-width: 800px) {
+    .galary{
+        height: 60vh;
+        margin-left: 28px;
+    }
+    .desktop-nav{
+        display: none;
+    }
+    .media-nav{
+        display: flex;
+        height: 13vh;
+    }
+
+    .icon{
+        line-height: 13vh;
+        margin-left: 30px;
+    }
+
+
+
+}
+
+@media  (max-width: 600px) {
+    .ipad-version{
+        display: none;
+    }
     .galary{
         margin-left: 15px;
         width: 90%;

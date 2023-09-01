@@ -27,7 +27,7 @@ export const LoveNumbers = () => {
                             <div className={"circle "}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>78</h3>
                             </div>
-                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Dunyo bo'ylab ofislar" : localStorage.getItem("lang") === "rus" ? "офисы по всему миру" : "offices worldwide"}</p>
+                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Ofislar" : localStorage.getItem("lang") === "rus" ? "Офисы" : "offices"}</p>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 import rasm from '../assets/img/bedroom.png'
 import lyuks from '../assets/img/Lyuks/IMG_6645 (1).jpg'
-import twin from '../assets/img/tvin/tvin.jpg'
+import twin from '../assets/img/tvin/tvin1.jpg'
 import single from '../assets/img/single/single1.jpg'
 export const AnswerAndQuestion = () => {
     return (

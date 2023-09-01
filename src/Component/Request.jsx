@@ -24,8 +24,8 @@ export const Request =  () => {
     return(
         <div id={"contact"}>
             <div className={"container mb-5"}>
-                <div className={"row col-md-12"}>
-                    <div className={"col-md-5 shadow-lg me-md-5 h-75"} style={{padding:"20px", borderRadius:"20px"}}>
+                <div className={"row col-xl-12"}>
+                    <div className={"col-xl-5 shadow-lg me-md-5 h-75"} style={{padding:"20px", borderRadius:"20px"}}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Bog'lanish uchun" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Request"}</h3>
                         <hr className={"text-white"}/>
                         <form >
@@ -37,7 +37,7 @@ export const Request =  () => {
                             <p className={"text-white mb-3 mt-4 container"}><small>{localStorage.getItem("lang") === "uzb" ? "Tez orada bizning hodimlar siz bilan bog'lanishadi" : localStorage.getItem("lang") === "rus" ? "В течении часа наши сотрудники свяжутся с вами!" : "Within an hour, our staff will contact you!"}</small></p>
                         </form>
                     </div>
-                    <div className={"col-md-6 shadow-lg"} style={{padding:"20px", borderRadius:"20px"}}>
+                    <div className={"col-xl-6 shadow-lg"} style={{padding:"20px", borderRadius:"20px"}}>
                         <div className={"d-flex flex-column"}>
                             <div className={"maps mb-3 "}>
                                 <div className="mapouter me-5">
