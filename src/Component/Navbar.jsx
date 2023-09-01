@@ -116,7 +116,7 @@ export const Navbar = () => {
             <div className="offcanvas offcanvas-start bg-dark" tabIndex="-1" id="offcanvasExample"
                  aria-labelledby="offcanvasExampleLabel">
                 <div className="offcanvas-header">
-                    <h5 className="offcanvas-title text-white" id="offcanvasExampleLabel">Shosh</h5>
+                    <h5 className="offcanvas-title text-white" id="offcanvasExampleLabel">Modern Shosh</h5>
                     <button type="button" className="text-white btn" data-bs-dismiss="offcanvas" aria-label="Close">
                         <i className="fa-solid fa-xmark " style={{color: "#ffffff", fontSize: "30px"}}></i>
                     </button>
@@ -130,7 +130,7 @@ export const Navbar = () => {
                                href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a>
 
                             <a className={"navbar-a"}
-                               href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz ?" : localStorage.getItem("lang") === "rus" ? "Почему нас ? " : "Why we ?"}</a>
+                               href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz " : localStorage.getItem("lang") === "rus" ? "Почему нас " : "Why we"}</a>
                             <a className={"navbar-a"}
                                href="#news">{localStorage.getItem("lang") === "uzb" ? "Statistika " : localStorage.getItem("lang") === "rus" ? "Cтатистика" : "Statistics"}</a>
                             <a className={"navbar-a"}
