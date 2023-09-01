@@ -86,7 +86,7 @@ export const Navbar = () => {
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
                                 <span className={"me-1"}>
-                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang")}
+                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang").toUpperCase()}
                                 </span>
                                 <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
                             </a>
