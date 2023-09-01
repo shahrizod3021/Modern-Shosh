@@ -81,11 +81,14 @@ export const Navbar = () => {
                         <h1 className={"text-white icon"}>shosh</h1>
                     </div>
                     <div className={"col-6 d-flex align-items-center justify-content-center"}>
-                        <div className="dropdown col-5">
+                        <div className="dropdown col-6">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
-                                {localStorage.getItem("lang")}
+                                <span className={"me-1"}>
+                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang")}
+                                </span>
+                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
@@ -95,7 +98,7 @@ export const Navbar = () => {
                                         ) : (
                                             <li>
                                                 <button className="dropdown-item"
-                                                        onClick={() => chooseLang(item.name)}>{item.name}</button>
+                                                        onClick={() => chooseLang(item.name, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
                                             </li>
 
                                         )}
