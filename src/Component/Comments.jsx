@@ -2,16 +2,16 @@ import bg from '../assets/img/image 1.png'
 export const Comments = () => {
     return (
         <div>
-            <h3 className={"text-center text-white"}>{localStorage.getItem("lang") === "uzb" ? "sharhlar" : localStorage.getItem("lang") === "rus" ? "отзывы" : "Comments"}</h3>
-            <div className={" desktop-nav"}>
+            <h3 className={"text-center text-white mt-4"}>{localStorage.getItem("lang") === "uzb" ? "sharhlar" : localStorage.getItem("lang") === "rus" ? "отзывы" : "Comments"}</h3>
+            <div className={"desktop-comment"}>
                 <div  className={"card text-bg-dark"}>
-                    <img src={bg} className="card-img"  alt="not found"/>
+                    <img src={bg} className="comment-img"  alt="not found"/>
                         <div className="card-img-overlay">
-                            <div className={"playfair"} style={{paddingTop: "150px", letterSpacing: "1px"}}>
+                            <div className={"playfair"} style={{paddingTop: "100px", letterSpacing: "1px"}}>
                                 <h1 className={"text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Odamlar boshqa odamlarga ishonadilar" : localStorage.getItem("lang") === "rus" ? "Люди верят другим людям" : "People Believe Other People "}</h1>
                                 <p className={"text-center text-white "}>{localStorage.getItem("lang") === "uzb" ? "Mehmonlaringizga baxtli mijozlaringiz haqida aytib bering" : localStorage.getItem("lang") === "rus" ? "Расскажите своим посетителям о ваших счастливых клиентах" : "Let yout visitors know about your happy customers"}</p>
                             </div>
-                            <div className={"container h-auto"}>
+                            <div className={"container desktop-comments h-auto"}>
                                 <div className={"col-md-12 row"}>
                                     <div className={"col-4"}>
                                         <p className={"text-white"}>Отзыв: Пребывание в гостинице ModernShosh было приятным опытом. Очень впечатлен уровнем обслуживания и профессионализмом персонала. Внимательное отношение к деталям и быстрое реагирование на запросы сделали мой отдых комфортным и беззаботным.</p>
@@ -35,7 +35,7 @@ export const Comments = () => {
                 </div>
             </div>
 
-            <div className={"media comments"}>
+            <div className={"media media-comments comments"}>
                 <div className={"playfair"} style={{letterSpacing: "1px"}}>
                     <h1 className={"text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Odamlar boshqa odamlarga ishonadilar" : localStorage.getItem("lang") === "rus" ? "Люди верят другим людям" : "People Believe Other People "}</h1>
                     <p className={"text-center text-white "}>{localStorage.getItem("lang") === "uzb" ? "Mehmonlaringizga baxtli mijozlaringiz haqida aytib bering" : localStorage.getItem("lang") === "rus" ? "Расскажите своим посетителям о ваших счастливых клиентах" : "Let yout visitors know about your happy customers"}</p>

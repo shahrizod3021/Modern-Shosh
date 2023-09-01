@@ -18,8 +18,8 @@ export const Navbar = () => {
     return (
         <div >
             <div style={{backgroundColor:"#202020"}} className={"fixed-top  m-0 desktop-nav row col-md-12 navbar-basic"}>
-                <div className={"col-md-2"}>
-                    <img src={logo} alt="topilmadi" width={"100%"}/>
+                <div className={"col-md-2 navbar-logo"}>
+                    <img src={logo} alt="topilmadi" className={"navbar-img"} width={"100%"}/>
                 </div>
                 <div className={"col-md-7"}>
                     <ul className={'d-flex navbar-ul'}>
@@ -42,9 +42,9 @@ export const Navbar = () => {
                 </div>
 
                 <div className={'col-md-3 navbar-button'}>
-                    <div className={"row col-md-12"}>
+                    <div className={"row col-md-12 "}>
                         <a href={"#order"}
-                           className={"col-6 btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
+                           className={"col-6 bron btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
                         <div className="dropdown col-6">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
@@ -76,12 +76,12 @@ export const Navbar = () => {
             </div>
 
             <div className={'media-nav'}>
-                <div className={"row col-md-12"}>
-                    <div className={"col-md-8"}>
+                <div className={"row col-12 "}>
+                    <div className={"col-7 col-md-6"}>
                         <h1 className={"text-white icon"}>shosh</h1>
                     </div>
-                    <div className={"col-md-4 d-flex align-items-center justify-content-center"}>
-                        <div className="dropdown me-4 col-md-4">
+                    <div className={"col-5 col-md-6  d-flex align-items-center justify-content-center"}>
+                        <div className="dropdown me-4 col-6 col-md-2 me-md-5">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
@@ -107,7 +107,7 @@ export const Navbar = () => {
                             </ul>
                         </div>
                         <button style={{float: "right"}} data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                                aria-controls="offcanvasExample" className={"col-md-3 btn btn-outline-light border-0"}><i
+                                aria-controls="offcanvasExample" className={"col-6 col-md-2 bg-transparent border-0 text-white border-0"}><i
                             className={"fa-solid fa-list"}></i></button>
                     </div>
                 </div>

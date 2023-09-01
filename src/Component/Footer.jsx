@@ -62,7 +62,7 @@ export const Footer = () => {
                     <div className={"d-flex align-items-center"}>
                         <button className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-pinterest me-5"
-                               style={{fontSize: "30px", marginLeft: "45px", color: "#ffffff"}}></i>
+                               style={{fontSize: "30px", marginLeft: "40px", color: "#ffffff"}}></i>
                         </button>
                         <button className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-twitter me-5"
@@ -79,10 +79,10 @@ export const Footer = () => {
                     </div>
                     <div className={"d-flex flex-column align-items-center justify-content-center"}>
                         <a href={"tel:+998951464004"} className={" text-white mt-3"}
-                           style={{marginLeft: "45px"}}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
+                           style={{marginLeft: "40px"}}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                             +998951464004</a>
                         <a href={"email:info@modernshosh.uz"} className={"text-white mb-3"}
-                           style={{marginLeft: "50px"}}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
+                           style={{marginLeft: "40px"}}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
                             info@modernshosh.uz</a>
                         <small className={"text-white"} style={{marginLeft: "45px"}}>2023 © Supersite. All Rights
                             Reserved</small>
