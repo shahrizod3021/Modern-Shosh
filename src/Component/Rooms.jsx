@@ -1,9 +1,7 @@
-import family1 from '../assets/img/Family/IMG_0358.jpg'
+import family1 from '../assets/img/Family/e.jpg'
 import family2 from '../assets/img/Family/IMG_0360.jpg'
-import family3 from '../assets/img/Family/IMG_6645 (1).jpg'
-import lyuks from '../assets/img/Lyuks/lyuks.jpg'
-import lyuks1 from '../assets/img/Lyuks/IMG_6649.jpg'
-import lyuks2 from '../assets/img/Lyuks/IMG_6645 (1).jpg'
+import lyuks from '../assets/img/Lyuks/e.jpg'
+import lyuks1 from '../assets/img/Lyuks/IMG_0353.jpg'
 import hall from '../assets/img/hall/IMG_0323.jpg'
 import hall1 from '../assets/img/hall/IMG_0321.jpg'
 import hall2 from '../assets/img/hall/IMG_6597.jpg'
@@ -11,12 +9,12 @@ import garden from '../assets/img/bog/bog.jpg'
 import garden1 from '../assets/img/bog/bog1.jpg'
 import garden2 from '../assets/img/bog/bog2.jpg'
 import single from '../assets/img/single/single.jpg'
-import single1 from '../assets/img/single/single1.jpg'
-import single2 from '../assets/img/single/single2.jpg'
+import single1 from '../assets/img/single/e.jpg'
+import single2 from '../assets/img/single/single.jpg'
 import tvin1 from '../assets/img/tvin/tvin1.jpg'
 import tvin2 from '../assets/img/tvin/IMG_0345.jpg'
-import triple1 from '../assets/img/triple/triple1.jpg'
-import triple2 from '../assets/img/triple/IMG_0341.jpg'
+import triple1 from '../assets/img/triple/IMG_0341.jpg'
+import triple2 from '../assets/img/triple/IMG_0339.jpg'
 import restaurant from '../assets/img/Restaurant/IMG_0309.jpg'
 import restaurant1 from '../assets/img/Restaurant/IMG_0308.jpg'
 import restaurant2 from '../assets/img/Restaurant/IMG_0312.jpg'
@@ -38,12 +36,13 @@ export const Rooms = () => {
                                 "- telefon Elektronika - konditsioner Qulayliklar - rasmlar - xolodilnik - anatomik matraslar - qo'shimcha matras (sizning so'rovingiz bo'yicha) - xona maydoni - 25 kv.m - hojatxona - axlat qutisi Kiyimlarni parvarish qilish - shkaf\n" +
                                 " - ilmoqlar Bir kishilik va bitta bitta karavotli qulay xona. Xonada qulay zamonaviy mebellar, shuningdek, stol bilan tashkil etilgan ish joyi mavjud." : localStorage.getItem("lang") === "rus" ? "Family Сон количество основных мест: 3 Интернет и телефония                  - бесплатный Wi-Fi                  \n" +
                                 "- телефон Электроника -кондиционер Удобства -картины -холодильник -анатомические матрасы-дополнительный матрас (по вашему запросу) - площадь номера- 25 кв.м - унитаз - урно Уход за одеждой - шкаф " +
-                                " - вешалки Комфортабельный номер с одной двуспальной и одной односпальной кроватями. В номере удобная современная мебель, а также организованное рабочее пространство с письменным столом. Такой номер идеально подойдет для семей с детьми, которые любят спать вместе с родителями и где они могут разместиться в комфорте и без лишнего напряжения." : "Number of main places in Family Dream: 3 Internet and telephony - free Wi-Fi - telephone Electronics - air conditioning Amenities - pictures - refrigerator - anatomical mattresses - extra mattress (at your request) - room area - 25 sq.m. - toilet - trash can Clothes care - wardrobe - hangers Comfortable room with one single bed and one single bed. The room has comfortable modern furniture, as well as an organized work area with a desk. This room is ideal for families with children who like to sleep with their parents and where they can stay comfortably and without unnecessary stress."}
+                                " - вешалки Комфортабельный номер с одной двуспальной и одной односпальной кроватями. В номере удобная современная мебель, а также организованное рабочее пространство с письменным столом. " : "Number of main places in Family Dream: 3 Internet and telephony - free Wi-Fi - telephone Electronics - air conditioning Amenities - pictures - refrigerator - anatomical mattresses - extra mattress (at your request) - room area - 25 sq.m. - toilet - trash can Clothes care - wardrobe - hangers Comfortable room with one single bed and one single bed. The room has comfortable modern furniture, as well as an organized work area with a desk. This room is ideal for families with children who like to sleep with their parents and where they can stay comfortably and without unnecessary stress."}
                         </p>
                     </div>
                     <div className={"col-md-5 "}>
                         <div className={"d-flex align-items-center justify-content-center"}>
                             <img src={family2} className={"me-2"} style={{width:"40%",  height:"30vh"}} alt=""/>
+                            <img src={family1} className={"me-2"} style={{width:"40%",  height:"30vh"}} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -51,7 +50,7 @@ export const Rooms = () => {
                     <div className={"col-md-5"}>
                         <div className={"d-flex align-items-center justify-content-center"}>
                             <img src={lyuks1} className={"me-2"}  style={{width:"40%",  height:"30vh"}} alt=""/>
-                            <img src={lyuks2} className={"me-2"}  style={{width:"40%",  height:"30vh"}} alt=""/>
+                            <img src={lyuks} className={"me-2"}  style={{width:"40%",  height:"30vh"}} alt=""/>
                         </div>
                     </div>
                     <div className={"col-md-7"}>
@@ -149,6 +148,7 @@ export const Rooms = () => {
                     <div className={"col-md-5"}>
                         <div className={"d-flex align-items-center justify-content-center"}>
                             <img src={single} className={"me-2"}  style={{width:"40%", height:"30vh"}} alt=""/>
+                            <img src={single1} className={"me-2"}  style={{width:"40%", height:"30vh"}} alt=""/>
                         </div>
                     </div>
                 </div>
@@ -205,7 +205,7 @@ export const Rooms = () => {
                     <div className={"col-md-7"}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Triple" : localStorage.getItem("lang") === "rus" ? "Triple" : "Triple"}</h3>
                         <p className={"text-white me-3"}>{localStorage.getItem("lang") === "uzb" ? "Triple Sleep asosiy joylar soni: 3 Internet va telefoniya - bepul Wi-Fi - telefonElektronika - konditsioner. Qulayliklar - rasmlar - muzlatgich - anatomik matraslar - qo'shimcha matras (sizning so'rovingiz bo'yicha) - xona kattaligi - 25 kv.mMebel - stol - stul - oyna - karavot yonidagi stol. O'yin-kulgi - TVTashqi hudud - shahar manzarasi ziq-ovqat va ichimliklar - ichimlik suvi - choy - shakar (tish pastasi, cho'tka, dush uchun jel, shampun, sovun) - oyna - hojatxona - urn Kiyim parvarishlash - shkaf - ilgichlar Zamonaviy qulay mebel va panoramali derazalar bilan jihozlangan ushbu yorug' xonaning derazasi go'zal shaharga qaraydi."
-                            : localStorage.getItem("lang") === "rus" ? "Triple Сон количество основных мест: 3 Интернет и телефония - бесплатный Wi-Fi - телефонЭлектроника - кондиционерУдобства - картины - холодильник - анатомические матрасы - дополнительный матрас (по вашему запросу) - площадь номера- 25 кв.мМебель - письменный стол - стул - зеркало - прикроватная тумбочкаРазвлечения - телевизорВнешняя территория - вид на городПитание и напитки - питьевая вода - чай - сахарВанная комната - душевая кабина - банные, лицевые полотенца, а также полотенце для ног - одноразовые средства гигиены (зубная паста, щетка, гель для душа, шампунь, мыло) - зеркало - унитаз - урноУход за одеждой - шкаф - вешалки В окно этого светлого номера оснащенного современной удобной мебелью и панорамными окнами, открывается вид на прекрасный город. "
+                            : localStorage.getItem("lang") === "rus" ? "Triple Сон количество основных мест: 3 Интернет и телефония - бесплатный Wi-Fi - телефонЭлектроника - кондиционерУдобства - картины - холодильник - анатомические матрасы - дополнительный матрас (по вашему запросу) - площадь номера- 25 кв.мМебель - письменный стол - стул - зеркало - прикроватная тумбочкаРазвлечения - телевизорВнешняя территория - вид на городПитание и напитки - питьевая вода - чай - сахарВанная комната - душевая кабина - банные, лицевые полотенца, а также полотенце для ног - одноразовые средства гигиены (зубная паста, щетка, гель для душа, шампунь, мыло) - зеркало - унитаз - урноУход за одеждой - шкаф - вешалки."
                                 : "Number of Triple Sleep main places: 3 Internet and telephony - free Wi-Fi - telephoneElectronics - air conditioning. Amenities - pictures - fridge - anatomical mattresses - extra mattress (on your request) - room size - 25 sq.mFurniture - table - chair - mirror - bedside table. Entertainment - TV Outdoor area - city view Food and drinks - drinking water - tea - sugar (toothpaste, toothbrush, shower gel, shampoo, soap) - mirror - toilet - urn Clothes care - wardrobe - hangers The window of this bright room, equipped with modern comfortable furniture and panoramic windows, overlooks the beautiful city."}</p>
                     </div>
                     <div className={"col-md-5 "}>
@@ -240,7 +240,7 @@ export const Rooms = () => {
                                 " Современный дизайн и большой стеклянный фасад в сочетании с дневным светом создают светлую и яркую атмосферу. \n" +
                                 "В ресепшене расположен удобный диван и смарт телевизор для того, чтобы гости могли отдохнуть или дождаться своего такси. \n" +
                                 "На ресепшене всегда стоят улыбчивые и вежливые администраторы, которые всегда рады вам помочь и ответить на все интересующие вас вопросы. \n" +
-                                "Ежедневно с 7:00 до 10:00 вы можете насладиться изысканным и вкусным завтраком в нашем шикарном ресторане. Настенные живые растения наполняют ресторан особым ароматом и создают уютную атмосферу.  "
+                                "Ежедневно с 7:00 до 10:00 вы можете насладиться изысканным и вкусным завтраком в нашем шикарном ресторане.  "
                                 : "New Shosh Modern Hotel is within walking distance from the airport and train station. A large glass facade combined with modern design and daylight creates a light and bright atmosphere. There is a comfortable sofa and a smart TV in the lobby for guests to relax or wait for a taxi. There are always smiling and polite administrators at the reception, who are always happy to help you and answer all your questions. Every day from 7:00 to 10:00 you can have an elegant and delicious breakfast in our luxurious restaurant. Living plants on the wall fill the restaurant with a unique aroma and create a cozy atmosphere."}</p>
                     </div>
                     <div className={"col-md-5"}>

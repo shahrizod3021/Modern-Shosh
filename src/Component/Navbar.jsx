@@ -40,7 +40,7 @@ export const Navbar = () => {
                 <div className={'col-md-3 navbar-button'}>
                     <div className={"row col-md-12"}>
                         <a href={"#order"}
-                           className={"col-6 btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронироват" : "placing an order"}</a>
+                           className={"col-6 btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
                         <div className="dropdown col-6">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
