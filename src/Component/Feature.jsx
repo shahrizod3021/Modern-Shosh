@@ -5,7 +5,7 @@ export const Feature = () => {
         <div id={"why_we"}>
             <h3 className={"text-white text-center mt-5 mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Nega biz" : localStorage.getItem("lang") === "rus" ? "Почему нас " : "Why us"}</h3>
             <div style={{border: "1px solid #f19d6d"}} className={"desktop-nav container"}>
-                <div className={"p-3"}>
+                <div className={"w-100 p-3"}>
                     <div className={"row col-md-12"}>
                         <div className={"w-auto"}>
                             <i className="fa-solid fa-leaf" style={{color: "#ffffff"}}></i>
@@ -19,10 +19,10 @@ export const Feature = () => {
                     </div>
                     <div className={"row col-md-12"}>
                         <div className={"w-auto"}>
-                            <i className="fa-regular fa-images" style={{color: "#ffffff"}}></i>
+                            <i className="fa-regular fa-images me-2" style={{color: "#ffffff"}}></i>
                         </div>
                         <div className={"w-auto"}>
-                            <p className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Yopiq teras, estetika va chiroyli fotosuratlarni sevuvchilar uchun" : localStorage.getItem("lang") === "rus" ? "Крытая терраса, для любителей эстетики и красивых фотографий " : "Covered terrace, for lovers of aesthetics and beautiful photos"}</p>
+                            <p className={"text-white me-2"}>{localStorage.getItem("lang") === "uzb" ? "Yopiq teras, estetika va chiroyli fotosuratlarni sevuvchilar uchun" : localStorage.getItem("lang") === "rus" ? "Крытая терраса, для любителей эстетики и красивых фотографий " : "Covered terrace, for lovers of aesthetics and beautiful photos"}</p>
                         </div>
                         <div className={"w-auto mb-3"}>
                             <img src={vector} alt=""/>
@@ -79,7 +79,7 @@ export const Feature = () => {
                     </div>
                 </div>
             </div>
-            <div className={"media p-2"}>
+            <div className={"media p-4"} style={{border:"1px solid #ffffff"}}>
                 <div className={"w-auto mb-3"}>
                     <i className="fa-solid fa-leaf me-2" style={{color: "#ffffff"}}></i>
                     <small className={"text-white me-3"}>{localStorage.getItem("lang") === "uzb" ? "Restoran, tirik devor o'simliklari bilan" : localStorage.getItem("lang") === "rus" ? "Ресторан, с живыми настенными растениями" : "Restaurant with living wall plants"}</small>

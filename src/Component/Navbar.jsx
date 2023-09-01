@@ -76,12 +76,12 @@ export const Navbar = () => {
             </div>
 
             <div className={'media-nav'}>
-                <div className={"row col-12"}>
-                    <div className={"col-6"}>
+                <div className={"row col-md-12"}>
+                    <div className={"col-md-8"}>
                         <h1 className={"text-white icon"}>shosh</h1>
                     </div>
-                    <div className={"col-6 d-flex align-items-center justify-content-center"}>
-                        <div className="dropdown col-6">
+                    <div className={"col-md-4 d-flex align-items-center justify-content-center"}>
+                        <div className="dropdown me-4 col-md-4">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
@@ -107,7 +107,7 @@ export const Navbar = () => {
                             </ul>
                         </div>
                         <button style={{float: "right"}} data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                                aria-controls="offcanvasExample" className={"col-3 btn btn-outline-light border-0"}><i
+                                aria-controls="offcanvasExample" className={"col-md-3 btn btn-outline-light border-0"}><i
                             className={"fa-solid fa-list"}></i></button>
                     </div>
                 </div>
@@ -123,18 +123,24 @@ export const Navbar = () => {
                 </div>
                 <div className="offcanvas-body text-white">
                     <div>
-                        <div className={"d-flex flex-column"}>
-                            <a className={"navbar-a"}
-                               href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O нас" : "About us"}</a>
-                            <a className={"navbar-a"}
-                               href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a>
+                        <div className={"d-flex flex-column text-center"}>
+                           <h4><a className={"navbar-a mb-2"}
+                                  href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O нас" : "About us"}</a></h4>
+                           <h4><a className={"navbar-a mb-2"}
+                                  href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a></h4>
 
-                            <a className={"navbar-a"}
-                               href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz " : localStorage.getItem("lang") === "rus" ? "Почему нас " : "Why we"}</a>
-                            <a className={"navbar-a"}
-                               href="#news">{localStorage.getItem("lang") === "uzb" ? "Statistika " : localStorage.getItem("lang") === "rus" ? "Cтатистика" : "Statistics"}</a>
-                            <a className={"navbar-a"}
-                               href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Cвязь" : "Contact "}</a>
+                            <h4>
+                                <a className={"navbar-a mb-2"}
+                                   href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz " : localStorage.getItem("lang") === "rus" ? "Почему нас " : "Why we"}</a>
+                            </h4>
+                            <h4>
+                                <a className={"navbar-a mb-2"}
+                                   href="#news">{localStorage.getItem("lang") === "uzb" ? "Statistika " : localStorage.getItem("lang") === "rus" ? "Cтатистика" : "Statistics"}</a>
+                            </h4>
+                           <h4>
+                               <a className={"navbar-a"}
+                                  href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Cвязь" : "Contact "}</a>
+                           </h4>
                         </div>
                     </div>
                 </div>

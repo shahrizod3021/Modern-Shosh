@@ -6,24 +6,24 @@ export const LoveNumbers = () => {
                 <p className={"text-white text-center mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijozlar yoki sotib olingan chiptalar sonini ko'rsating." : localStorage.getItem("lang") === "rus" ? "\n" +
                     "Хвастайтесь количеством довольных клиентов или купленных билетов." : "Boast the number of happy clients or ticket bought"}</p>
                 <div className={"loving-numbers"}>
-                    <div className={"col-md-4"}>
-                        <div className={"col-md-5"}>
+                    <div className={"col-lg-4 me-md-3"}>
+                        <div className={"col-lg-5"}>
                             <div className={"circle"}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>598</h3>
                             </div>
                             <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Tayyor loyihalar" : localStorage.getItem("lang") === "rus" ? "Продукты готовы" : "Products done"}</p>
                         </div>
                     </div>
-                    <div className={"col-md-4"}>
-                        <div className={"col-md-5"}>
+                    <div className={"col-lg-4 me-md-3"}>
+                        <div className={"col-lg-5"}>
                             <div className={"circle"}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>26</h3>
                             </div>
                             <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Mamlakat serveri" : localStorage.getItem("lang") === "rus" ? "Cервер стран" : "Countries server"}</p>
                         </div>
                     </div>
-                    <div className={"col-md-4"}>
-                        <div className={"col-md-5 mt-3"}>
+                    <div className={"col-lg-4"}>
+                        <div className={"col-lg-5 mt-3"}>
                             <div className={"circle "}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>78</h3>
                             </div>

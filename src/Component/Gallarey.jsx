@@ -18,8 +18,8 @@ export const Gallarey = () => {
             items: 4
         },
         tablet: {
-            breakpoint: {max: 1024, min: 464},
-            items: 1
+            breakpoint: {max: 1024, min: 600},
+            items: 3
         },
         mobile: {
             breakpoint: {max: 464, min: 0},
