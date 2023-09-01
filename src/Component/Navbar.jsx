@@ -1,14 +1,18 @@
 import logo from '../assets/img/shosh.png'
+import eng from '../assets/img/Flags/img.png'
+import uzb from '../assets/img/Flags/img_1.png'
+import ru from '../assets/img/Flags/img_2.png'
 
 export const Navbar = () => {
     const lang = [
-        {name: "uzb"},
-        {name: "rus"},
-        {name: "eng"}
+        {name: "UZB", img: uzb},
+        {name: "RUS", img: ru},
+        {name: "ENG", img: eng}
     ]
 
-    const chooseLang = (name) => {
+    const chooseLang = (name, flag) => {
         localStorage.setItem("lang", name)
+        localStorage.getItem("fla", flag)
         window.location.reload()
     }
     return (
@@ -45,7 +49,10 @@ export const Navbar = () => {
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
-                                {localStorage.getItem("lang") === null ? "eng" : localStorage.getItem("lang")}
+                                <span className={"me-1"}>
+                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang")}
+                                </span>
+                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
@@ -55,7 +62,7 @@ export const Navbar = () => {
                                         ) : (
                                             <li>
                                                 <button className="dropdown-item"
-                                                        onClick={() => chooseLang(item.name)}>{item.name}</button>
+                                                        onClick={() => chooseLang(item.name, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
                                             </li>
 
                                         )}

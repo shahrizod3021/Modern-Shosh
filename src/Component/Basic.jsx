@@ -38,7 +38,7 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className="">{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
 
@@ -47,15 +47,7 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner1} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className="">{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
-                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
-                    </div>
-                </div>
-                <div className={"card text-bg-dark"}>
-                    <img src={banner2} className={"basic-img"} draggable={"false"} alt=""/>
-                    <div className="card-img-overlay basic-title">
-                        <h5 className="">{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
                     </div>
@@ -63,7 +55,7 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner3} className={"basic-img"}  draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className="">{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
 
