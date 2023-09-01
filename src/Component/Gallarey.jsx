@@ -65,9 +65,6 @@ export const Gallarey = () => {
                     <img src={single} className={"galary"} draggable={"false"} alt="not found"/>
 
                 </div>
-                <div>
-                    <img src={restaurant} className={"galary"} draggable={"false"} alt="not found"/>
-                </div>
             </Carousel>
             <div className={"why-we container"}>
                 <h5 className={"text-white playfair"}
