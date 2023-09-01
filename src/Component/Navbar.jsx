@@ -5,9 +5,9 @@ import ru from '../assets/img/Flags/img_2.png'
 
 export const Navbar = () => {
     const lang = [
-        {name: "UZB", img: uzb},
-        {name: "RUS", img: ru},
-        {name: "ENG", img: eng}
+        {id: "uzb", name: "UZB", img: uzb},
+        {id: "rus", name: "RUS", img: ru},
+        {id: "eng", name: "ENG", img: eng}
     ]
 
     const chooseLang = (name, flag) => {
@@ -50,7 +50,7 @@ export const Navbar = () => {
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
                                 <span className={"me-1"}>
-                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang")}
+                                {localStorage.getItem("lang") === null ? "eng" : localStorage.getItem("lang")}
                                 </span>
                                 <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
                             </a>
@@ -62,7 +62,7 @@ export const Navbar = () => {
                                         ) : (
                                             <li>
                                                 <button className="dropdown-item"
-                                                        onClick={() => chooseLang(item.name, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
+                                                        onClick={() => chooseLang(item.id, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
                                             </li>
 
                                         )}
@@ -98,7 +98,7 @@ export const Navbar = () => {
                                         ) : (
                                             <li>
                                                 <button className="dropdown-item"
-                                                        onClick={() => chooseLang(item.name, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
+                                                        onClick={() => chooseLang(item.id, item.img)}><span className={"me-2"}>{item.name}</span><img src={item.img} width={"20"} alt=""/></button>
                                             </li>
 
                                         )}
