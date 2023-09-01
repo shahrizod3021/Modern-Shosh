@@ -9,7 +9,6 @@ export const Ordering = () => {
     const [phoneNumber, setPhoneNumber] = useState('')
     const [going_time, setGoing_time]= useState('')
     const [come_time, setCome_time] = useState('')
-    const date = new Date().getDate()
 
     const ordering = async () => {
         if (number === null){
