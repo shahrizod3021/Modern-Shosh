@@ -50,14 +50,14 @@ export const Navbar = () => {
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
                                 <span className={"me-1"}>
-                                {localStorage.getItem("lang") === null ? "eng" : localStorage.getItem("lang")}
+                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang").toUpperCase()}
                                 </span>
                                 <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
                                     <>
-                                        {item.name === localStorage.getItem("lang") ? (
+                                        {item.id === localStorage.getItem("lang") ? (
                                             <></>
                                         ) : (
                                             <li>
@@ -93,7 +93,7 @@ export const Navbar = () => {
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
                                     <>
-                                        {item.name === localStorage.getItem("lang") ? (
+                                        {item.id === localStorage.getItem("lang") ? (
                                             <></>
                                         ) : (
                                             <li>
