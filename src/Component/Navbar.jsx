@@ -12,7 +12,7 @@ export const Navbar = () => {
 
     const chooseLang = (name, flag) => {
         localStorage.setItem("lang", name)
-        localStorage.getItem("fla", flag)
+        localStorage.setItem("flag", flag)
         window.location.reload()
     }
     return (
