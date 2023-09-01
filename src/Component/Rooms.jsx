@@ -4,23 +4,18 @@ import lyuks from '../assets/img/Lyuks/e.jpg'
 import lyuks1 from '../assets/img/Lyuks/IMG_0353.jpg'
 import hall from '../assets/img/hall/IMG_0323.jpg'
 import hall1 from '../assets/img/hall/IMG_0321.jpg'
-import hall2 from '../assets/img/hall/IMG_6597.jpg'
 import garden from '../assets/img/bog/bog.jpg'
-import garden1 from '../assets/img/bog/bog1.jpg'
 import garden2 from '../assets/img/bog/bog2.jpg'
 import single from '../assets/img/single/single.jpg'
 import single1 from '../assets/img/single/e.jpg'
-import single2 from '../assets/img/single/single.jpg'
 import tvin1 from '../assets/img/tvin/tvin1.jpg'
 import tvin2 from '../assets/img/tvin/IMG_0345.jpg'
 import triple1 from '../assets/img/triple/IMG_0341.jpg'
 import triple2 from '../assets/img/triple/IMG_0339.jpg'
 import restaurant from '../assets/img/Restaurant/IMG_0309.jpg'
 import restaurant1 from '../assets/img/Restaurant/IMG_0308.jpg'
-import restaurant2 from '../assets/img/Restaurant/IMG_0312.jpg'
 import receptions from '../assets/img/Reception/reception.jpg'
 import receptions1 from '../assets/img/Reception/reception1.jpg'
-import receptions2 from '../assets/img/Reception/reception2.jpg'
 
 export const Rooms = () => {
 
@@ -261,7 +256,7 @@ export const Rooms = () => {
                     <div className={"col-md-7"}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Yig'ilishlar zali" : localStorage.getItem("lang") === "rus" ? "Kонференц-зал" : "Conference-hall"}</h3>
                         <p className={"text-white me-3"}>{localStorage.getItem("lang") === "uzb" ? "Turli tadbirlar uchun mo'ljallangan keng va qulay xona. O'zining shkafi bilan jihozlangan zal 50 kishigacha sig'ishi mumkin va konferentsiyalar, seminarlar, taqdimotlar va boshqa ish uchrashuvlari uchun barcha zarur jihozlar: proyektor, ekran, audio va video jihozlar, mikrofonlar, interfaol doska bilan jihozlangan. , va boshqalar."
-                            : localStorage.getItem("lang") === "rus" ? "просторное и комфортабельное помещение, предназначенное для проведения различных мероприятий" +
+                            : localStorage.getItem("lang") === "rus" ? "Просторное и комфортабельное помещение, предназначенное для проведения различных мероприятий" +
                                 " Зал оснащенный собственным гардеробом, способен вместить до 50 человек и оборудован  всем необходимым оборудованием для проведения конференций, семинаров, презентаций и других деловых встреч: проектором, экраном, аудио- и видеооборудованием, микрофонами, интерактивной доской и т.д."
                                 : "A spacious and comfortable room for various events. The hall, equipped with its own wardrobe, can accommodate up to 50 people and is equipped with all necessary equipment for conferences, seminars, presentations and other business meetings: projector, screen, audio and video equipment, microphones, interactive whiteboard. , and others."}</p>
                     </div>

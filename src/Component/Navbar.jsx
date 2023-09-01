@@ -26,7 +26,7 @@ export const Navbar = () => {
                                                        href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
-                                                       href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz ?" : localStorage.getItem("lang") === "rus" ? "Почему нас ? " : "Why we ?"}</a>
+                                                       href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz" : localStorage.getItem("lang") === "rus" ? "Почему нас" : "Why we"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
                                                        href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Cтатистика и блоги" : "News and blogs"}</a>

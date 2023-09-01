@@ -11,7 +11,7 @@ export const LoveNumbers = () => {
                             <div className={"circle"}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>598</h3>
                             </div>
-                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Tayyor loyihalar" : localStorage.getItem("lang") === "rus" ? "продукты готовы" : "products done"}</p>
+                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Tayyor loyihalar" : localStorage.getItem("lang") === "rus" ? "Продукты готовы" : "Products done"}</p>
                         </div>
                     </div>
                     <div className={"col-md-4"}>
@@ -19,7 +19,7 @@ export const LoveNumbers = () => {
                             <div className={"circle"}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>26</h3>
                             </div>
-                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "mamlakat serveri" : localStorage.getItem("lang") === "rus" ? "сервер стран" : "contries server"}</p>
+                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Mamlakat serveri" : localStorage.getItem("lang") === "rus" ? "Cервер стран" : "Countries server"}</p>
                         </div>
                     </div>
                     <div className={"col-md-4"}>
@@ -27,7 +27,7 @@ export const LoveNumbers = () => {
                             <div className={"circle "}>
                                 <h3 className={"text-center p-0 m-0 text-white"}>78</h3>
                             </div>
-                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Ofislar" : localStorage.getItem("lang") === "rus" ? "Офисы" : "offices"}</p>
+                            <p className={"text-center text-white mt-2"}>{localStorage.getItem("lang") === "uzb" ? "Ofislar" : localStorage.getItem("lang") === "rus" ? "Офисы" : "Offices"}</p>
                         </div>
                     </div>
                 </div>

@@ -1,3 +1,4 @@
+import vector from '../assets/img/Vector.svg'
 export const Feature = () => {
     return (
         <div id={"why_we"}>
@@ -13,7 +14,7 @@ export const Feature = () => {
                                 "                                Debitis, iste!"}</p>
                         </div>
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
                     <div className={"row col-md-12"}>
@@ -25,7 +26,7 @@ export const Feature = () => {
                                 "                                Debitis, iste!"}</p>
                         </div>
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
                     <div className={"row col-md-12"}>
@@ -38,7 +39,7 @@ export const Feature = () => {
                         </div>
 
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
                     <div className={"row col-md-12"}>
@@ -51,7 +52,7 @@ export const Feature = () => {
                         </div>
 
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
                     <div className={"row col-md-12"}>
@@ -64,7 +65,7 @@ export const Feature = () => {
                         </div>
 
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
                     <div className={"row col-md-12"}>
@@ -77,7 +78,7 @@ export const Feature = () => {
                         </div>
 
                         <div className={"w-auto mb-3"}>
-                            <i className="fa-solid fa-check" style={{color: "#96fa00"}}></i>
+                            <img src={vector} alt=""/>
                         </div>
                     </div>
 

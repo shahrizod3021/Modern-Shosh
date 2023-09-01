@@ -36,7 +36,7 @@ export const Ordering = () => {
                     <div className={"row col-md-12 row-cols-1  "}>
                         <div className={"col-md-4"}>
                             <form>
-                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "phone number"}</small>
+                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
                                 <input type={"text"} value={phoneNumber}
                                        onChange={e => setPhoneNumber(e.target.value)}
                                        className={"form-phone rounded-0 p-1 text-light"} placeholder={'+998 (95) 146 40 05'}
@@ -58,7 +58,7 @@ export const Ordering = () => {
                         </div>
                         <div className={"col-md-4"}>
                             <form>
-                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "kelish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата заезда" : "arrival date"}</small>
+                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Kelish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата заезда" : "Arrival date"}</small>
                                 <input type="date" id={"dateV"} name={"dateV"}
                                        className="form-date p-1  text-light"
                                        maxLength={10}
@@ -82,7 +82,7 @@ export const Ordering = () => {
                         </div>
                         <div className={"col-md-4"}>
                             <form>
-                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "jo'nab ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "date of departure"}</small>
+                                <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Jo'nab ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "Date of departure"}</small>
                                 <input type="date" id={"dateC"} name={"dateC"}
                                        className="form-date p-1  text-white"
                                        placeholder={"Дата выезда"}
