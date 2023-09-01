@@ -103,7 +103,7 @@ export const Feature = () => {
                 </div>
                 <div className={"w-auto mb-3"}>
                     <i className={"text-white fa-solid fa-palette me-3"}></i>
-                    <small className={"text-white me-2"}>{localStorage.getItem("lang") === "uzb" ? "Ijodkorlar uchun katta manzarali <br/> rasmlar " : localStorage.getItem("lang") === "rus" ? "Большие живописные картины для ценителей творчества " : "Large landscape paintings for creatives"}</small>
+                    <small className={"text-white me-2"}>{localStorage.getItem("lang") === "uzb" ? "Ijodkorlar uchun katta manzarali rasmlar " : localStorage.getItem("lang") === "rus" ? "Большие живописные картины для ценителей творчества " : "Large landscape paintings for creatives"}</small>
                     <img src={vector} alt=""/>
                 </div>
                 <div className={"w-auto mb-3"}>
