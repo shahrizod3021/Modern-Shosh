@@ -33,7 +33,7 @@ export const Ordering = () => {
             <div className={"container mt-5 shadow-lg mb-5"} style={{border:"1px solid #ffc107"}}>
                 <div className={"ordering d-flex flex-column align-items-center justify-content-center"}>
                     <h3 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Xonani bron qilish" : localStorage.getItem("lang") === "rus" ? "Бронирование номера" : "Booking a room"}</h3>
-                    <div className={"row col-md-12 row-cols-1  "}>
+                    <div className={"row col-lg-12 row-cols-1  "}>
                         <div className={"col-md-4"}>
                             <form>
                                 <small className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>

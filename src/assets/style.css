@@ -1,10 +1,11 @@
-.app{
+.app {
     width: 100%;
     background-image: url("img/Group 66 ).svg");
     background-size: 660px;
     background-repeat: repeat;
     background-color: #202020;
 }
+
 .navbar-basic {
     height: 13vh;
 }
@@ -13,7 +14,7 @@
     display: flex;
 }
 
-.basic-img{
+.basic-img {
     height: 700px;
 }
 
@@ -105,14 +106,15 @@
 
 }
 
-.about-us{
+.about-us {
     height: 100vh;
     width: 100%;
 }
 
-.services{
+.services {
     list-style: none;
 }
+
 .benefit {
     font-family: "Playfair Display";
 }
@@ -141,7 +143,7 @@
     height: auto;
 }
 
-.answers{
+.answers {
     margin: 0 auto;
 }
 
@@ -170,114 +172,122 @@
     width: 100%;
 }
 
-.room{
+.room {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.title{
+.title {
     margin-left: 150px;
     padding-top: 100px;
 }
 
-.news{
+.news {
     width: 100%;
     margin-bottom: 100px;
 }
 
-.answer{
+.answer {
     height: auto;
     width: 100%;
 
 }
 
-.questions{
+.questions {
     width: 20%;
     height: 100vh;
 }
 
-.playfair{
+.playfair {
     font-family: 'Playfair Display';
 }
 
-.comments-heading{
+.comments-heading {
     padding-top: 150px;
 }
 
-.lomo{
+.lomo {
     font-family: "Lomo";
 }
 
-.lato{
+.lato {
     font-family: "Lato";
 }
 
-.contact{
+.contact {
     width: 100%;
     height: 50vh;
 }
 
-.info{
+.info {
     margin: 50px 200px;
 }
-.media{
+
+.media {
     display: none;
 }
 
-.maps{
+.maps {
     display: flex;
 }
 
-.panorama{
+.panorama {
     height: 30vh;
 }
 
-.galary{
+.galary {
     width: 90%;
     height: 30vh;
 }
 
-.ipad-version{
+.ipad-version {
     display: none;
 }
 
 @media (max-width: 900px) {
-    .galary{
+    .galary {
         height: 60vh;
         margin-left: 28px;
     }
-    .desktop-nav{
+
+    .desktop-nav {
         display: none;
     }
-    .media-nav{
+
+    .media-nav {
         display: flex;
         height: 13vh;
     }
-    .basic-img{
+
+    .basic-img {
         height: 80vh;
     }
 
-    .icon{
+    .icon {
         line-height: 13vh;
         margin-left: 30px;
     }
+
     .love-numbers {
         width: 100%;
         height: auto;
     }
+
     .loving-numbers {
         margin-left: 0;
         display: flex;
     }
-    .media{
+
+    .media {
         display: block;
     }
 
-    .comments{
+    .comments {
         background-image: url("img/image 1.png");
     }
-    .galary{
+
+    .galary {
         margin-left: 0;
         margin-right: 10px;
         width: 90%;
@@ -286,32 +296,36 @@
 
 }
 
-@media  (max-width: 600px) {
-    .ipad-version{
+@media (max-width: 600px) {
+    .ipad-version {
         display: none;
     }
-    .galary{
+
+    .galary {
         margin-left: 15px;
         width: 90%;
         height: 40vh;
     }
-    .panorama{
+
+    .panorama {
         height: 30vh;
     }
+
     .ordering {
         width: 100%;
         height: 100vh;
     }
 
-    .basic-img{
+    .basic-img {
         height: 40vh;
     }
-    .maps{
+
+    .maps {
         display: flex;
         flex-direction: column;
     }
 
-    .why-we{
+    .why-we {
         margin-top: 100px;
         width: 100%;
         height: auto;
@@ -321,7 +335,7 @@
         display: none;
     }
 
-    .title{
+    .title {
         margin: 0;
     }
 
@@ -363,7 +377,7 @@
         height: auto;
     }
 
-    .comments{
+    .comments {
         background-image: url("img/image 1.png");
         background-repeat: no-repeat;
         background-position: center;
@@ -375,38 +389,43 @@
         height: auto;
     }
 
-    .media{
+    .media {
         display: block;
     }
 
+    .media-tablet {
+        display: none;
+    }
 
-    .room{
+
+    .room {
         display: flex;
         flex-direction: column;
     }
-    .about-us{
+
+    .about-us {
         height: auto;
         text-align: center;
     }
 
-    .news{
-        height: auto;
-        width: 100%;
-    }
-    .answer{
+    .news {
         height: auto;
         width: 100%;
     }
 
-    .contact{
+    .answer {
+        height: auto;
+        width: 100%;
+    }
+
+    .contact {
         margin-top: 100px;
         height: auto;
     }
 
-    .info{
+    .info {
         margin: 0;
     }
-
 
 
 }

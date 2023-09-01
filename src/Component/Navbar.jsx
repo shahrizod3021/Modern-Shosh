@@ -33,7 +33,7 @@ export const Navbar = () => {
                                                        href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega biz" : localStorage.getItem("lang") === "rus" ? "Почему нас" : "Why we"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
-                                                       href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Cтатистика и блоги" : "News and blogs"}</a>
+                                                       href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Новости и блоги" : "News and blogs"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
                                                        href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Cвязь" : "Contact "}</a>
@@ -135,7 +135,7 @@ export const Navbar = () => {
                             </h4>
                             <h4>
                                 <a className={"navbar-a mb-2"}
-                                   href="#news">{localStorage.getItem("lang") === "uzb" ? "Statistika " : localStorage.getItem("lang") === "rus" ? "Cтатистика" : "Statistics"}</a>
+                                   href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va bloglar " : localStorage.getItem("lang") === "rus" ? "Новости и блоги" : "News and blog"}</a>
                             </h4>
                            <h4>
                                <a className={"navbar-a"}

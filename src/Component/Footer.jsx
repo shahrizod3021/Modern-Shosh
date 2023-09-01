@@ -2,9 +2,9 @@ import logo from "../assets/img/logo big.png";
 
 export const Footer = () => {
     return (
-        <div >
-            <div className={"desktop-nav m-0 w-100 row col-md-12"} >
-                <div className={"w-75 d-flex align-items-center"} style={{marginLeft:"200px"}}>
+        <div>
+            <div className={"desktop-nav m-0 w-100 row col-md-12"}>
+                <div className={"w-75 d-flex align-items-center"} style={{marginLeft: "200px"}}>
                     <div className={"col-md-2 mt-3"}>
                         <a href="#home"><img src={logo} alt="topilmadi" width={"40%"} style={{marginLeft: "80px"}}
                                              height={"70px"}/>
@@ -41,9 +41,9 @@ export const Footer = () => {
                                     <small><a href={"tel:+998951464004"}
                                               className={"text-decoration-none text-white me-3 mt-3"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                                         +998951464004</a></small>
-                                   <small className={"mt-2"}> <a href={"https://www.info@modernshosh.uz"}
-                                              className={"text-white text-decoration-none"}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
-                                       info@modernshosh.uz</a></small>
+                                    <small className={"mt-2"}> <a href={"https://www.info@modernshosh.uz"}
+                                                                  className={"text-white text-decoration-none"}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
+                                        info@modernshosh.uz</a></small>
                                 </div>
 
                             </div>
@@ -57,7 +57,7 @@ export const Footer = () => {
                 </div>
             </div>
 
-            <div className={"container media-nav h-auto"}>
+            <div className={"container media h-auto"}>
                 <div className={"d-flex align-items-center justify-content-center flex-column"}>
                     <div className={"d-flex align-items-center"}>
                         <button className={"border-0 bg-transparent"}>
@@ -81,7 +81,7 @@ export const Footer = () => {
                         <a href={"tel:+998951464004"} className={" text-white mt-3"}
                            style={{marginLeft: "45px"}}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                             +998951464004</a>
-                        <a href={"email:info@modernshosh.uz"} className={"text-white "}
+                        <a href={"email:info@modernshosh.uz"} className={"text-white mb-3"}
                            style={{marginLeft: "50px"}}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
                             info@modernshosh.uz</a>
                         <small className={"text-white"} style={{marginLeft: "45px"}}>2023 © Supersite. All Rights
@@ -89,6 +89,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
+
         </div>
     );
 }
