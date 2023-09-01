@@ -7,7 +7,7 @@ export const Footer = () => {
                 <div className={"w-75 d-flex align-items-center"} style={{marginLeft: "200px"}}>
                     <div className={"col-md-2 mt-3"}>
                         <a href="#home"><img src={logo} alt="topilmadi" width={"40%"} style={{marginLeft: "80px"}}
-                                             height={"70px"}/>
+                                             height={"80px"}/>
                         </a>
                     </div>
                     <div className={"col-md-8"}>
