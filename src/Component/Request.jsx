@@ -18,7 +18,7 @@ export const Request =  () => {
         <div id={"contact"}>
             <div className={"container mb-5"}>
                 <div className={"row col-xl-12"}>
-                    <div className={"col-xl-5 shadow-lg me-md-5 mb-3 h-auto"} style={{padding:"20px", borderRadius:"20px"}}>
+                    <div className={"col-xl-5 shadow-lg me-md-5"} style={{padding:"20px", borderRadius:"20px"}}>
                         <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Bog'lanish uchun" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Request"}</h3>
                         <hr className={"text-white "}/>
                         <form >
@@ -30,9 +30,9 @@ export const Request =  () => {
                             <p className={"text-white mb-3 mt-4 container"}><small>{localStorage.getItem("lang") === "uzb" ? "Tez orada bizning hodimlar siz bilan bog'lanishadi" : localStorage.getItem("lang") === "rus" ? "В течении часа наши сотрудники свяжутся с вами!" : "Within an hour, our staff will contact you!"}</small></p>
                         </form>
                     </div>
-                    <div className={"col-xl-6 shadow-lg"} style={{padding:"10px", borderRadius:"20px"}}>
+                    <div className={"col-xl-6 shadow-lg mb-0"} style={{padding:"10px", borderRadius:"20px"}}>
                         <div className={"d-flex flex-column"}>
-                            <div className={"maps mb-2"}>
+                            <div className={"maps mb-1"}>
                                 <div className="mapouter">
                                     <div className="gmap_canvas">
                                         <iframe
@@ -58,7 +58,7 @@ export const Request =  () => {
                                     <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
                                 </div>
                             </div>
-                            <hr className={"text-white mb-2"}/>
+                            <hr className={"text-white mb-1"}/>
                             <div className={"maps mt-3"}>
                                 <div id={'gis'}><a target={"_blank"} href="https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"><img src={gis}  className={"map gis"} alt=""/></a> </div>
                                 <div className={"d-flex flex-column gis-text"}>
