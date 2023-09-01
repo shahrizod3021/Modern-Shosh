@@ -6,7 +6,8 @@ export const AnswerAndQuestion = () => {
     return (
         <div>
             <div className={"answer container "} style={{marginBottom:"150px"}}>
-                <h3 className={"text-white text-center playfair mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Xonalardan panaromatik rasmlar" : localStorage.getItem("lang") === "rus" ? "Панорамные фотографии из номеров" : "Panoramic pictures from the rooms"}</h3>
+                <h3 className={"text-white text-center playfair mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Tez-tez so'raladigan savol" : localStorage.getItem("lang") === "rus" ? "\n" +
+                    "Часто задаваемый вопрос" : "Just Answer the Questions"}</h3>
                 <div className={"row col-md-8 answers"}>
                     <div className={"col-md-6 mb-2"}>
                         <img src={lyuks} className={"panorama"} style={{width:"100%"}} alt=""/>
