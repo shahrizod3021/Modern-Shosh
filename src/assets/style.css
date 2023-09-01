@@ -350,6 +350,7 @@
         flex-direction: column;
         padding-bottom: 120px;
         padding-top: 140px;
+        height: auto;
     }
 
     .media{
