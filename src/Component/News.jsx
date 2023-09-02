@@ -47,15 +47,22 @@ export const News = () => {
             <div className={"news pt-5 container"}>
                 <h3 className={"text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Новости" : "News and blogs"}</h3>
                 <Carousel responsive={responsive}>
-                    {news.map((item) => (
+                    {news.length !== 0 ? (
                         <>
-                            <div className={"col"}>
-                                <img src={Apis.getContent + item.photoId} alt="not found" className={'p-md-2 '} width={"100%"} height={"400vh"}/>
-                                <p className={'text-white p-md-2'}>{localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName}</p>
-                                <button className={"rounded-0 btn btn-lg btn-outline-warning text-white mb-4"} onClick={() => catching(item.photoId, localStorage.getItem("lang") === "uzb" ? item.uzAbout : localStorage.getItem("lang") === "rus" ? item.ruAbout : item.engAbout, localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName,)} type={"button"} data-bs-toggle="modal" data-bs-target="#staticBackdrop" >{localStorage.getItem("lang") === "uzb" ? "Batafsil .... " : localStorage.getItem("lang") === "rus" ? "  Подробно  ...." : "Read more .... "}</button>
-                            </div>
+                            {news.map((item) => (
+                                <>
+                                    <div className={"col"}>
+                                        <img src={Apis.getContent + item.photoId} draggable={"false"} alt="not found" className={'p-md-2 '} width={"100%"} height={"400vh"}/>
+                                        <p className={'text-white p-md-2'}>{localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName}</p>
+                                        <button className={"rounded-0 btn btn-lg btn-outline-warning text-white mb-4"} onClick={() => catching(item.photoId, localStorage.getItem("lang") === "uzb" ? item.uzAbout : localStorage.getItem("lang") === "rus" ? item.ruAbout : item.engAbout, localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName,)} type={"button"} data-bs-toggle="modal" data-bs-target="#staticBackdrop" >{localStorage.getItem("lang") === "uzb" ? "Batafsil .... " : localStorage.getItem("lang") === "rus" ? "  Подробно  ...." : "Read more .... "}</button>
+                                    </div>
+                                </>
+                            ))}
                         </>
-                    ))}
+                    ) : (
+                        <>
+                        </>
+                    )}
 
                 </Carousel>
             </div>
