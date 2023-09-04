@@ -78,10 +78,10 @@ export const Footer = () => {
                         </a>
                     </div>
                     <div className={"d-flex flex-column align-items-center justify-content-center"}>
-                        <a href={"tel:+998951464004"} className={" text-white mt-3"}
+                        <a href={"tel:+998951464004"} className={"phone text-white mt-3"}
                            >{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                             +998951464004</a>
-                        <a href={"email:info@modernshosh.uz"} className={"text-white mb-3"}
+                        <a href={"email:info@modernshosh.uz"} className={"email text-white mb-3"}
                            >{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
                             info@modernshosh.uz</a>
                         <small className={"text-white"} >2023 © Supersite. All Rights
@@ -89,8 +89,7 @@ export const Footer = () => {
                     </div>
                 </div>
             </div>
-            <a href={"tel:+998951464004"} className={"btn btn-dark fixed"}><i className={"fas fa-phone"} style={{fontSize:"40px", padding:"4px 0"}}></i></a>
-
+            <a href={"tel:+998951464004"} className={"btn btn-dark fixed"}><i className={"fas fa-phone"} style={{fontSize:"20px", padding:"2px 0"}}></i></a>
         </div>
     );
 }

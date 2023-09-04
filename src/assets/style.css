@@ -103,8 +103,9 @@
 }
 
 .form-phone:focus, .form-phone:valid {
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 0;
+    transition: 1s;
+    color: #f19d6d;
 }
 
 
@@ -155,6 +156,10 @@
 .comments {
     width: 100%;
     height: auto;
+    background-image: url("img/image 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .answers {
@@ -280,7 +285,11 @@
     }
 
     .comment-img {
-        height: 100vh;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        background-image: url("img/image 1.png");
     }
 
     .media {
@@ -346,9 +355,6 @@
         margin-left: 50px;
     }
 
-    .media-comments {
-
-    }
 
     .media-1024 {
         display: block;
@@ -460,6 +466,13 @@
         .width-logo{
             width: 40%;
         }
+        .fixed{
+            display: block;
+            position: fixed;
+            bottom: 20px;
+            right: 40px;
+            border-radius: 50%;
+        }
     }
 }
 
@@ -559,6 +572,7 @@
         background-image: url("img/image 1.png");
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -632,10 +646,9 @@
     .media-width-for-news {
         width: 90%;
         margin: 0 auto;
-
     }
 
-    .react-multiple-carousel__arrow {
+    .media-width-for-news .react-multiple-carousel__arrow {
         margin-bottom: 100px;
     }
 
@@ -643,6 +656,7 @@
         width: 70%;
     }
     .fixed{
+        display: block;
         position: fixed;
         background-color: white;
         color: black;
@@ -665,6 +679,19 @@
 @media (max-width: 320px) {
     .width-logo{
         width: 100%;
+    }
+    .fixed{
+        display: block;
+    }
+    .email{
+        text-align: center;
+    }
+    .media-comments{
+        background-image: url("img/image 1.png");
+        height: auto;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 }
 
