@@ -33,8 +33,8 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Shoshmodern mehmonxonasi Toshkentda qolish uchun eng zo'r joy." : localStorage.getItem("lang") === "rus" ? "Отель Shoshmodern - это идеальное место для вашего отдыха в Ташкенте." : "Shoshmodern Hotel is the perfect place for your stay in Tashkent."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
 
                     </div>
@@ -42,16 +42,16 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner1} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Shoshmodern mehmonxonasi Toshkentda qolish uchun eng zo'r joy." : localStorage.getItem("lang") === "rus" ? "Отель Shoshmodern - это идеальное место для вашего отдыха в Ташкенте." : "Shoshmodern Hotel is the perfect place for your stay in Tashkent."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
                     </div>
                 </div>
                 <div className={"card text-bg-dark"}>
                     <img src={banner3} className={"basic-img"}  draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5>{localStorage.getItem("lang") === "uzb" ? "Mahsulotingiz, xizmatingiz yoki tadbiringiz nomi" : localStorage.getItem("lang") === "rus" ? "Название вашего продукта, услуги или мероприятия": "Title of Your Product, Service or Event" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Bu sizning g'oyangizning asosiy g'oyasini yozishingiz mumkin bo'lgan shiordir." : localStorage.getItem("lang") === "rus" ? "Это слоган, в котором вы можете написать ключевую мысль вашей идеи." : "It's a tag line, where you can write a key point of your idea."}</p>
+                        <h5>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Shoshmodern mehmonxonasi Toshkentda qolish uchun eng zo'r joy." : localStorage.getItem("lang") === "rus" ? "Отель Shoshmodern - это идеальное место для вашего отдыха в Ташкенте." : "Shoshmodern Hotel is the perfect place for your stay in Tashkent."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
                     </div>
                 </div>

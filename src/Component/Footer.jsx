@@ -19,8 +19,8 @@ export const Footer = () => {
                                         <h5 className={"text-white text-center"}>Modern Shosh</h5>
                                     </div>
                                     <div className={"d-flex align-items-center"}>
-                                        <a href={"https://www.pinterest.com"} className={"border-0 bg-transparent"}>
-                                            <i className="fa-brands fa-pinterest me-2"
+                                        <a href={"https://t.me/"} className={"border-0 bg-transparent"}>
+                                            <i className="fa-brands fa-telegram me-2"
                                                style={{fontSize: "25px", color: "#ffffff"}}></i>
                                         </a>
                                         <a href={"https://www.twitter.com"} className={"border-0 bg-transparent"}>
@@ -60,22 +60,22 @@ export const Footer = () => {
             <div className={"container media h-auto"}>
                 <div className={"d-flex align-items-center justify-content-center flex-column"}>
                     <div className={"d-flex align-items-center"}>
-                        <button className={"border-0 bg-transparent"}>
-                            <i className="fa-brands fa-pinterest me-5"
+                        <a href={"https://t.me"} className={"border-0 bg-transparent"}>
+                            <i className="fa-brands fa-telegram me-5"
                                style={{fontSize: "30px", marginLeft: "40px", color: "#ffffff"}}></i>
-                        </button>
-                        <button className={"border-0 bg-transparent"}>
+                        </a>
+                        <a href={"https://www.twitter.com/"} className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-twitter me-5"
                                style={{fontSize: "30px", color: "#ffffff"}}></i>
-                        </button>
-                        <button className={"border-0 bg-transparent"}>
+                        </a>
+                        <a href={"https://www.facebook.com/"} className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-facebook me-4"
                                style={{fontSize: "30px", color: "#ffffff"}}></i>
-                        </button>
-                        <button className={"border-0 bg-transparent"}>
-                            <i className="fa-brands fa-instagram "
+                        </a>
+                        <a href={"https://www.instagram.com"} className={"border-0 bg-transparent"}>
+                            <i className="fa-brands fa-instagram"
                                style={{fontSize: "30px", marginLeft: "30px", color: "#ffffff"}}></i>
-                        </button>
+                        </a>
                     </div>
                     <div className={"d-flex flex-column align-items-center justify-content-center"}>
                         <a href={"tel:+998951464004"} className={" text-white mt-3"}
