@@ -2,6 +2,7 @@ import logo from '../assets/img/shosh.png'
 import eng from '../assets/img/Flags/img.png'
 import uzb from '../assets/img/Flags/img_1.png'
 import ru from '../assets/img/Flags/img_2.png'
+import {useEffect} from "react";
 
 export const Navbar = () => {
     const lang = [
@@ -15,6 +16,11 @@ export const Navbar = () => {
         localStorage.setItem("flag", flag)
         window.location.reload()
     }
+    useEffect(() => {
+        if (localStorage.getItem("lang") === null){
+            return localStorage.setItem("lang", "rus")
+        }
+    }, [])
     return (
         <div >
             <div style={{backgroundColor:"#202020"}} className={"fixed-top  m-0 desktop-nav row col-md-12 navbar-basic"}>
@@ -50,9 +56,9 @@ export const Navbar = () => {
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
                                 <span className={"me-1"}>
-                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang").toUpperCase()}
+                                {localStorage.getItem("lang") === null ? "RUS" : localStorage.getItem("lang").toUpperCase()}
                                 </span>
-                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
+                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? ru : localStorage.getItem("flag")} alt="not found"/>
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
@@ -86,9 +92,9 @@ export const Navbar = () => {
                                data-bs-toggle="dropdown"
                                aria-expanded="false">
                                 <span className={"me-1"}>
-                                {localStorage.getItem("lang") === null ? "ENG" : localStorage.getItem("lang").toUpperCase()}
+                                {localStorage.getItem("lang") === null ? "RUS" : localStorage.getItem("lang").toUpperCase()}
                                 </span>
-                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? eng : localStorage.getItem("flag")} alt="not found"/>
+                                <img width={"20"} className={"mb-1"} src={localStorage.getItem("flag") === null ? ru : localStorage.getItem("flag")} alt="not found"/>
                             </a>
                             <ul className="dropdown-menu">
                                 {lang.map((item) => (
