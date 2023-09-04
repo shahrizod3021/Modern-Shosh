@@ -46,13 +46,14 @@ export const News = () => {
         <div id={"news"}>
             <div className={"news pt-5 container"}>
                 <h3 className={"text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Новости" : "News and blogs"}</h3>
-                <Carousel responsive={responsive}>
+                <Carousel responsive={responsive}
+                className={"newscarusle"}>
                     {news.length !== 0 ? (
                         news.map((item) => (
                             <>
                                 <div className={"media-width-for-news"}>
                                     <img src={Apis.getContent + item.photoId} draggable={"false"} alt="not found"
-                                         className={'p-md-2'} width={"100%"} height={"300vh"}/>
+                                         className={'p-md-2 p-sm-2 media-height'} width={"100%"} height={"300vh"}/>
                                     <p className={'text-white p-md-2'}>{localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName}</p>
                                     <button className={"rounded-0 btn btn-lg btn-outline-warning text-white mb-4"}
                                             onClick={() => catching(item.photoId, localStorage.getItem("lang") === "uzb" ? item.uzAbout : localStorage.getItem("lang") === "rus" ? item.ruAbout : item.engAbout, localStorage.getItem("lang") === "uzb" ? item.name : localStorage.getItem("lang") === "rus" ? item.ruName : item.engName,)}

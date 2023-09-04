@@ -310,7 +310,7 @@ export const Rooms = () => {
             </div>
             <div className={"media media-1024"}>
                 <h3 className={"text-white text-center mb-5"}
-                    style={{marginTop: "150px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning honalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
+                    style={{marginTop: "70px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning honalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
                 <div className={"container"}>
                     <div className={"col-12"}>
                         <div className={"col-12"} style={{height: "auto"}}>

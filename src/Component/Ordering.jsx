@@ -121,7 +121,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 ? "btn disabled text-light  mt-4" : "btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</button>
                 </div>
             </div>
         </div>

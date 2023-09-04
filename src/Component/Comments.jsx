@@ -2,7 +2,7 @@ import bg from '../assets/img/image 1.png'
 export const Comments = () => {
     return (
         <div>
-            <h3 className={"text-center text-white mt-2 mb-0"}>{localStorage.getItem("lang") === "uzb" ? "sharhlar" : localStorage.getItem("lang") === "rus" ? "отзывы" : "Comments"}</h3>
+            <h3 className={"text-center text-white mt-5 mb-0"}>{localStorage.getItem("lang") === "uzb" ? "sharhlar" : localStorage.getItem("lang") === "rus" ? "отзывы" : "Comments"}</h3>
             <div className={"desktop-comment"}>
                 <div  className={"card text-bg-dark"}>
                     <img src={bg} className="comment-img"  alt="not found"/>
