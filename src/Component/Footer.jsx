@@ -62,7 +62,7 @@ export const Footer = () => {
                     <div className={"d-flex align-items-center"}>
                         <a href={"https://t.me"} className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-telegram me-5"
-                               style={{fontSize: "30px", marginLeft: "40px", color: "#ffffff"}}></i>
+                               style={{fontSize: "30px",  color: "#ffffff"}}></i>
                         </a>
                         <a href={"https://www.twitter.com/"} className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-twitter me-5"
@@ -79,16 +79,17 @@ export const Footer = () => {
                     </div>
                     <div className={"d-flex flex-column align-items-center justify-content-center"}>
                         <a href={"tel:+998951464004"} className={" text-white mt-3"}
-                           style={{marginLeft: "40px"}}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
+                           >{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                             +998951464004</a>
                         <a href={"email:info@modernshosh.uz"} className={"text-white mb-3"}
-                           style={{marginLeft: "40px"}}>{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
+                           >{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
                             info@modernshosh.uz</a>
-                        <small className={"text-white"} style={{marginLeft: "45px"}}>2023 © Supersite. All Rights
+                        <small className={"text-white"} >2023 © Supersite. All Rights
                             Reserved</small>
                     </div>
                 </div>
             </div>
+            <a href={"tel:+998951464004"} className={"btn btn-dark fixed"}><i className={"fas fa-phone"} style={{fontSize:"40px", padding:"4px 0"}}></i></a>
 
         </div>
     );

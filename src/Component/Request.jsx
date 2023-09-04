@@ -30,7 +30,7 @@ export const Request =  () => {
                             <p className={"text-white mb-3 mt-4 container"}><small>{localStorage.getItem("lang") === "uzb" ? "Tez orada bizning hodimlar siz bilan bog'lanishadi" : localStorage.getItem("lang") === "rus" ? "В течении часа наши сотрудники свяжутся с вами!" : "Within an hour, our staff will contact you!"}</small></p>
                         </form>
                     </div>
-                    <div className={"col-xl-6 shadow-lg mb-0"} style={{padding:"10px", borderRadius:"20px"}}>
+                    <div className={"col-xl-6 media-width shadow-lg mb-0"} style={{padding:"10px", borderRadius:"20px"}}>
                         <div className={"d-flex flex-column"}>
                             <div className={"maps mb-1"}>
                                 <div className="mapouter">

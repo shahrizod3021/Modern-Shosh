@@ -6,6 +6,9 @@
     background-color: #202020;
 }
 
+.fixed{
+    display: none;
+}
 .navbar-basic {
     height: 13vh;
 }
@@ -13,6 +16,8 @@
 .desktop-nav {
     display: flex;
 }
+
+
 
 .basic-img {
     height: 700px;
@@ -36,7 +41,7 @@
     color: white;
 }
 
-.map{
+.map {
     margin-right: 100px;
 }
 
@@ -254,12 +259,12 @@
     display: none;
 }
 
-.map{
+.map {
     width: 300px;
     height: 150px;
 }
 
-.desktop-1024{
+.desktop-1024 {
     display: block;
 }
 
@@ -268,16 +273,17 @@
     .desktop-nav {
         display: flex;
     }
-    .desktop-comment{
+
+    .desktop-comment {
         display: block;
         height: auto;
     }
 
-    .comment-img{
+    .comment-img {
         height: 100vh;
     }
 
-    .media{
+    .media {
         display: none;
     }
 
@@ -293,64 +299,66 @@
         width: 20%;
     }
 
-    .navbar-logo{
+    .navbar-logo {
         width: 15%;
         margin-right: 0;
     }
-    .navbar-img{
+
+    .navbar-img {
         width: 100%;
         margin-top: 5px;
     }
 
-    .bron{
+    .bron {
         font-size: 12px;
         margin-top: 2px;
     }
 
-    .navbar-li:last-child{
+    .navbar-li:last-child {
         margin-right: 0;
     }
 
-    .navbar-a{
+    .navbar-a {
         text-align: center;
         font-size: 15px;
     }
 
-    .navbar-button{
+    .navbar-button {
         margin-top: 10px;
         width: 25%;
         margin-right: 0;
     }
 
-    .love-numbers{
+    .love-numbers {
         width: 100%;
         height: auto;
     }
 
-    .loving-numbers{
+    .loving-numbers {
         margin-left: 0;
     }
 
-    .circle{
+    .circle {
         margin-left: 50px;
     }
 
-    .circle-text{
+    .circle-text {
         margin-left: 50px;
     }
 
-    .media-comments{
+    .media-comments {
 
     }
 
-
-    .media-1024{
+    .media-1024 {
         display: block;
     }
-    .desktop-1024{
+
+    .desktop-1024 {
         display: none;
     }
-    .room-size{
+
+    .room-size {
         width: 90%;
         height: 50vh;
     }
@@ -362,7 +370,7 @@
     }
 
 
-    .desktop-comment{
+    .desktop-comment {
         display: none;
     }
 
@@ -419,31 +427,48 @@
 
     .room-size {
         width: 90%;
-        height: 60vh;
+        height: 50vh;
     }
-    .maps{
+
+    .maps {
         display: flex;
     }
-    .map{
+
+    .map {
         width: auto;
     }
 
-    .media-1024{
+    .media-1024 {
         display: block;
     }
 
-    .gis{
+    .gis {
         width: 90%;
     }
-    .gis-text{
+
+    .gis-text {
         margin-left: 75px;
+    }
+
+    .width-logo {
+        width: 50%;
     }
 }
 
+@media (min-width: 820px) {
+    @media (max-width: 1020px) {
+        .width-logo{
+            width: 40%;
+        }
+    }
+}
+
+
 @media (max-width: 600px) {
-    .media-1024{
+    .media-1024 {
         display: none;
     }
+
     .ipad-version {
         display: none;
     }
@@ -582,19 +607,64 @@
 
     .room-size {
         width: 100%;
-        height: 70vh;
+        height: 50vh;
     }
 
     .map {
         width: 100%;
-        height: 50vh;
+        height: 40vh;
         margin-right: 0;
     }
-    .desktop-comment{
+
+    .desktop-comment {
         display: none;
     }
-    .gis-text{
+
+    .gis-text {
         margin-left: 0;
+    }
+
+    .media-width {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .media-width-for-news {
+        width: 90%;
+        margin: 0 auto;
+
+    }
+
+    .react-multiple-carousel__arrow {
+        margin-bottom: 100px;
+    }
+
+    .width-logo {
+        width: 70%;
+    }
+    .fixed{
+        position: fixed;
+        background-color: white;
+        color: black;
+        border: 0;
+        right: 30px;
+        bottom: 20px;
+        border-radius: 50%;
+    }
+
+    .fixed:hover{
+        box-shadow: 1px 1px 5px 1px #333;
+        transition: 1s;
+    }
+    .media-order{
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .width-logo{
+        width: 100%;
     }
 }
 

@@ -78,7 +78,7 @@ export const Navbar = () => {
             <div className={'media-nav'}>
                 <div className={"row col-12 "}>
                     <div className={"col-7 col-md-6"}>
-                        <h1 className={"text-white icon"}>shosh</h1>
+                        <img src={logo} alt="" className={"width-logo"}/>
                     </div>
                     <div className={"col-5 col-md-6  d-flex align-items-center justify-content-center"}>
                         <div className="dropdown me-4 col-6 col-md-2 me-md-5">

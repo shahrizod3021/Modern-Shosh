@@ -9,7 +9,7 @@ export const LoveNumbers = () => {
                     <div className={"col-xl-4 me-md-3"}>
                         <div className={"col-xl-5"}>
                             <div className={"circle"}>
-                                <h3 className={"text-center  p-0 m-0 text-white"}>598</h3>
+                                <h3 className={"text-center  p-0 m-0 text-white"}>59</h3>
                             </div>
                             <p className={"text-center text-white mt-2 circle-text"}>{localStorage.getItem("lang") === "uzb" ? "Tayyor loyihalar" : localStorage.getItem("lang") === "rus" ? "Продукты готовы" : "Products done"}</p>
                         </div>

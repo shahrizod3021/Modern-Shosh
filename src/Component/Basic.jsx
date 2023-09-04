@@ -34,7 +34,7 @@ export const Basic = () => {
                     <img src={banner} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
                         <h5>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? "Shoshmodern mehmonxonasi Toshkentda qolish uchun eng zo'r joy." : localStorage.getItem("lang") === "rus" ? "Отель Shoshmodern - это идеальное место для вашего отдыха в Ташкенте." : "Shoshmodern Hotel is the perfect place for your stay in Tashkent."}</p>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <>"Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy."</> : localStorage.getItem("lang") === "rus" ? "Отель Shoshmodern - это идеальное место для вашего отдыха в Ташкенте." : "Shoshmodern Hotel is the perfect place for your stay in Tashkent."}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</a>
 
                     </div>
