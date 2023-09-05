@@ -211,7 +211,7 @@ export const Rooms = () => {
                             </Carousel>
                         </div>
                         <div className={"col-12 mt-3"}>
-                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Oylaviy" : localStorage.getItem("lang") === "rus" ? "Cемья" : "Family"}</h3>
+                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Family" : localStorage.getItem("lang") === "rus" ? "Family" : "Family"}</h3>
                             <p className={"text-white p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Family Dream - asosiy joylar soni: 3 ta. Internet va telefoniya - bepul Wi-Fi\n" +
                                     "- telefon. Elektronika - konditsioner - xolodilnik. Qulayliklar - rasmlar - anatomik matraslar - qo'shimcha matras (sizning so'rovingiz bo'yicha) - xona maydoni - 25 kv.m - hojatxona - axlat qutisi. Kiyimlarni parvarish qilish - shkaf\n" +
@@ -234,7 +234,7 @@ export const Rooms = () => {
                             </Carousel>
                         </div>
                         <div className={"col-12 mt-3"}>
-                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Lyuks" : localStorage.getItem("lang") === "rus" ? "Люкс" : "Luxury"}</h3>
+                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Lux" : localStorage.getItem("lang") === "Lux" ? "Люкс" : "Lux"}</h3>
                             <p className={"text-white p-pas"}>
                                 <p className={"text-white tex-start"}>
                                     {localStorage.getItem("lang") === "uzb" ? "Double Deluxe  da Asosiy karavotlar soni: 2, Internet va telefoniya bepul Wi-Fi telefon Elektron konditsioner, muzlatgich anatomik matraslar, rasmlari,  qo'shimcha matras (sizning so'rovingiz bo'yicha), xona maydoni - 30 kv.m .  Mebel stol stul oynali, divan,televizor. Ko'ngilochar ochiq maydon, shahar manzarasi. Oziq-ovqat va ichimliklar, ichimlik suvi, choy va shakar. Hammom uchun dush hammomi, yuz sochiqlari, shuningdek oyoq sochiqlari, bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun), oyna hojatxona unitazi,  kiyimlarni dazlmollaydigan uskuna va garderob ilgichi mavjud." +
@@ -278,7 +278,7 @@ export const Rooms = () => {
                             </Carousel>
                         </div>
                         <div className={"col-12 mt-3"}>
-                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Egizak" : localStorage.getItem("lang") === "rus" ? "Близнец" : "Twin"}</h3>
+                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Twin" : localStorage.getItem("lang") === "rus" ? "Twin" : "Twin"}</h3>
                             <p className={"text-white  p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Twin room da  asosiy karavot soni: 2 ta , Internet va telefoniya, bepul Wi-Fi telefon.  Elektronika - konditsioner, xolodilnik . Qulayliklar: rasmlari, anatomik matraslar, qo'shimcha matras (sizning so'rovingiz bo'yicha) xona hajmi 20 kv.m .  Mebel - stol stul oynasi bilan , karavot ,ko'ngilochar televidenie, tashqi hudud va shahar ko'rinishi. Oziq-ovqat va ichimlik suvi , choy va  shakar. Hammom da dush kabinasi, yuz va oyoq sochiqlari , bir marta ishlatiladigan gigiena vositalari (tish pastasi, cho'tka, dush jeli, shampun, sovun)  hojatxona unitazi , kiyimlarni parvarish qilish shkafi ilgichlari mavjud."
                                     : localStorage.getItem("lang") === "rus" ? "Количество основных кроватей в двухместном номере: 2, Интернет и телефония, бесплатный телефон Wi-Fi. Электронный кондиционер, холодильник. В номере: картины, анатомические матрасы, дополнительный матрас (по вашему желанию), площадь номера 20 кв.м . Мебель - стол, стул с зеркалом, кровать, развлекательный телевизор, открытая площадка и вид на город. Еда и питьевая вода, чай и сахар. В ванной комнате имеется душевая кабина, полотенца для лица и ног, одноразовые средства гигиены (зубная паста, щетка, гель для душа, шампунь, мыло), унитаз, вешалки для одежды." :
@@ -299,7 +299,7 @@ export const Rooms = () => {
                             </Carousel>
                         </div>
                         <div className={"col-12 mt-3"}>
-                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Uchlik" : localStorage.getItem("lang") === "rus" ? "Тройной" : "Triple"}</h3>
+                            <h3 className={"text-white text-center mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Triple" : localStorage.getItem("lang") === "rus" ? "Triple" : "Triple"}</h3>
                             <p className={"text-white p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Triple room - asosiy joylar soni: 3 ta. Internet va telefoniya , bepul Wi-Fi, telefon. Elektronika - konditsioner, muzlatgich. Qulayliklar  :  rasmlar,  anatomik matraslar, qo'shimcha matras (sizning so'rovingiz bo'yicha), xona kattaligi, 25 kv.m . Mebel, stol, stul, oyna, karavot yonidagi stol. O'yin-kulgi, TV, tashqi hudud, shahar manzarasi, oziq-ovqat va ichimliklar, ichimlik suvi, choy va shakar, (tish pastasi, cho'tka, dush uchun jel, shampun, sovun), oyna, hojatxona  urn. Kiyim parvarishlash - shkaf, ilgichlar . Zamonaviy qulay mebel va panoramali derazalar bilan jihozlangan ushbu yorug' xonaning derazasi go'zal shaharga qaraydi."
                                     : localStorage.getItem("lang") === "rus" ? "Трехместный номер - количество основных мест: 3. Интернет и телефония, бесплатный Wi-Fi, телефон. Электроника - холодильник, кондиционер. В номере: картины,  анатомические матрасы, дополнительный матрас (по вашему желанию), площадь номера 25 кв.м. Мебель, стол, стул, зеркало, тумбочка. Развлечения - ТВ, открытая площадка, вид на город, еда и напитки, питьевая вода, чай и сахар (зубная паста, зубная щетка, гель для душа, шампунь, мыло), зеркало, унитаз. Уход за одеждой - шкаф, вешалки. Светлый номер с современной удобной мебелью и панорамными окнами выходит на красивый город."
