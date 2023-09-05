@@ -31,7 +31,7 @@ export const Navbar = () => {
                 <div className={"col-md-7"}>
                     <ul className={'d-flex navbar-ul'}>
                         <li className={"navbar-li"}><a className={"navbar-a"}
-                                                       href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O нас" : "About Us"}</a>
+                                                       href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O Нас" : "About Us"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
                                                        href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a>
@@ -40,7 +40,7 @@ export const Navbar = () => {
                                                        href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega Biz" : localStorage.getItem("lang") === "rus" ? "Почему Мы" : "Why Us"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
-                                                       href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangliklar va Bloglar" : localStorage.getItem("lang") === "rus" ? "Новости и блоги" : "News and Blog"}</a>
+                                                       href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangliklar va Bloglar" : localStorage.getItem("lang") === "rus" ? "Новости и Блоги" : "News and Blog"}</a>
                         </li>
                         <li className={"navbar-li"}><a className={"navbar-a"}
                                                        href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Контакт" : "Contact "}</a>
@@ -51,7 +51,7 @@ export const Navbar = () => {
                 <div className={'col-md-3 navbar-button'}>
                     <div className={"row col-md-12 "}>
                         <a href={"#order"}
-                           className={"col-6 bron btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Reserve"}</a>
+                           className={"col-6 bron btn btn-outline-light"}>{localStorage.getItem("lang") === "uzb" ? "Xona bron qilish " : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
                         <div className="dropdown col-6">
                             <a className="btn btn-light  dropdown-toggle" href="#" role="button"
                                data-bs-toggle="dropdown"

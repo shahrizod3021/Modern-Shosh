@@ -79,7 +79,7 @@ export const Footer = () => {
                     </div>
                     <div className={"d-flex flex-column align-items-center justify-content-center"}>
                         <a href={"tel:+998951464004"} className={"phone text-white mt-3"}
-                           >{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
+                           >{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone Number"}:
                             +998951464004</a>
                         <a href={"mailto: info@modernshosh.uz"} className={"email text-white mb-3"}
                            >{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:

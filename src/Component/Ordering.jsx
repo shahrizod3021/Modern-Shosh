@@ -41,7 +41,7 @@ export const Ordering = () => {
                                 <input type={"number"} value={phoneNumber}
                                        onChange={e => setPhoneNumber(e.target.value)}
                                        className={"form-phone rounded-0 p-1 text-light"}
-                                       placeholder={'+998 (95) 146 40 05'}
+                                       placeholder={'+998 (__) ___ __ __ '}
                                        required/>
                                 <div className={"row col-12 g-1"}>
                                     <button type={"button"}
@@ -121,7 +121,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Reserve"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
                 </div>
             </div>
         </div>

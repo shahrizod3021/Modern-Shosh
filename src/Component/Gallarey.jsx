@@ -29,7 +29,7 @@ export const Gallarey = () => {
 
     return (
         <div id={"about"}>
-            <h3 className={"text-white text-center  pt-4"}>{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O нас" : "About Us"}</h3>
+            <h3 className={"text-white text-center  pt-4"}>{localStorage.getItem("lang") === "uzb" ? "Biz haqimizda" : localStorage.getItem("lang") === "rus" ? "O Нас" : "About Us"}</h3>
             <div className={"why-we container"}>
                 <p className={"text-white playfair"}
                     style={{marginBottom: "100px"}}>{localStorage.getItem("lang") === "uzb" ? "Yangi Shosh Modern mehmonxonasi aeroport va vokzaldan piyoda kelish mumkun bo'lgan masofada joylashgan. Zamonaviy dizayn va kunduzgi yorug'lik bilan birlashtirilgan katta shisha jabhada yorug'lik va yorqin muhit yaratiladi. Mehmonlar dam olishlari yoki taksi kutishlari uchun qabulxonada qulay divan va aqlli televizor mavjud. Ziyofatda har doim tabassumli va muloyim hodimlar bor, ular doimo sizga yordam berishdan va barcha savollaringizga javob berishdan mamnun. Har kuni soat 7:00 dan 10:00 gacha hashamatli restoranimizda nafis va mazali nonushta qilishingiz mumkin. Devordagi tirik o'simliklar restoranni o'ziga xos xushbo'y hid bilan to'ldiradi va qulay muhit yaratadi. Ertalab yoki kechqurun darhol tashrif buyuruvchilar bog'ga chiqib, kitob o'qish yoki ishlash uchun qulay stullarda o'tirishlari mumkin.Mehmonlar ixtiyorida shaxsiy shkafi bilan jihozlangan  konferentsiya zali ham mavjud."
