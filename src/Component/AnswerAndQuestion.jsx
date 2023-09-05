@@ -7,8 +7,8 @@ import questioneng1 from '../assets/AskQuestion/questioneng2.png'
 import questioneng2 from '../assets/AskQuestion/questioneng3.png'
 import questioneng3 from '../assets/AskQuestion/questioneng4.png'
 import questionuz from '../assets/AskQuestion/questionuz1.png'
-import questionuz1 from '../assets/AskQuestion/questionuz.png'
-import questionuz2 from '../assets/AskQuestion/questionuz.png'
+import questionuz1 from '../assets/AskQuestion/questionuz2.png'
+import questionuz2 from '../assets/AskQuestion/questionuz3.png'
 import questionuz3 from '../assets/AskQuestion/questionuz.png'
 
 export const AnswerAndQuestion = () => {
