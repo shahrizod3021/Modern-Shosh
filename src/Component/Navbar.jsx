@@ -26,7 +26,7 @@ export const Navbar = () => {
         <div >
             <div style={{backgroundColor:"#202020"}} className={"fixed-top  m-0 desktop-nav row col-md-12 navbar-basic"}>
                 <div className={"col-md-2 navbar-logo"}>
-                    <img src={logo} alt="topilmadi" className={"navbar-img"} width={"100%"}/>
+                    <a href="#home"><img src={logo} alt="topilmadi" className={"navbar-img"} width={"100%"}/></a>
                 </div>
                 <div className={"col-md-7"}>
                     <ul className={'d-flex navbar-ul'}>
@@ -85,7 +85,7 @@ export const Navbar = () => {
             <div className={'media-nav'}>
                 <div className={"row col-12"}>
                     <div className={"col-7 col-md-6"}>
-                        <img src={logo} alt="" className={"width-logo"}/>
+                        <a href="#home"><img src={logo} alt="" className={"width-logo"}/></a>
                     </div>
                     <div className={"col-5 col-md-6  d-flex align-items-center justify-content-center"}>
                         <div className="dropdown me-4 col-6 col-md-2 me-md-5">

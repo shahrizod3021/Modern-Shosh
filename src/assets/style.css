@@ -10,6 +10,20 @@
     text-align: justify;
 }
 
+.fixed-right{
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px 17px;
+}
+
+.fixed-right:hover{
+    transition: 1s;
+    box-shadow: 1px 1px 10px 1px #6e6863;
+}
+
 .fixed {
     display: none;
 }
