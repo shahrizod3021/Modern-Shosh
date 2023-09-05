@@ -132,7 +132,8 @@ export const Rooms = () => {
                             </div>
                         </div>
                         <div className={"col-md-7"}>
-                            <h3 className={"text-white"}>Restaurant</h3>
+                            <h3 className={"text-white"}>
+                                {localStorage.getItem("lang") === "uzb" ? "Restaran     " : localStorage.getItem("lang") === "rus" ? "Ресторан" : "Restaurant"}</h3>
                             <p className={"text-white p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Hashamatli va shinam restoran tashrif buyuruvchilar mazali taomlardan bahramand bo'lishlari mumkin bo'lgan joy. Va devor o'simliklari restoranni o'ziga xos xushbo'y hid bilan to'ldiradi va shu bilan tashrif buyuruvchilar uchun qulay yashash uchun maxsus muhit yaratadi.\n" +
                                     "Ziyofatda har doim tabassumli va muloyim hodimlar bor, ular doimo sizga yordam berishdan va barcha savollaringizga javob berishdan mamnun. Har kuni soat 7:00 dan 10:00 gacha hashamatli restoranimizda nafis va mazali nonushta qilishingiz mumkin." : localStorage.getItem("lang") === "rus" ? "Роскошный и уютный ресторан – это место, где посетители могут насладиться вкусной едой. А настенные растения наполняют ресторан неповторимым ароматом, тем самым создавая особую атмосферу для комфортного пребывания посетителей.\n" +
@@ -143,7 +144,8 @@ export const Rooms = () => {
 
                     <div className="row col-md-12 mt-5">
                         <div className={"col-md-7"}>
-                            <h3 className={"text-white"}>Reception</h3>
+                            <h3 className={"text-white"}>
+                                {localStorage.getItem("lang") === "uzb" ? "Qabulxona" : localStorage.getItem("lang") === "rus" ? "Администрация" : "Reception"}</h3>
                             <p className={"text-white me-3 p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Qulay va unutilmas manzilingizga erishish uchun birinchi qadam. Bizning mijozlar bilan tajribasi baland  bo'lgan ,  sizga yordam berishga tayyor samimiy xodimlarimiz bor. Biz sizning turar joyingizni qulay qilish uchun 24/7 ochiqmiz."
                                     : localStorage.getItem("lang") === "rus" ? "Первый шаг на пути к комфортному и запоминающемуся месту назначения. У нас есть дружелюбный персонал с большим опытом работы с клиентами, готовый помочь вам. Мы открыты 24 часа в сутки, 7 дней в неделю, чтобы сделать ваше пребывание комфортным."
