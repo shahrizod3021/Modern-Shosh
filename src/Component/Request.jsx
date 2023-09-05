@@ -26,7 +26,7 @@ export const Request =  () => {
                             <input type="text" value={name} name={"name"} id={"name"} onChange={e => setName(e.target.value)} className={"form-control-lg w-100 text-white  border-0 mb-5"} style={{backgroundColor:"#333"}}/>
                             <label htmlFor="phoneNumber" className={"text-white mb-2"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqamingiz" : localStorage.getItem("lang") === "rus" ? "Ваш номер телефона" : "Your phone number"}</label>
                             <input type="number" value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)}   placeholder={"+998 (_) ___ __ __"}  style={{backgroundColor:"#333"}} id={"phoneNumber"} name={"phoneNumber"} className={"text-white form-control-lg w-100  mb-3 border-0"}/>
-                            <button className={"btn btn-outline-light mt-4 rounded-0"} type={"button"} onClick={() => request()}>{localStorage.getItem("lang") === "uzb" ? "Yuborish" : localStorage.getItem("lang") === "rus" ? "Отправить" : "Send"}</button>
+                            <button className={phoneNumber.length !== 12 || name.length === 0 ? "btn disabled text-white " : "btn btn-outline-light mt-4 rounded-0"} type={"button"} onClick={() => request()}>{localStorage.getItem("lang") === "uzb" ? "Yuborish" : localStorage.getItem("lang") === "rus" ? "Отправить" : "Send"}</button>
                             <p className={"text-white mb-3 mt-4 container"}><small>{localStorage.getItem("lang") === "uzb" ? "Tez orada bizning hodimlar siz bilan bog'lanishadi" : localStorage.getItem("lang") === "rus" ? "В течении часа наши сотрудники свяжутся с вами!" : "Within an hour, our staff will contact you!"}</small></p>
                         </form>
                     </div>
@@ -44,7 +44,7 @@ export const Request =  () => {
                                 </div>
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Google'da" : localStorage.getItem("lang") === "rus" ? "Мы в Google ." : "We are in Google"}</h5>
-                                    <a target={"_blank"} href={"https://www.google.com/maps/place/Shosh+apartments/@41.3376502,69.3050155,14.33z/data=!4m6!3m5!1s0x38aef51605c5a48d:0xc371558773fc02c3!8m2!3d41.3329491!4d69.3138707!16s%2Fg%2F11s3793mvn?hl=ru-RU&entry=ttu"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
+                                    <a target={"_blank"} href={"https://www.google.com/maps/place/Shosh+apartments/@41.3376502,69.3050155,14.33z/data=!4m6!3m5!1s0x38aef51605c5a48d:0xc371558773fc02c3!8m2!3d41.3329491!4d69.3138707!16s%2Fg%2F11s3793mvn?hl=ru-RU&entry=ttu"} className={"btn btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                             <hr className={"text-white"}/>
@@ -55,7 +55,7 @@ export const Request =  () => {
                                     frameBorder="0"></iframe>
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Yandexda" : localStorage.getItem("lang") === "rus" ? "Мы в Yandex ." : "We are in Yandex"}</h5>
-                                    <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
+                                    <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                             <hr className={"text-white mb-1"}/>
@@ -63,7 +63,7 @@ export const Request =  () => {
                                 <div id={'gis'}><a target={"_blank"} href="https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"><img src={gis}  className={"map gis"} alt=""/></a> </div>
                                 <div className={"d-flex flex-column gis-text"}>
                                     <h5 className={"text-white mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Biz 2GIS da" : localStorage.getItem("lang") === "rus" ? "Мы в 2GIS ." : "We are in 2GIS"}</h5>
-                                    <a target={"_blank"} href={"https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"} className={"btn btn-outline-light rounded-0 mt-5"}>Открыть</a>
+                                    <a target={"_blank"} href={"https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"} className={"btn btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                         </div>

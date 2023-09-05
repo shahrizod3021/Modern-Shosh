@@ -81,7 +81,7 @@ export const Footer = () => {
                         <a href={"tel:+998951464004"} className={"phone text-white mt-3"}
                            >{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "номер телефона" : "Phone Number"}:
                             +998951464004</a>
-                        <a href={"email:info@modernshosh.uz"} className={"email text-white mb-3"}
+                        <a href={"mailto: info@modernshosh.uz"} className={"email text-white mb-3"}
                            >{localStorage.getItem("lang") === "uzb" ? "Email" : localStorage.getItem("lang") === "rus" ? "Электронная почта" : "Email "}:
                             info@modernshosh.uz</a>
                         <small className={"text-white"} >2023 © Supersite. All Rights

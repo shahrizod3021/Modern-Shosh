@@ -81,8 +81,8 @@ export const Ordering = () => {
                                                                                                }}>-</p></button>
                                     <input type={"number"}
                                            className={"text-white text-center bg-transparent border-0 m-0 p-0 col-8"}
-                                           placeholder={localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of Children"}
-                                           value={young === 0 ? localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of Children" : young}
+                                           placeholder={localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of children"}
+                                           value={young === 0 ? localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number ofBoohildren" : young}
                                            onChange={e => setYoung(Number.parseInt(e.target.value))}/>
                                     <button type={"button"} onClick={() => setYoung(young + 1)}
                                             className={'col-2 bg-transparent border-0'}><p
@@ -121,7 +121,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Booking"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронироват" : "Reserve"}</button>
                 </div>
             </div>
         </div>

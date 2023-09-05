@@ -273,6 +273,15 @@
     display: block;
 }
 
+.circle-text{
+    margin-right: 210px;
+}
+
+@media (max-width: 1451px) {
+    .navbar-ul{
+        margin: 35px;
+    }
+}
 
 @media (max-width: 1201px) {
     .desktop-nav {
@@ -284,13 +293,14 @@
         height: auto;
     }
 
-    .comment-img {
-        height: auto;
+    .media-comment {
+        background-image: url("img/image 1.png");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        background-image: url("img/image 1.png");
+        height: 100vh;
     }
+
 
     .media {
         display: none;
@@ -345,15 +355,20 @@
 
     .loving-numbers {
         margin-left: 0;
+        display: flex;
+        margin-right: 40px;
+    }
+    .circle-text{
+        margin: 0 0 0 50px;
     }
 
     .circle {
         margin-left: 50px;
     }
 
-    .circle-text {
-        margin-left: 50px;
-    }
+    /*.circle-text {*/
+    /*    margin-left: 50px;*/
+    /*}*/
 
 
     .media-1024 {
@@ -420,8 +435,10 @@
 
     .comments {
         background-image: url("img/image 1.png");
-        padding-top: 50px;
-        margin-top: 10px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: auto;
+        background-size: cover;
     }
 
     .galary {
@@ -465,10 +482,25 @@
     .media-height{
         height: 46vh;
     }
+    .media-feature{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .comment{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
 @media (min-width: 820px) {
     @media (max-width: 1020px) {
+        .comments{
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: auto;
+        }
         .width-logo{
             width: 40%;
         }
@@ -479,14 +511,25 @@
             right: 40px;
             border-radius: 50%;
         }
+        .newscarusle .react-multiple-carousel__arrow {
+            margin-bottom: 100px;
+        }
+        .media-height{
+            height: 50vh;
+        }
+        .media-feature{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .comment{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
     }
-    .newscarusle .react-multiple-carousel__arrow {
-        margin-bottom: 100px;
     }
-    .media-height{
-        height: 50vh;
-    }
-}
+
+
 
 
 
@@ -494,12 +537,24 @@
     .width-logo{
         width: 50%;
     }
+    .media-feature{
+        width: 90%;
+        margin: 0 auto ;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 770px) {
-    @media (min-width: 601px) {
+    @media (min-width: 599px) {
+        .media-nav{
+            height: 18vh;
+        }
         .media-order{
-            padding: 80px;
+            padding: 60px 20px;
             height: auto;
             background-size: cover;
             background-position: center;
@@ -507,7 +562,31 @@
         .order-btn{
             margin-bottom: 50px;
         }
+        .room-size{
+            width: 100%;
+            padding: 10px;
+            height: 35vh;
+        }
+        .statistic{
+            display: flex;
+            flex-direction: column;
+        }
+        .loving-numbers{
+            display: flex;
+        }
+        .galary{
+            height: 27vh;
+        }
+        .media-feature{
+            width: 90%;
+            margin: 0 auto;
+        }
+        .comment{
+            display: flex;
+            flex-direction: column;
+        }
     }
+
 }
 
 @media (max-width: 600px) {
@@ -524,7 +603,7 @@
     }
 
     .galary {
-        margin-left: 15px;
+        margin-left: 10px;
         width: 90%;
         height: 40vh;
     }
@@ -549,7 +628,7 @@
     }
 
     .why-we {
-        margin-top: 100px;
+        margin-top: 50px;
         width: 100%;
         height: auto;
     }
@@ -707,11 +786,22 @@
         width: 90%;
         margin: 0 auto;
     }
+    .circle-text{
+        margin: 0 0 0 40px;
+    }
+    .media-feature{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .comment{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 420px) {
     .width-logo{
-        width: 85%;
+        width: 90%;
     }
     .fixed{
         display: block;
@@ -726,11 +816,40 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .galary{
+        margin: 5px;
+    }
+    .circle-text{
+        padding-left: 10px;
+    }
+    .media-feature{
+        width: 95%;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 320px) {
-    .width-logo{
-        width: 100%;
+    .ordering{
+        height: 80vh;
     }
+    .width-logo{
+        width: 110%;
+    }
+    .room-size {
+        width: 100%;
+        height: 40vh;
+    }
+    .galary{
+        margin: 5px;
+    }
+    .circle-text{
+        margin-left: 40px;
+    }
+
+    .media-feature{
+        width: 95%;
+        margin: 0 auto;
+    }
+
 }
 

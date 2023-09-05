@@ -35,7 +35,7 @@ export const Basic = () => {
                     <div className="card-img-overlay basic-title">
                         <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
-                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Booking"}</a>
+                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
 
                     </div>
                 </div>
@@ -44,7 +44,7 @@ export const Basic = () => {
                     <div className="card-img-overlay basic-title">
                         <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
-                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Booking"}</a>
+                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
                     </div>
                 </div>
                 <div className={"card text-bg-dark"}>
@@ -52,7 +52,7 @@ export const Basic = () => {
                     <div className="card-img-overlay basic-title">
                         <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
                         <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
-                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Booking"}</a>
+                        <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
                     </div>
                 </div>
             </Carousel>
