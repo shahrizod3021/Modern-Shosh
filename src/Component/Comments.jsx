@@ -1,21 +1,36 @@
-import bg from '../assets/img/image 1.png'
+import bg from '../assets/img/Banner/3576f3e3-3547-4041-b91f-89ba5b13c950.jpg'
 
 export const Comments = () => {
     const comments = [
         {
             lang: "eng",
-            comment: "Feedback: Staying at the ModernShosh Hotel was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
-            name: "John Adama"
+            comment: "Feedback: Staying at the Shosh Modern was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
+            name: "John Adam"
         },
         {
             lang: "ru",
-            comment: "Отзыв: Очень доволен услугами гостиницы ModernShosh. Вежливый и отзывчивый персонал всегда готов помочь. Номера чистые и удобные, уборка проводилась своевременно. Завтраки в ресторане были вкусными и разнообразными.",
+            comment: "Отзыв: Очень доволен услугами гостиницы Shosh Modern. Вежливый и отзывчивый персонал всегда готов помочь. Номера чистые и удобные, уборка проводилась своевременно. Завтраки в ресторане были вкусными и разнообразными.",
             name: "Lyudmila Safaeva"
         },
         {
             lang: "uzb",
-            comment: "Fikr-mulohaza: Men ModernShosh mehmonxonasida ko'rsatilgan a'lo xizmat uchun o'z minnatdorchiligimni bildirmoqchiman. Barcha so'rovlarim va savollarimga zudlik bilan javob berildi. Xizmat ko'rsatish darajasi a'lo darajada, xodimlar professional va e'tiborli.",
+            comment: "Xulosa: Men Shosh Modern mehmonxonasida ko'rsatilgan a'lo xizmat uchun o'z minnatdorchiligimni bildirmoqchiman. Barcha so'rovlarim va savollarimga zudlik bilan javob berildi. Xizmat ko'rsatish darajasi a'lo darajada, xodimlar professional va e'tiborli.",
             name: 'Murad Ivanov'
+        },
+        {
+            lang: 'eng',
+            comment: "Feedback: Modern Shosh Hotel offers top-notch service with a personal touch. The staff is incredibly attentive and helpful, making you feel like a valued guest. They go out of their way to accommodate special requests and provide excellent recommendations for exploring the local area.",
+            name: 'Gaylord Deryck'
+        },
+        {
+            lang: 'uzb',
+            comment: "Xulosa: Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli suhbatlar bilan shug'ullanishadi va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
+            name: 'Azizbek Olimov'
+        },
+        {
+            lang: 'ru',
+            comment: "Отзыв: Отель «Модерн Шош» предоставляет целый ряд полезных удобств и возможностей для комфортного отдыха. К ним относятся бесплатный Wi-Fi, хорошо оборудованный фитнес-центр и красивый сад, где можно расслабиться.",
+            name: "Mümtaz Ayhan "
         }
     ]
     return (
@@ -23,17 +38,17 @@ export const Comments = () => {
             <h3 className={"text-center text-white mt-5 mb-4"}></h3>
             <div className={"desktop-comment"}>
                 <div className={"card text-bg-dark"}>
-                    <img src={bg} className="comment-img" alt="not found"/>
+                    <img src={bg} style={{height:"100vh"}} alt="not found"/>
                     <div className="card-img-overlay">
-                        <div className={"playfair"} style={{paddingTop: "100px", letterSpacing: "1px"}}>
+                        <div className={"playfair"} style={{paddingTop: "70px", letterSpacing: "1px"}}>
                             <h1 className={"text-white text-center"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
                         </div>
-                        <div className={"container desktop-comments h-auto"}>
+                        <div className={"container"}>
                             <div className={"col-md-12 row"}>
                                 {comments.map((item) => (
                                     <>
-                                        <div className={"col-4"}>
+                                        <div className={"col-xl-4"}>
                                             <h5 className={"text-white text-center lato pt-4"}>{item.name} :</h5>
                                             <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                             <p className={"text-white p-pas"}>{item.comment}</p>
@@ -47,19 +62,19 @@ export const Comments = () => {
                 </div>
             </div>
 
-            <div className={"media media-comments comments"}>
+            <div className={"media-comments"}>
                 <div className={"playfair"} style={{letterSpacing: "1px"}}>
                     <h1 className={"text-white text-center"}>
                         {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
                 </div>
                 <div className={"container"}>
-                    <div className={"comment"}>
+                    <div >
                         {comments.map((item) => (
                             <>
-                                <div className={"col-lg-4 p-2 text-center"}>
+                                <div className={"col-12 p-2 text-center"}>
                                     <h5 className={"text-white text-center lato pt-4"}>{item.name} :</h5>
                                     <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
-                                    <p className={"text-white"}>{item.comment}</p>
+                                    <p className={"text-white p-pas"}>{item.comment}</p>
                                 </div>
                             </>
                         ))}

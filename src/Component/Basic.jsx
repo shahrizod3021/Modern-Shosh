@@ -1,7 +1,11 @@
 import Carousel from "react-multi-carousel";
-import banner from '../assets/img/Banner/241eecb4-1e7e-48e3-9300-fc7c4f637f38 (1).jpg'
-import banner1 from '../assets/img/Banner/b0f7f9f9-473b-4593-af84-c0880a84c40b.jpg'
-import banner3 from '../assets/img/Banner/efc440dc-fc64-47ee-a933-fcc35a25984e.jpg'
+// import banner from '../assets/img/Banner/241eecb4-1e7e-48e3-9300-fc7c4f637f38 (1).jpg'
+// import banner1 from '../assets/img/Banner/b0f7f9f9-473b-4593-af84-c0880a84c40b.jpg'
+// import banner3 from '../assets/img/Banner/efc440dc-fc64-47ee-a933-fcc35a25984e.jpg'
+import banner from '../assets/img/Banner/1.png'
+import banner1 from '../assets/img/Banner/2.png'
+import banner2 from '../assets/img/Banner/3.png'
+
 export const Basic = () => {
     const responsive = {
         superLargeDesktop: {
@@ -33,8 +37,8 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
+                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Shosh Modern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shosh Modern": "Modern Luxury at Hotel Shosh Modern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Hotel Shosh Modern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Hotel Shosh Modern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Hotel Shosh Modern <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
 
                     </div>
@@ -42,16 +46,16 @@ export const Basic = () => {
                 <div className={"card text-bg-dark"}>
                     <img src={banner1} className={"basic-img"} draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
+                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Shosh Modern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shosh Modern": "Modern Luxury at Hotel Shosh Modern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Hotel Shosh Modern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Hotel Shosh Modern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}> Hotel Shosh Modern<br/> is the perfect place for your stay in Tashkent.</p></>}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
                     </div>
                 </div>
                 <div className={"card text-bg-dark"}>
-                    <img src={banner3} className={"basic-img"}  draggable={"false"} alt=""/>
+                    <img src={banner2} className={"basic-img"}  draggable={"false"} alt=""/>
                     <div className="card-img-overlay basic-title">
-                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Shoshmodern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shoshmodern": "Modern Luxury at Hotel Shoshmodern" }</h5>
-                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Shoshmodern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Отель Shoshmodern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Shoshmodern Hotel <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
+                        <h5 className={"text-center"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Shosh Modern zamonaviy mehmonhona" : localStorage.getItem("lang") === "rus" ? "Современная Роскошь в Hotel Shosh Modern": "Modern Luxury at Hotel Shosh Modern" }</h5>
+                        <p className="card-text">{localStorage.getItem("lang") === "uzb" ? <><p className={'text-center'}>Hotel Shosh Modern mehmonxonasi <br/> Toshkentda qolish uchun eng zo'r joy.</p></> : localStorage.getItem("lang") === "rus" ? <><p  className={"text-center"}>Hotel Shosh Modern <br/> это идеальное место для вашего отдыха в Ташкенте.</p></> : <><p className={"text-center"}>Hotel Shosh Modern <br/> is the perfect place for your stay in Tashkent.</p></>}</p>
                         <a href={"#order"} className={"btn btn-lg btn-light rounded-0"}>{localStorage.getItem("lang") === "uzb" ? "Xona buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</a>
                     </div>
                 </div>

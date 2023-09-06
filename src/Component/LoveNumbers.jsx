@@ -28,7 +28,7 @@ export const LoveNumbers = () => {
                             <div className={"w-100"}>
                                 <div className={"col-xl-5"}>
                                     <div className={"circle"}>
-                                        <h3 className={"text-center  p-0 m-0 text-white num"}>{counter && <CountUp start={0} end={10} duration={2} delay={0}/>}</h3>
+                                        <h3 className={"text-center  p-0 m-0 text-white num"}>{counter && <CountUp start={0} end={5} duration={2} delay={0}/>}</h3>
                                     </div>
                                 </div>
                             </div>
