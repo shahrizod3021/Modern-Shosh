@@ -1,21 +1,38 @@
 import family1 from '../assets/img/Family/e.jpg'
 import family2 from '../assets/img/Family/IMG_0360.jpg'
+import fam from '../assets/img/Family/fam.png'
+import fam1 from '../assets/img/Family/fam (2).png'
 import lyuks from '../assets/img/Lyuks/e.jpg'
-import lyuks1 from '../assets/img/Lyuks/IMG_0353.jpg'
+import luxmedia from '../assets/img/Lyuks/lux.png'
+import luxmedia1 from '../assets/img/Lyuks/lux (2).png'
 import hall from '../assets/img/hall/hall.jpg'
 import hall1 from '../assets/img/hall/hall1.jpg'
+import hallmed from '../assets/img/hall/hall.png'
+import hallmed1 from '../assets/img/hall/hall (2).png'
 import garden from '../assets/img/bog/bog.jpg'
 import garden2 from '../assets/img/bog/bog2.jpg'
+import gar from '../assets/img/bog/sad (2).png'
+import gar1 from '../assets/img/bog/sad (3).png'
 import single from '../assets/img/single/single.jpg'
 import single1 from '../assets/img/single/e.jpg'
+import singlemed from '../assets/img/single/single.png'
+import singlemed1 from '../assets/img/single/single (2).png'
+import twin from '../assets/img/tvin/twin.png'
+import twin1 from '../assets/img/tvin/twin (2).png'
 import tvin1 from '../assets/img/tvin/tvin1.jpg'
 import tvin2 from '../assets/img/tvin/IMG_0345.jpg'
 import triple1 from '../assets/img/triple/IMG_0341.jpg'
 import triple2 from '../assets/img/triple/IMG_0339.jpg'
+import trip from '../assets/img/triple/triple.png'
+import trip1 from '../assets/img/triple/triple (2).png'
 import restaurant from '../assets/img/Restaurant/IMG_0309.jpg'
 import restaurant1 from '../assets/img/Restaurant/IMG_0308.jpg'
+import rest from '../assets/img/Restaurant/resturant.png'
+import rest1 from '../assets/img/Restaurant/resturant (2).png'
 import receptions from '../assets/img/Reception/reception.jpg'
 import receptions1 from '../assets/img/Reception/reception1.jpg'
+import recep from '../assets/img/Reception/reseption.png'
+import recep1 from '../assets/img/Reception/reseption (2).png'
 import Carousel from "react-multi-carousel";
 import Lux from '../assets/img/Lyuks/Lux.jpg'
 
@@ -47,11 +64,10 @@ export const Rooms = () => {
                 <div className={"container"}>
                     <div className={"row col-md-12 mb-5"}>
                         <div className={"col-md-7"}>
-                            <h3 className={"text-white"}>Family</h3>
+                            <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Oilaviy" : localStorage.getItem("lang") === "rus" ? "Семья" : "Family"}
+                            </h3>
                             <p className={"text-white p-pas playfair playfair"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Family Dream - asosiy joylar soni: 3 ta. Internet va telefoniya - bepul Wi-Fi\n" +
-                                    "- telefon. Elektronika - konditsioner - xolodilnik. Qulayliklar - rasmlar - anatomik matraslar - qo'shimcha matras (sizning so'rovingiz bo'yicha) - xona maydoni - 25 kv.m - hojatxona - axlat qutisi. Kiyimlarni parvarish qilish - shkaf\n" +
-                                    " - ilmoqlar. Bir kishilik va bitta  karavotli qulay xona. Xonada qulay zamonaviy mebellar, shuningdek, stol bilan tashkil etilgan ish joyi mavjud." : localStorage.getItem("lang") === "rus" ? "Family room - количество основных мест: 3. Интернет и телефония , бесплатный Wi-Fi , телефон. Электроника ,кондиционер ,холодильник. Удобства ,картины ,анатомические матрасы , дополнительный матрас (по вашему запросу) , площадь номера- 25 кв.м , унитаз , урно. Уход за одеждой , шкаф , вешалки. Комфортабельный номер с одной двуспальной и одной односпальной кроватями. В номере удобная современная мебель, а также организованное рабочее пространство с письменным столом." : "Family Dream - number of main places : 3. Internet and telephony - free Wi-Fi - telephone. Electronics - air conditioning - refrigerator . Amenities - pictures - anatomical mattresses - extra mattress (at your request) - room area - 25 sq.m. - toilet - trash can. Clothes care - wardrobe - hangers. Comfortable room with one single bed and one single bed. The room has comfortable modern furniture, as well as an organized work area with a desk. This room is ideal for families with children who like to sleep with their parents and where they can stay comfortably and without unnecessary stress."}
+                                {localStorage.getItem("lang") === "uzb" ? "Oilaviy xonasi - asosiy joylar soni: 3 ta. Internet va telefoniya ,bepul Wi-Fi va telefon. Elektronika - konditsioner va xolodilnik mavjud. Qulayliklar , rasmlar , anatomik matraslar , qo'shimcha matras (sizning so'rovingiz bo'yicha) , xona maydoni - 25 kv.m . Kiyimlarni parvarish qilish uchun - shkaf , ilmoqlar mavjud . Bir kishilik va yagona turdagi  karavoti mavjud  qulay xona. Xonada qulay zamonaviy mebellar, shuningdek stol bilan tashkil etilgan ish joyi mavjud." : localStorage.getItem("lang") === "rus" ? "Family room - количество основных мест: 3. Интернет и телефония , бесплатный Wi-Fi , телефон. Электроника ,кондиционер ,холодильник. Удобства ,картины ,анатомические матрасы , дополнительный матрас (по вашему запросу) , площадь номера- 25 кв.м , унитаз , урно. Уход за одеждой , шкаф , вешалки. Комфортабельный номер с одной двуспальной и одной односпальной кроватями. В номере удобная современная мебель, а также организованное рабочее пространство с письменным столом." : "Family Dream - number of main places : 3. Internet and telephony - free Wi-Fi - telephone. Electronics - air conditioning - refrigerator . Amenities - pictures - anatomical mattresses - extra mattress (at your request) - room area - 25 sq.m. - toilet - trash can. Clothes care - wardrobe - hangers. Comfortable room with one single bed and one single bed. The room has comfortable modern furniture, as well as an organized work area with a desk. This room is ideal for families with children who like to sleep with their parents and where they can stay comfortably and without unnecessary stress."}
                             </p>
                         </div>
                         <div className={"col-md-5 "}>
@@ -70,10 +86,10 @@ export const Rooms = () => {
                         </div>
                         <div className={"col-md-7"}>
                             <h3 className={"text-white"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Lux" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Lux"}</h3>
+                                {localStorage.getItem("lang") === "uzb" ? "Lyuks" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Lux"}</h3>
                             <p className={"text-white p-pas playfair"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Double Deluxe-dagi asosiy karavotlar soni: 2 ta, bepul Wi-Fi uchun Internet va telefoniya Telefon Elektron konditsioner, rasmlar, muzlatgich, anatomik matraslar, qo'shimcha matras (sizning so'rovingiz bo'yicha), xona kattaligi - 30 kv.m. Mebel, stol, stul, oyna, divan, televizor. Ochiq ko'ngilochar zona, shahar ko'rinishi. Oziq-ovqat va ichimlik, ichimlik suvi, choy va shakar. Hammomda dush, yuz va oyoq sochiqlari, bir martalik gigiena vositalari, oyna, dazmol, kiyim ilgichi mavjud." : localStorage.getItem("lang") === "rus" ? "Количество основных мест в Double Deluxe: 2, Интернет и телефония бесплатно Wi-Fi Телефон Электронный кондиционер, картины, холодильник, анатомические матрасы, дополнительный матрас (по вашему желанию), площадь номера - 30 кв.м. Мебель, стол, стул, зеркало, диван, телевизор. Открытая развлекательная зона, вид на город. Еда и напитки, питьевая вода, чай и сахар. В ванной комнате имеется душевая кабина, полотенца для лица, а также полотенца для ног, одноразовые средства гигиены, зеркало, утюг, вешалка для одежды."
-                                    : "Number of basic beds in Double Deluxe: 2, Internet and telephony for free Wi-Fi Telephone Electronic air conditioning, paintings, refrigerator, anatomical mattresses, extra mattress (at your request), room size - 30 sq.m. Furniture, table, chair, mirror, sofa, TV. Outdoor entertainment area, city view. Food and drink, drinking water, tea and sugar. The bathroom has a shower, face and foot towels, disposable hygiene products, mirror, iron, clothes hanger."}
+                                {localStorage.getItem("lang") === "uzb" ? "Lyuks xona - asosiy karavotlar soni: 2 ta, bepul Wi-Fi uchun internet va telefoniya . Elektron konditsioner, rasmlar, muzlatgich, anatomik matraslar, qo'shimcha matras (sizning so'rovingiz bo'yicha), xona kattaligi - 30 kv.m . Mebel, stol, stul, oyna, divan, televizor. Ochiq ko'ngilochar zona va  shaharning ajoyib  ko'rinishi. Oziq-ovqat va ichimlik, ichimlik suvi, choy va shakar mavjud. Hammomda dush, yuz va oyoq sochiqlari, bir martalik gigiena vositalari, oyna, dazmol, kiyim ilgichi mavjud." : localStorage.getItem("lang") === "rus" ? "Количество основных мест в Double Deluxe: 2, Интернет и телефония бесплатно Wi-Fi Телефон Электронный кондиционер, картины, холодильник, анатомические матрасы, дополнительный матрас (по вашему желанию), площадь номера - 30 кв.м. Мебель, стол, стул, зеркало, диван, телевизор. Открытая развлекательная зона, вид на город. Еда и напитки, питьевая вода, чай и сахар. В ванной комнате имеется душевая кабина, полотенца для лица, а также полотенца для ног, одноразовые средства гигиены, зеркало, утюг, вешалка для одежды."
+                                    : "Double Deluxe room: number of main beds: 2, free Wi-Fi internet and telephony. Electronic air conditioner, pictures, refrigerator, anatomical mattresses, extra mattress (at your request), room size - 30 sq.m. Furniture, table, chair, mirror, sofa, TV. An outdoor entertaining area and a great view of the city. Food and drink, drinking water, tea and sugar are available. The bathroom has a shower, face and foot towels, disposable hygiene products, mirror, iron, clothes hanger."}
                             </p>
                         </div>
 
@@ -90,7 +106,7 @@ export const Rooms = () => {
                         <div className={"col-md-5"}>
                             <div className={"d-flex align-items-center justify-content-center"}>
                                 <img src={single} className={"me-2"} style={{width: "50%", height: "28vh"}} alt=""/>
-                                <img src={single1} className={"me-2"} style={{width: "50%", height: "28vh"}} alt=""/>
+                                <img src={singlemed1} className={"me-2"} style={{width: "50%", height: "28vh"}} alt=""/>
                             </div>
                         </div>
                     </div>
@@ -198,15 +214,15 @@ export const Rooms = () => {
             <div className={"media media-1024"}>
                 <h3 className={"text-white text-center mb-5"}
                     style={{marginTop: "70px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning honalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
-                <div className={"container"}>
-                    <div className={"col-12"}>
+                <div className={"container room1"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={family1} className={"room-size"} alt=""/>
+                                    <img src={fam} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-60vh"}>
-                                    <img src={family2} className={"room-size"} alt=""/>
+                                    <img src={fam1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -226,10 +242,10 @@ export const Rooms = () => {
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={Lux} className={"room-size"} alt=""/>
+                                    <img src={luxmedia} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={lyuks1} className={"room-size"} alt=""/>
+                                    <img src={luxmedia1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -245,14 +261,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white "}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={single} className={"room-size"} alt=""/>
+                                    <img src={singlemed} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={single1} className={"room-size"} alt=""/>
+                                    <img src={singlemed1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -266,14 +282,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={tvin1} className={"room-size "} alt=""/>
+                                    <img src={twin} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={tvin2} className={"room-size"} alt=""/>
+                                    <img src={twin1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -287,14 +303,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={triple1} className={"room-size"} alt=""/>
+                                    <img src={trip} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={triple2} className={"room-size"} alt=""/>
+                                    <img src={trip1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -307,14 +323,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={restaurant} className={"room-size "} alt=""/>
+                                    <img src={rest} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={restaurant1} className={"room-size"} alt=""/>
+                                    <img src={rest1} style={{width:'100%'}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -327,14 +343,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={receptions} className={"room-size"} alt=""/>
+                                    <img src={recep} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={receptions1} className={"room-size"} alt=""/>
+                                    <img src={recep1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -348,14 +364,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={hall} className={"room-size"} alt=""/>
+                                    <img src={hallmed} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={hall1} className={"room-size"} alt=""/>
+                                    <img src={hallmed1} style={{width:"100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
@@ -368,14 +384,14 @@ export const Rooms = () => {
                         </div>
                     </div>
                     <hr className={"text-white"}/>
-                    <div className={"col-12"}>
+                    <div className={"col-12 w-100"}>
                         <div className={"col-12"} style={{height: "auto"}}>
                             <Carousel responsive={responsive}>
                                 <div className={"h-auto"}>
-                                    <img src={garden} className={"room-size"} alt=""/>
+                                    <img src={gar} style={{width:"100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={garden2} className={"room-size"} alt=""/>
+                                    <img src={gar1} style={{width:'100%'}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>

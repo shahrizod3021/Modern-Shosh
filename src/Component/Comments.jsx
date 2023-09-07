@@ -3,51 +3,57 @@ import bg from '../assets/img/Banner/3576f3e3-3547-4041-b91f-89ba5b13c950.jpg'
 export const Comments = () => {
     const comments = [
         {
-            lang: "eng",
-            comment: "Feedback: Staying at the Shosh Modern was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
+            comment: "Отзыв: Пребывание в отеле «Шош Модерн» оставило приятные впечатления. Очень впечатлен уровнем обслуживания и профессионализмом персонала. Внимание к деталям и быстрое реагирование на запросы сделали мое пребывание комфортным и беззаботным.\n",
+            commentuz: "Xulosa: Shosh Modern mehmonxonasida qolish yoqimli taassurot qoldirdi. Xizmat ko'rsatish darajasi va xodimlarning professionalligi juda hayratda qoldi. Tafsilotlarga e'tibor va so'rovlarga tezkor javob berish mening yashashimni qulay va muammosiz qildi.",
+            commenteng: "Feedback: Staying at the Shosh Modern was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
             name: "John Adam",
             media: true
         },
         {
-            lang: "ru",
             comment: "Отзыв: Очень доволен услугами гостиницы Shosh Modern. Вежливый и отзывчивый персонал всегда готов помочь. Номера чистые и удобные, уборка проводилась своевременно. Завтраки в ресторане были вкусными и разнообразными.",
+            commentuz: "Mulohaza: Shosh Modern mehmonxonasi xizmatlaridan juda mamnunman. Muloyim va foydali xodimlar har doim yordam berishga tayyor. Xonalar toza va qulay, uy-ro'zg'or ishlari o'z vaqtida bajarilgan. Restoranda nonushta mazali va xilma-xil bo'ldi.",
+            commenteng: "Feedback: Very pleased with the services of Shosh Modern Hotel. Polite and helpful staff is always ready to help. Rooms are clean and comfortable, housekeeping was done in a timely manner. Breakfast in the restaurant was delicious and varied.",
             name: "Lyudmila Safaeva",
             media: true
         },
         {
-            lang: "uzb",
-            comment: "Xulosa: Men Shosh Modern mehmonxonasida ko'rsatilgan a'lo xizmat uchun o'z minnatdorchiligimni bildirmoqchiman. Barcha so'rovlarim va savollarimga zudlik bilan javob berildi. Xizmat ko'rsatish darajasi a'lo darajada, xodimlar professional va e'tiborli.",
+            comment: "Отзыв: Хотел бы выразить благодарность за отличный сервис, предоставляемый в отеле «Шош Модерн». На все мои запросы и вопросы были даны быстрые ответы. Уровень обслуживания отличный, персонал профессиональный и внимательный.",
+            commentuz: "Xulosa: Men Shosh Modern mehmonxonasida ko'rsatilgan a'lo xizmat uchun o'z minnatdorchiligimni bildirmoqchiman. Barcha so'rovlarim va savollarimga zudlik bilan javob berildi. Xizmat ko'rsatish darajasi a'lo darajada, xodimlar professional va e'tiborli.",
+            commenteng: "Feedback: I would like to express my gratitude for the excellent service provided at Shosh Modern Hotel. All my inquiries and questions were answered promptly. The level of service is excellent, the staff is professional and attentive.",
             name: 'Murad Ivanov',
             media: true
         },
         {
-            lang: 'eng',
-            comment: "Feedback: Modern Shosh Hotel offers top-notch service with a personal touch. The staff is incredibly attentive and helpful, making you feel like a valued guest. They go out of their way to accommodate special requests and provide excellent recommendations for exploring the local area.",
+
+            comment: "Отзыв: Отель «Модерн Шош» предлагает первоклассный сервис с индивидуальным подходом. Персонал невероятно внимательный и услужливый, благодаря чему вы почувствуете себя ценным гостем. Они стараются изо всех сил удовлетворить особые запросы и дают отличные рекомендации по изучению окрестностей",
+            commentuz: "Fikr-mulohaza: Zamonaviy Shosh mehmonxonasi shaxsiy teginish bilan yuqori darajadagi xizmatni taklif etadi. Xodimlar nihoyatda e'tiborli va foydali bo'lib, o'zingizni qadrli mehmondek his qilasiz. Ular maxsus so'rovlarni qondirish va mahalliy hududni o'rganish bo'yicha ajoyib tavsiyalar berish uchun o'z yo'lidan borishadi.",
+            commenteng: "Feedback: Modern Shosh Hotel offers top-notch service with a personal touch. The staff is incredibly attentive and helpful, making you feel like a valued guest. They go out of their way to accommodate special requests and provide excellent recommendations for exploring the local area.",
             name: 'Gaylord Deryck',
             media: false
         },
         {
-            lang: 'uzb',
-            comment: "Xulosa: Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli suhbatlar bilan shug'ullanishadi va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
+            comment: "Краткое описание: Персонал отеля «Современный Шош» известен своим теплым и дружелюбным стилем общения. Они ведут приятные беседы и хотят помочь гостям. Их профессиональный и гостеприимный подход создает комфортную и привлекательную среду для всех.",
+            commenteng: "Feadback: Modern Shosh hotel staff are known for their warm and friendly communication style. They engage in pleasant conversations and want to help guests. Their professional yet welcoming approach creates a comfortable and inviting environment for everyone.",
+            commentuz: "Xulosa: Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli suhbatlar bilan shug'ullanishadi va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
             name: 'Azizbek Olimov',
             media: false
         },
         {
-            lang: 'ru',
             comment: "Отзыв: Отель «Модерн Шош» предоставляет целый ряд полезных удобств и возможностей для комфортного отдыха. К ним относятся бесплатный Wi-Fi, хорошо оборудованный фитнес-центр и красивый сад, где можно расслабиться.",
+            commentuz: "Xulosa: “Modern Shosh” mehmonxonasi qulay yashash uchun bir qator foydali qulayliklar va imkoniyatlarni taqdim etadi. Bularga bepul Wi-Fi, yaxshi jihozlangan fitnes markazi va dam olishingiz mumkin bo'lgan go'zal bog' kiradi.",
+            commenteng: "Feedback: Hotel \"Modern Shosh\" provides a range of useful amenities and opportunities for a comfortable stay. These include free Wi-Fi, a well-equipped fitness center and a beautiful garden where you can relax.",
             name: "Mümtaz Ayhan ",
             media: false
         }
     ]
     return (
         <div>
-            <h3 className={"text-center text-white mt-5 mb-4"}></h3>
-            <div className={"desktop-comment"}>
+            <div className={"desktop-comment mt-4 "} style={{marginBottom:"150px"}}>
                 <div className={"card text-bg-dark"}>
                     <img src={bg} style={{height: "100vh"}} alt="not found"/>
                     <div className="card-img-overlay">
                         <div className={"playfair"} style={{paddingTop: "70px", letterSpacing: "1px"}}>
-                            <h1 className={"text-white text-center"}>
+                            <h1 className={"text-white text-center playfair"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
                         </div>
                         <div className={"container"}>
@@ -55,9 +61,9 @@ export const Comments = () => {
                                 {comments.map((item) => (
                                     <>
                                         <div className={"col-xl-4"}>
-                                            <h5 className={"text-white text-center lato pt-4"}>{item.name} :</h5>
-                                            <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
-                                            <p className={"text-white p-pas"}>{item.comment}</p>
+                                            <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
+                                            <p className={"text-center  text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                            <p className={"text-white p-pas playfair"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
                                         </div>
                                     </>
                                 ))}
@@ -68,7 +74,7 @@ export const Comments = () => {
                 </div>
             </div>
 
-            <div className={"media-comments"}>
+            <div className={"media-comments"} style={{marginBottom:"150px"}}>
                 <div className={"playfair"} style={{letterSpacing: "1px"}}>
                     <h1 className={"text-white text-center"}>
                         {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
@@ -82,9 +88,9 @@ export const Comments = () => {
                                 ) : (
                                     <>
                                         <div className={"col-12 p-2 text-center"}>
-                                            <h5 className={"text-white text-center lato pt-4"}>{item.name} :</h5>
-                                            <p className={"text-center lato text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
-                                            <p className={"text-white p-pas"}>{item.comment}</p>
+                                            <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
+                                            <p className={"text-center playfair text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                            <p className={"text-white playfair p-pas"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
                                         </div>
                                     </>
                                 )}

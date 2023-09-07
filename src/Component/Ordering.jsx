@@ -32,12 +32,12 @@ export const Ordering = () => {
         <div id={"order"}>
             <div className={"media-order container mt-5 shadow-lg mb-5"} style={{border: "1px solid #ffc107"}}>
                 <div className={"ordering d-flex flex-column align-items-center justify-content-center"}>
-                    <h3 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Xonani bron qilish" : localStorage.getItem("lang") === "rus" ? "Бронирование номера" : "Booking a room"}</h3>
+                    <h3 className={"text-white mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Xonani bron qilish" : localStorage.getItem("lang") === "rus" ? "Бронирование номера" : "Booking a room"}</h3>
                     <div className={"row col-lg-12 row-cols-1  "}>
                         <div className={"col-md-4"}>
                             <form>
                                 <small
-                                    className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
+                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
                                 <input type={"number"} value={phoneNumber}
                                        onChange={e => setPhoneNumber(e.target.value)}
                                        className={"form-phone rounded-0 p-1 text-light"}
@@ -52,7 +52,7 @@ export const Ordering = () => {
                                                                                                    float: "left"
                                                                                                }}>-</p></button>
                                     <input type={"number"}
-                                           className={"text-white text-center bg-transparent border-0 m-0 p-0 col-8"}
+                                           className={"playfair text-white text-center bg-transparent border-0 m-0 p-0 col-8"}
                                            placeholder={localStorage.getItem("lang") === "uzb" ? "Kattalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Взрослых" : "Number of adults"}
                                            value={older === 0 ? localStorage.getItem("lang") === "uzb" ? "Kattalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Взрослых" : "Number of adults" : older}
                                            onChange={e => setOlder(Number.parseInt(e.target.value))}/>
@@ -65,7 +65,7 @@ export const Ordering = () => {
                         <div className={"col-md-4"}>
                             <form>
                                 <small
-                                    className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Kelish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата заезда" : "Arrival date"}</small>
+                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Kelish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата заезда" : "Arrival date"}</small>
                                 <input type="date" id={"dateV"} name={"dateV"}
                                        className="form-date p-1  text-light"
                                        maxLength={10}
@@ -80,20 +80,20 @@ export const Ordering = () => {
                                                                                                    float: "left"
                                                                                                }}>-</p></button>
                                     <input type={"number"}
-                                           className={"text-white text-center bg-transparent border-0 m-0 p-0 col-8"}
+                                           className={"text-white playfair text-center bg-transparent border-0 m-0 p-0 col-8"}
                                            placeholder={localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of children"}
                                            value={young === 0 ? localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number ofBoohildren" : young}
                                            onChange={e => setYoung(Number.parseInt(e.target.value))}/>
                                     <button type={"button"} onClick={() => setYoung(young + 1)}
-                                            className={'col-2 bg-transparent border-0'}><p
-                                        className={"text-white "}>+</p></button>
+                                            className={'playfair col-2 bg-transparent border-0'}><p
+                                        className={"text-white playfair"}>+</p></button>
                                 </div>
                             </form>
                         </div>
                         <div className={"col-md-4"}>
                             <form>
                                 <small
-                                    className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Jo'nab ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "Date of departure"}</small>
+                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Jo'nab ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "Date of departure"}</small>
                                 <input type="date" id={"dateC"} name={"dateC"}
                                        className="form-date p-1  text-white"
                                        placeholder={"Дата выезда"}
@@ -103,13 +103,13 @@ export const Ordering = () => {
                                 <div className={"row col-12 g-1"}>
                                     <button type={"button"}
                                             onClick={number > 0 ? () => setNumber(number - 1) : () => setNumber(number)}
-                                            className={"bg-transparent p-0 border-0 col-2"}><p className={"text-white "}
+                                            className={"bg-transparent p-0 playfair border-0 col-2"}><p className={"text-white "}
                                                                                                style={{
                                                                                                    fontSize: "20px",
                                                                                                    float: "left"
                                                                                                }}>-</p></button>
                                     <input type={"number"}
-                                           className={"text-white text-center bg-transparent border-0 m-0 p-0 col-8"}
+                                           className={"text-white playfair text-center bg-transparent border-0 m-0 p-0 col-8"}
                                            value={number === 0 ? localStorage.getItem("lang") === "uzb" ? "Xonalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Номеров" : "Number of rooms" : number}
                                            placeholder={localStorage.getItem("lang") === "uzb" ? "Xonalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Номеров" : "Number of rooms"}
                                            onChange={e => setNumber(Number.parseInt(e.target.value))}/>
@@ -121,7 +121,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4" : "order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4 playfair" : "playfair order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
                 </div>
             </div>
         </div>
