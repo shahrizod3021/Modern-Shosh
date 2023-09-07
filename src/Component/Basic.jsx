@@ -2,9 +2,9 @@ import Carousel from "react-multi-carousel";
 // import banner from '../assets/img/Banner/241eecb4-1e7e-48e3-9300-fc7c4f637f38 (1).jpg'
 // import banner1 from '../assets/img/Banner/b0f7f9f9-473b-4593-af84-c0880a84c40b.jpg'
 // import banner3 from '../assets/img/Banner/efc440dc-fc64-47ee-a933-fcc35a25984e.jpg'
-import banner from '../assets/img/Banner/1.png'
-import banner1 from '../assets/img/Banner/2.png'
-import banner2 from '../assets/img/Banner/3.png'
+import banner from '../assets/img/Banner/banner.png'
+import banner1 from '../assets/img/Banner/banner2.png'
+import banner2 from '../assets/img/Banner/banner3.png'
 
 export const Basic = () => {
     const responsive = {

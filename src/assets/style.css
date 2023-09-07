@@ -19,6 +19,11 @@
     display: block;
 }
 
+.panorama{
+    width: 492px;
+    height: 183px;
+}
+
 .fixed-right {
     position: fixed;
     bottom: 20px;
@@ -207,8 +212,9 @@
 }
 
 ::-webkit-calendar-picker-indicator {
-    background-image: url("img/calendar.png");
-    color: #fff;
+    background-image: url("perm5.svg");
+    color: #ffffff;
+    font-size: 20px;
 }
 
 
@@ -284,9 +290,6 @@
     display: flex;
 }
 
-.panorama {
-    height: 30vh;
-}
 
 .galary {
     width: 90%;
@@ -422,6 +425,8 @@
 }
 
 @media (max-width: 1024px) {
+    .panorama{
+    }
     .desktop {
         display: none;
     }
@@ -521,6 +526,7 @@
     .desktop-footer {
         display: none;
     }
+
 }
 
 @media (min-width: 820px) {
@@ -555,6 +561,10 @@
         .desktop-footer {
             display: none;
         }
+        .panorama{
+            margin: 0 auto;
+            width: 700px;
+        }
     }
 }
 
@@ -572,12 +582,16 @@
     .desktop-footer {
         display: none;
     }
+    .panorama{
+         width: 700px;
+     }
 
 
 }
 
 @media (max-width: 770px) {
     @media (min-width: 599px) {
+
         .media-nav {
             height: 18vh;
         }
@@ -644,9 +658,6 @@
         height: 40vh;
     }
 
-    .panorama {
-        height: 30vh;
-    }
 
     .ordering {
         width: 100%;
@@ -838,6 +849,9 @@
     .desktop-footer {
         display: none;
     }
+    .panorama{
+        width: 500px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -884,6 +898,10 @@
     .desktop-footer {
         display: none;
     }
+    .panorama{
+        width: 400px;
+    }
+
 }
 
 @media (max-width: 320px) {
@@ -923,6 +941,9 @@
 
     .desktop-footer {
         display: none;
+    }
+    .panorama{
+        width: 290px;
     }
 
 }
