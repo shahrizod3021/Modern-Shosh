@@ -1,13 +1,3 @@
-@media (max-width: 1800px) {
-    .navbar-basic{
-        height: 16vh;
-    }
-    .navbar-ul{
-        margin-top: 40px;
-    }
-
-}
-
 
 .app {
     width: 100%;
@@ -319,6 +309,7 @@
 .circle-text {
     margin-right: 210px;
 }
+
 
 
 

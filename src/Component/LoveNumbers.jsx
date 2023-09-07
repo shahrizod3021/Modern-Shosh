@@ -28,7 +28,7 @@ export const LoveNumbers = () => {
                             <div className={"w-100"}>
                                 <div className={"col-xl-5"}>
                                     <div className={"circle"}>
-                                        <h3 className={"text-center  p-0 m-0 text-white num"}>{counter && <CountUp start={0} end={5} duration={2} delay={0}/>}</h3>
+                                        <h3 className={"text-center  p-0 m-0 text-white num"}>{counter && <CountUp start={0} end={5} duration={8} delay={0}/>}</h3>
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ export const LoveNumbers = () => {
                                 <div className={"col-xl-5 mt-3"}>
                                     <div className={"circle "}>
                                         <h3 className={"text-center  p-0 m-0 text-white num"}
-                                            >{counter && <CountUp start={0} end={20} duration={2} delay={0}/>}+</h3>
+                                            >{counter && <CountUp start={0} end={20} duration={5} delay={0}/>}+</h3>
                                     </div>
                                 </div>
                             </div>

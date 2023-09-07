@@ -1,6 +1,6 @@
 import {useState} from "react";
 import {RequestAction} from "../Service/service.js";
-import gis from '../assets/img/2gis.png'
+import gis from '../assets/gis2.png'
 
 export const Request =  () => {
     const [phoneNumber, setPhoneNumber] = useState('')
@@ -35,11 +35,14 @@ export const Request =  () => {
                             <div className={"maps mb-1"}>
                                 <div className="mapouter">
                                     <div className="gmap_canvas">
-                                        <iframe
-                                            className={"map"}
-                                            src="https://maps.google.com/maps?q=shosh%20apartments&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
-                                            id="gmap_canvas" frameBorder="0" scrolling="no"
-                                        ></iframe>
+                                        <div className="mapouter">
+                                            <div className="gmap_canvas">
+                                                <iframe
+                                                    src="https://maps.google.com/maps?q=41.261600,69.231141&amp;ll=41.261600,69.231141&amp;z=16&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                                                    id="gmap_canvas" frameBorder="0" scrolling="no"
+                                                    className={"map"}></iframe>
+                                                </div>
+                                        </div>
                                       </div>
                                 </div>
                                 <div className={"d-flex flex-column"}>
@@ -50,9 +53,8 @@ export const Request =  () => {
                             <hr className={"text-white"}/>
                             <div className={"maps mt-3"}>
                                 <iframe
-                                     className={"map"}
-                                    src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&amp;source=constructor"
-                                    frameBorder="0"></iframe>
+                                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A1b81bf5b7b5eb8794386e3bf2807aea69434ab58f5be5729a3b9417f51c38be7&amp;source=constructor"
+                                    className={"map"} frameBorder="0"></iframe>
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Yandexda" : localStorage.getItem("lang") === "rus" ? "Мы в Yandex " : "We are in Yandex"}</h5>
                                     <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
