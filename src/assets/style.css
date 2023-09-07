@@ -1,3 +1,14 @@
+@media (max-width: 1800px) {
+    .navbar-basic{
+        height: 16vh;
+    }
+    .navbar-ul{
+        margin-top: 40px;
+    }
+
+}
+
+
 .app {
     width: 100%;
     background-image: url("img/Group 66 ).svg");
@@ -308,6 +319,8 @@
 .circle-text {
     margin-right: 210px;
 }
+
+
 
 
 @media (max-width: 1451px) {

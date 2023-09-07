@@ -147,9 +147,9 @@ export const Rooms = () => {
                             <h3 className={"text-white"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Qabulxona" : localStorage.getItem("lang") === "rus" ? "Администрация" : "Reception"}</h3>
                             <p className={"text-white me-3 p-pas"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Qulay va unutilmas manzilingizga erishish uchun birinchi qadam. Bizning mijozlar bilan tajribasi baland  bo'lgan ,  sizga yordam berishga tayyor samimiy xodimlarimiz bor. Biz sizning turar joyingizni qulay qilish uchun 24/7 ochiqmiz."
-                                    : localStorage.getItem("lang") === "rus" ? "Первый шаг на пути к комфортному и запоминающемуся месту назначения. У нас есть дружелюбный персонал с большим опытом работы с клиентами, готовый помочь вам. Мы открыты 24 часа в сутки, 7 дней в неделю, чтобы сделать ваше пребывание комфортным."
-                                        : "The first step to reach your comfortable and memorable destination. We have friendly staff with extensive customer experience ready to assist you. We are open 24/7 to make your stay comfortable."}</p>
+                                {localStorage.getItem("lang") === "uzb" ? "Qulay va unutilmas manzil sari birinchi qadam. Sizga yordam berishga tayyor mijozlarga xizmat ko'rsatish bo'yicha keng tajribaga ega samimiy xodimlarimiz bor. Biz sizning turar joyingizni qulay qilish uchun 24/7 ishlaymiz."
+                                    : localStorage.getItem("lang") === "rus" ? "Первый шаг на пути к комфортному и запоминающемуся месту назначения. У нас есть дружелюбный персонал с большим опытом работы с клиентами, готовый помочь вам. Мы работаем 24/7, чтобы сделать ваше пребывание комфортным."
+                                        : "The first step towards a comfortable and memorable destination. We have friendly staff with extensive customer service experience ready to help you. We work 24/7 to make your stay comfortable."}</p>
                         </div>
                         <div className={"col-md-5"}>
                             <div className={"d-flex align-items-center justify-content-center"}>
@@ -342,9 +342,9 @@ export const Rooms = () => {
                             <h3 className={"text-white text-center mb-4"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Administratsiya" : localStorage.getItem("lang") === "rus" ? "Администрация" : "Receptions"}</h3>
                             <p className={"text-white p-pas playfair "}>
-                                {localStorage.getItem("lang") === "uzb" ? "Qulay va unutilmas manzilingizga erishish uchun birinchi qadam. Bizning mijozlar bilan tajribasi baland  bo'lgan ,  sizga yordam berishga tayyor samimiy xodimlarimiz bor. Biz sizning turar joyingizni qulay qilish uchun 24/7 ochiqmiz."
-                                    : localStorage.getItem("lang") === "rus" ? "Первый шаг на пути к комфортному и запоминающемуся месту назначения. У нас есть дружелюбный персонал с большим опытом работы с клиентами, готовый помочь вам. Мы открыты 24 часа в сутки, 7 дней в неделю, чтобы сделать ваше пребывание комфортным."
-                                        : "The first step to reach your comfortable and memorable destination. We have friendly staff with extensive customer experience ready to assist you. We are open 24/7 to make your stay comfortable."}</p>
+                                {localStorage.getItem("lang") === "uzb" ? "Qulay va unutilmas manzil sari birinchi qadam. Sizga yordam berishga tayyor mijozlarga xizmat ko'rsatish bo'yicha keng tajribaga ega samimiy xodimlarimiz bor. Biz sizning turar joyingizni qulay qilish uchun 24/7 ishlaymiz."
+                                    : localStorage.getItem("lang") === "rus" ? "Первый шаг на пути к комфортному и запоминающемуся месту назначения. У нас есть дружелюбный персонал с большим опытом работы с клиентами, готовый помочь вам. Мы работаем 24/7, чтобы сделать ваше пребывание комфортным."
+                                        : "The first step towards a comfortable and memorable destination. We have friendly staff with extensive customer service experience ready to help you. We work 24/7 to make your stay comfortable."}</p>
                         </div>
                     </div>
                     <hr className={"text-white"}/>
