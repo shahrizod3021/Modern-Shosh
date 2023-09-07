@@ -212,8 +212,7 @@
 }
 
 ::-webkit-calendar-picker-indicator {
-    background-image: url("perm5.svg");
-    color: #ffffff;
+    background-image: url("img/cale.svg");
     font-size: 20px;
 }
 

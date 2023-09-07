@@ -113,43 +113,32 @@ export const Navbar = () => {
                                 ))}
                             </ul>
                         </div>
-                        <button style={{float: "right"}} data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
-                                aria-controls="offcanvasExample" className={"col-6 col-md-2 bg-transparent border-0 text-white border-0"}><i
+                        <button style={{float: "right"}} type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"  aria-controls="collapseExample" className={"col-6 col-md-2 bg-transparent border-0 text-white border-0"}><i
                             className={"fa-solid fa-list"}></i></button>
                     </div>
                 </div>
             </div>
 
-            <div className="offcanvas offcanvas-start bg-dark" tabIndex="-1" id="offcanvasExample"
-                 aria-labelledby="offcanvasExampleLabel">
-                <div className="offcanvas-header">
-                    <h5 className="offcanvas-title text-white" id="offcanvasExampleLabel">Modern Shosh</h5>
-                    <button type="button" className="text-white btn" data-bs-dismiss="offcanvas" aria-label="Close">
-                        <i className="fa-solid fa-xmark " style={{color: "#ffffff", fontSize: "30px"}}></i>
-                    </button>
-                </div>
-                <div className="offcanvas-body text-white">
-                    <div>
-                        <div className={"d-flex flex-column text-center"}>
-                           <h4><a className={"navbar-a mb-2"}
-                                  href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz Haqimizda" : localStorage.getItem("lang") === "rus" ? "O Нас" : "About Us"}</a></h4>
-                           <h4><a className={"navbar-a mb-2"}
-                                  href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a></h4>
+            <div className="collapse" id="collapseExample">
+                <div className={"pt-2 p-5 pb-0 d-flex flex-column text-start"} >
+                    <h5  className={"mb-3"}><a className={"navbar-a mb-2"}
+                            href="#about">{localStorage.getItem("lang") === "uzb" ? "Biz Haqimizda" : localStorage.getItem("lang") === "rus" ? "O Нас" : "About Us"}</a></h5>
+                    <h5 className={"mb-3"}><a className={"navbar-a mb-2"}
+                                                         href="#about_rooms">{localStorage.getItem("lang") === "uzb" ? "Xonalar" : localStorage.getItem("lang") === "rus" ? "Номера" : "About Rooms"}</a></h5>
 
-                            <h4>
-                                <a className={"navbar-a mb-2"}
-                                   href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega Biz " : localStorage.getItem("lang") === "rus" ? "Почему Мы " : "Why Us"}</a>
-                            </h4>
-                            <h4>
-                                <a className={"navbar-a mb-2"}
-                                   href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va Bloglar " : localStorage.getItem("lang") === "rus" ? "Новости и Блоги" : "News and Blog"}</a>
-                            </h4>
-                           <h4>
-                               <a className={"navbar-a"}
-                                  href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Контакт" : "Contact"}</a>
-                           </h4>
-                        </div>
-                    </div>
+                    <h5 className={"mb-3"} data-bs-dismiss={"collapse"}>
+                        <a className={"navbar-a mb-2"}
+                           href="#why_we">{localStorage.getItem("lang") === "uzb" ? "Nega Biz " : localStorage.getItem("lang") === "rus" ? "Почему Мы " : "Why Us"}</a>
+                    </h5>
+                    <h5 className={"mb-3"} >
+                            <a className={"navbar-a mb-2"}
+                               href="#news">{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va Bloglar " : localStorage.getItem("lang") === "rus" ? "Новости и Блоги" : "News and Blog"}</a>
+
+                    </h5>
+                    <h5 className={"mb-3"}  data-bs-dismiss={"collapse"}>
+                        <a className={"navbar-a"}
+                           href="#contact">{localStorage.getItem("lang") === "uzb" ? "Bog'lanish" : localStorage.getItem("lang") === "rus" ? "Контакт" : "Contact"}</a>
+                    </h5>
                 </div>
             </div>
         </div>

@@ -7,7 +7,7 @@ export const LoveNumbers = () => {
     return (
         <div id={"statistic"}>
             <div className={"mt-5 love-numbers container"}>
-                <h4 className={"text-white text-center mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Modern Shosh Hotel Fakt va raqamlardan" : localStorage.getItem("lang") === "rus" ? "Modern Shosh Hotel В Цифрах и Фактах" : "Modern Shosh Hotel In Facts and Number"}</h4>
+                <h4 className={"text-white text-center mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Modern Shosh  Fakt va raqamlardan" : localStorage.getItem("lang") === "rus" ? "Hotel Modern Shosh  В Цифрах и Фактах" : "Hotel Modern Shosh  In Facts and Number"}</h4>
                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                     <div className={"loving-numbers"}>
 
