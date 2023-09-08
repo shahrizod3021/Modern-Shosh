@@ -4,7 +4,7 @@ export const Comments = () => {
     const comments = [
         {
             comment: "Отзыв: Пребывание в отеле «Шош Модерн» оставило приятные впечатления. Очень впечатлен уровнем обслуживания и профессионализмом персонала. Внимание к деталям и быстрое реагирование на запросы сделали мое пребывание комфортным и беззаботным.\n",
-            commentuz: "Xulosa: Shosh Modern mehmonxonasida qolish yoqimli taassurot qoldirdi. Xizmat ko'rsatish darajasi va xodimlarning professionalligi juda hayratda qoldi. Tafsilotlarga e'tibor va so'rovlarga tezkor javob berish mening yashashimni qulay va muammosiz qildi.",
+            commentuz: "Shosh Modern mehmonxonasi xizmatlaridan juda mamnunman. Muloyim va foydali xodimlar har doim yordam berishga tayyor. Xonalar toza va qulay, Xonada ishlari o'z vaqtida bajarilgan. Restoranda nonushta mazali va xilma-xil bo'ldi.",
             commenteng: "Feedback: Staying at the Shosh Modern was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
             name: "John Adam",
             media: true
@@ -26,7 +26,7 @@ export const Comments = () => {
         {
 
             comment: "Отзыв: Отель «Модерн Шош» предлагает первоклассный сервис с индивидуальным подходом. Персонал невероятно внимательный и услужливый, благодаря чему вы почувствуете себя ценным гостем. Они стараются изо всех сил удовлетворить особые запросы и дают отличные рекомендации по изучению окрестностей",
-            commentuz: "Fikr-mulohaza: Zamonaviy Shosh mehmonxonasi shaxsiy teginish bilan yuqori darajadagi xizmatni taklif etadi. Xodimlar nihoyatda e'tiborli va foydali bo'lib, o'zingizni qadrli mehmondek his qilasiz. Ular maxsus so'rovlarni qondirish va mahalliy hududni o'rganish bo'yicha ajoyib tavsiyalar berish uchun o'z yo'lidan borishadi.",
+            commentuz: "Zamonaviy Shosh mehmonxonasi shaxsiy teginish bilan yuqori darajadagi xizmatni taklif etadi. Xodimlar nihoyatda e'tiborli bo'lib, o'zingizni qadrli mehmondek his qilasiz. Ular maxsus so'rovlarni  o'z vaqtida javob berib va mahalliy hududni o'rganish bo'yicha ajoyib tavsiyalar berishar ekan.",
             commenteng: "Feedback: Modern Shosh Hotel offers top-notch service with a personal touch. The staff is incredibly attentive and helpful, making you feel like a valued guest. They go out of their way to accommodate special requests and provide excellent recommendations for exploring the local area.",
             name: 'Gaylord Deryck',
             media: false
@@ -34,13 +34,13 @@ export const Comments = () => {
         {
             comment: "Краткое описание: Персонал отеля «Современный Шош» известен своим теплым и дружелюбным стилем общения. Они ведут приятные беседы и хотят помочь гостям. Их профессиональный и гостеприимный подход создает комфортную и привлекательную среду для всех.",
             commenteng: "Feadback: Modern Shosh hotel staff are known for their warm and friendly communication style. They engage in pleasant conversations and want to help guests. Their professional yet welcoming approach creates a comfortable and inviting environment for everyone.",
-            commentuz: "Xulosa: Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli suhbatlar bilan shug'ullanishadi va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
+            commentuz: "Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli muomilasi  bilan ish olib borishadi  va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
             name: 'Azizbek Olimov',
             media: false
         },
         {
             comment: "Отзыв: Отель «Модерн Шош» предоставляет целый ряд полезных удобств и возможностей для комфортного отдыха. К ним относятся бесплатный Wi-Fi, хорошо оборудованный фитнес-центр и красивый сад, где можно расслабиться.",
-            commentuz: "Xulosa: “Modern Shosh” mehmonxonasi qulay yashash uchun bir qator foydali qulayliklar va imkoniyatlarni taqdim etadi. Bularga bepul Wi-Fi, yaxshi jihozlangan fitnes markazi va dam olishingiz mumkin bo'lgan go'zal bog' kiradi.",
+            commentuz: "“Modern Shosh” mehmonxonasi qulay yashash uchun bir qator foydali qulayliklar va imkoniyatlarni taqdim etadi. Bularga bepul Wi-Fi, yaxshi jihozlangan fitnes markazi va dam olishingiz mumkin bo'lgan go'zal bog' kiradi.",
             commenteng: "Feedback: Hotel \"Modern Shosh\" provides a range of useful amenities and opportunities for a comfortable stay. These include free Wi-Fi, a well-equipped fitness center and a beautiful garden where you can relax.",
             name: "Mümtaz Ayhan ",
             media: false
