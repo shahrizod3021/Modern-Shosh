@@ -19,7 +19,7 @@ export const Request =  () => {
             <div className={"container mb-5"}>
                 <div className={"row col-xl-12"}>
                     <div className={"col-xl-5 shadow-lg me-md-5"} style={{padding:"20px", borderRadius:"20px"}}>
-                        <h3 className={"text-white"}>{localStorage.getItem("lang") === "uzb" ? "Bog'lanish uchun" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Request"}</h3>
+                        <h3 className={"text-white playfair "}>{localStorage.getItem("lang") === "uzb" ? "Bog'lanish uchun" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Request"}</h3>
                         <hr className={"text-white "}/>
                         <form >
                             <label htmlFor="name" className={"text-white playfair mt-4 mb-2"}>{localStorage.getItem("lang") === "uzb" ? "Ismingiz" : localStorage.getItem("lang") === "rus" ? "Ваше имя" : "Your name"}</label>

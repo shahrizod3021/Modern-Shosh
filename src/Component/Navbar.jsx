@@ -3,6 +3,7 @@ import eng from '../assets/img/Flags/img.png'
 import uzb from '../assets/img/Flags/img_1.png'
 import ru from '../assets/img/Flags/img_2.png'
 import {useEffect} from "react";
+import circlelogo from '../assets/img/logo big.png'
 
 export const Navbar = () => {
     const lang = [
@@ -91,7 +92,7 @@ export const Navbar = () => {
             <div className={'media-nav'}>
                 <div className={"shosh_nav "} >
                     <div className={"nav-logo"}>
-                        <img src={logo} style={{float:"left"}} className={"logo"} alt=""/>
+                        <img src={circlelogo} style={{float:"left"}} className={"logo"} alt=""/>
                     </div>
                     <div className={'nav-two-but'}>
                         <div className="dropdown me-2">

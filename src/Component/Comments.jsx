@@ -60,7 +60,7 @@ export const Comments = () => {
                             <div className={"col-md-12 row"}>
                                 {comments.map((item) => (
                                     <>
-                                        <div className={"col-xl-4"}>
+                                        <div className={"col-xl-4 mb-3"}>
                                             <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
                                             <p className={"text-center  text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                             <p className={"text-white p-pas playfair"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
