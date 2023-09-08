@@ -31,9 +31,9 @@ export const Ordering = () => {
     return (
         <div id={"order"}>
             <div className={"media-order container mt-5 shadow-lg mb-5"} style={{border: "1px solid #ffc107"}}>
-                <div className={"ordering d-flex flex-column align-items-center justify-content-center"}>
+                <div className={"ordering"}>
                     <h3 className={"text-white mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Xonani bron qilish" : localStorage.getItem("lang") === "rus" ? "Бронирование номера" : "Booking a room"}</h3>
-                    <div className={"row col-lg-12 row-cols-1  "}>
+                    <div className={"row col-lg-12 row-cols-1"}>
                         <div className={"col-md-4"}>
                             <form>
                                 <small
