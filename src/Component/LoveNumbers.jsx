@@ -14,7 +14,7 @@ export const LoveNumbers = () => {
                             <div className={"circle1 text-white text-center"}>
                                 <p style={{fontSize:"150%"}} className={"text-center playfair m-0"}>{counter && <CountUp start={0} duration={3} delay={0} end={500}/>}+</p>
                             </div>
-                            <p className={"mt-md-1 mb-5 text-white text-center playfair"}>{localStorage.getItem("lang") === "uzb" ? <>Mamnun  mijozlar</> : localStorage.getItem("lang") === "rus" ?
+                            <p className={"mt-md-1 text-white text-center playfair"}>{localStorage.getItem("lang") === "uzb" ? <>Mamnun  mijozlar</> : localStorage.getItem("lang") === "rus" ?
                               <p className={'text-center'}>Довольных  клиентов
                               </p> : <>Satisfied  clients</>}</p>
                         </div>
@@ -23,13 +23,13 @@ export const LoveNumbers = () => {
                             <div className={"circle2 text-center text-white "}>
                                 <p style={{fontSize:"150%"}} className={"text-center playfair m-0"}>{counter && <CountUp start={0} duration={10} delay={0} end={5}/>}</p>
                             </div>
-                            <p className={"mt-md-1 mb-5 text-white text-center playfair me-2"}> {localStorage.getItem("lang") === "uzb" ? <>Xonalarning turlari</> : localStorage.getItem("lang") === "rus" ? <>Типы номеров</> : <>Types  of rooms</>}</p>
+                            <p className={"mt-md-1  text-white text-center playfair me-2"}> {localStorage.getItem("lang") === "uzb" ? <>Xonalarning turlari</> : localStorage.getItem("lang") === "rus" ? <>Типы номеров</> : <>Types  of rooms</>}</p>
                         </div>
                         <div className={"w-100 d-flex flex-column align-items-center justify-content-center"}>
                             <div className={"circle3  text-start text-white"}>
                                 <p style={{fontSize:"150%"}} className={"playfair text-center m-0"}>{counter && <CountUp end={20} start={0} duration={5} delay={0}/>}+ </p>
                             </div>
-                            <p className={'mt-md-1 mb-5 text-white playfair circle3-text text-center'}>{localStorage.getItem("lang") === "uzb" ? <>Mijozlar
+                            <p className={'mt-md-1 text-white playfair circle3-text text-center'}>{localStorage.getItem("lang") === "uzb" ? <>Mijozlar
                                     uchun  qulayliklar </> : localStorage.getItem("lang") === "rus" ? <>Удобства
                                     для клиентов</> : <>Customer amenities</>}</p>
                         </div>

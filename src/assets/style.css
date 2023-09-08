@@ -29,7 +29,6 @@
 }
 
 .circle1 {
-    margin-top: 5px;
     width: 70%;
     border-radius: 50%;
     border: 1px solid #f19d6d;
@@ -763,7 +762,7 @@
     }
 
     .basic-img {
-        height: auto;
+        height: 50vh;
     }
 
     .maps {
@@ -960,19 +959,19 @@
     }
 
     .circle1 {
-        padding: 40% 14% 40% 15%;
+        padding: 35% 14% 35% 15%;
         width: 100%;
         margin-bottom: 10%;
     }
 
     .circle2 {
-        padding: 40% 14% 40% 15%;
+        padding: 35% 14% 35% 15%;
         width: 100%;
         margin-bottom: 10%;
     }
 
     .circle3 {
-        padding: 40% 14% 40% 15%;
+        padding: 35% 14% 35% 15%;
         width: 100%;
     }
 
