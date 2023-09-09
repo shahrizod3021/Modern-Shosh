@@ -7,7 +7,7 @@ export const LoveNumbers = () => {
     return (
         <div id={"statistic"}>
             <div className={"mt-5 love-numbers container"}>
-                <h4 className={"text-white  text-center mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Modern Shosh  Fakt va raqamlardan" : localStorage.getItem("lang") === "rus" ? "Hotel Modern Shosh  В Цифрах и Фактах" : "Hotel Modern Shosh  In Facts and Number"}</h4>
+                <h4 className={"text-white  text-center mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Modern Shosh  Fakt va Raqamlarda" : localStorage.getItem("lang") === "rus" ? "Hotel Modern Shosh  В Цифрах и Фактах" : "Hotel Modern Shosh  In Facts and Numbers"}</h4>
                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                     <div className={"circles"}>
                         <div className={"w-100 d-flex flex-column align-items-center justify-content-center"}>
@@ -23,14 +23,14 @@ export const LoveNumbers = () => {
                             <div className={"circle2 text-center text-white "}>
                                 <p style={{fontSize:"150%"}} className={"text-center playfair m-0"}>{counter && <CountUp start={0} duration={10} delay={0} end={5}/>}</p>
                             </div>
-                            <p className={"mt-md-1  text-white text-center playfair me-2"}> {localStorage.getItem("lang") === "uzb" ? <>Xonalarning turlari</> : localStorage.getItem("lang") === "rus" ? <>Типы номеров</> : <>Types  of rooms</>}</p>
+                            <p className={"mt-md-1  text-white text-center playfair me-2"}> {localStorage.getItem("lang") === "uzb" ? <>Xonalarning turlari</> : localStorage.getItem("lang") === "rus" ? <>Типов номеров</> : <>Types  of rooms</>}</p>
                         </div>
                         <div className={"w-100 d-flex flex-column align-items-center justify-content-center"}>
                             <div className={"circle3  text-start text-white"}>
                                 <p style={{fontSize:"150%"}} className={"playfair text-center m-0"}>{counter && <CountUp end={20} start={0} duration={5} delay={0}/>}+ </p>
                             </div>
-                            <p className={'mt-md-1 text-white playfair circle3-text text-center'}>{localStorage.getItem("lang") === "uzb" ? <>Mijozlar
-                                    uchun  qulayliklar </> : localStorage.getItem("lang") === "rus" ? <>Удобства
+                            <p className={'mt-md-1  text-white playfair circle3-text text-center'}>{localStorage.getItem("lang") === "uzb" ? <>Mijozlar
+                                    uchun  qulayliklar </> : localStorage.getItem("lang") === "rus" ? <>Удобств
                                     для клиентов</> : <>Customer amenities</>}</p>
                         </div>
 

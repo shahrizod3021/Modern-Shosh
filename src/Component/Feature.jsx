@@ -67,7 +67,7 @@ export const Feature = () => {
                             {/*<i className={"text-white playfair fa-solid fa-palette"}></i>*/}
                         </div>
                         <div className={"w-auto mt-2"}>
-                            <p className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Ijodkorlar uchun katta manzarali rasmlar" : localStorage.getItem("lang") === "rus" ? "Большие живописные картины для ценителей творчества " : "Large landscape paintings for creatives"}</p>
+                            <p className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Ijodkorlar uchun katta manzarali rasmlar" : localStorage.getItem("lang") === "rus" ? "Большие живописные картины для ценителей творчества " : "Large landscape paintings for connoisseurs of creativity"}</p>
                         </div>
 
                         <div className={"w-auto mt-2 mb-3"}>
@@ -126,7 +126,7 @@ export const Feature = () => {
                     <small
                         className={"text-white playfair me-2"}>{localStorage.getItem("lang") === "uzb" ? "Ijodkorlar uchun katta manzarali rasmlar " : localStorage.getItem("lang") === "rus" ? <>Большие
                         живописные картины для ценителей
-                        творчества</> : "Large landscape paintings for creatives"}</small>
+                        творчества</> : "Large landscape paintings for connoisseurs of creativity"}</small>
                     <img src={vector} alt=""/>
                 </div>
                 <div className={"w-auto mb-3"}>

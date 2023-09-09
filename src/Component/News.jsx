@@ -45,7 +45,7 @@ export const News = () => {
     return (
         <div id={"news"}>
             <div className={"news container"} style={{marginTop:"100px"}}>
-                <h3 className={"playfair text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va bloglar" : localStorage.getItem("lang") === "rus" ? "Новости" : "News and blogs"}</h3>
+                <h3 className={"playfair text-white text-center"}>{localStorage.getItem("lang") === "uzb" ? "Yangiliklar va Bloglar" : localStorage.getItem("lang") === "rus" ? "Новости" : "News and Blogs"}</h3>
                 <Carousel responsive={responsive}
                 className={"newscarusle"}>
                     {news.length !== 0 ? (

@@ -54,7 +54,7 @@ export const Comments = () => {
                     <div className="card-img-overlay">
                         <div className={"playfair"} style={{paddingTop: "70px", letterSpacing: "1px"}}>
                             <h1 className={"text-white text-center playfair"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
+                                {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Reviews"}</h1>
                         </div>
                         <div className={"container"}>
                             <div className={"col-md-12 row"}>
@@ -62,7 +62,7 @@ export const Comments = () => {
                                     <>
                                         <div className={"col-xl-4 mb-3"}>
                                             <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
-                                            <p className={"text-center  text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                            <p className={"text-center  text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Mamnun mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                             <p className={"text-white p-pas playfair"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
                                         </div>
                                     </>
@@ -77,7 +77,7 @@ export const Comments = () => {
             <div className={"media-comments"} style={{marginBottom:"150px"}}>
                 <div className={"playfair"} style={{letterSpacing: "1px"}}>
                     <h1 className={"text-white text-center"}>
-                        {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Comments"}</h1>
+                        {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Reviews"}</h1>
                 </div>
                 <div className={"container"}>
                     <div>
@@ -89,7 +89,7 @@ export const Comments = () => {
                                     <>
                                         <div className={"col-12 p-2 text-center"}>
                                             <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
-                                            <p className={"text-center playfair text-white"}>{localStorage.getItem("lang") === "uzb" ? "Qoniqarli mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                            <p className={"text-center playfair text-white"}>{localStorage.getItem("lang") === "uzb" ? "Mamnun mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
                                             <p className={"text-white playfair p-pas"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
                                         </div>
                                     </>

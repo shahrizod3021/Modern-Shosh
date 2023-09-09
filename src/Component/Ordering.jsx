@@ -81,8 +81,8 @@ export const Ordering = () => {
                                                                                                }}>-</p></button>
                                     <input type={"number"}
                                            className={"text-white playfair text-center bg-transparent border-0 m-0 p-0 col-8"}
-                                           placeholder={localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of children"}
-                                           value={young === 0 ? localStorage.getItem("lang") === "uzb" ? "Kichkinlar sonni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number ofBoohildren" : young}
+                                           placeholder={localStorage.getItem("lang") === "uzb" ? "Kichkinalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of children"}
+                                           value={young === 0 ? localStorage.getItem("lang") === "uzb" ? "Kichkinalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Детей" : "Number of children" : young}
                                            onChange={e => setYoung(Number.parseInt(e.target.value))}/>
                                     <button type={"button"} onClick={() => setYoung(young + 1)}
                                             className={'playfair col-2 bg-transparent border-0'}><p
@@ -93,7 +93,7 @@ export const Ordering = () => {
                         <div className={"col-md-4"}>
                             <form>
                                 <small
-                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Jo'nab ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "Date of departure"}</small>
+                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "ketish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата выезда" : "Date of departure"}</small>
                                 <input type="date" id={"dateC"} name={"dateC"}
                                        className="form-date p-1  text-white"
                                        placeholder={"Дата выезда"}
