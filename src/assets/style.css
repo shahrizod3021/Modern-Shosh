@@ -57,8 +57,8 @@
 }
 
 .panorama {
-    width: 95%;
-    height: 183px;
+    width: 94%;
+    height: 25vh;
 }
 
 .fixed-right {
@@ -288,7 +288,7 @@
 
 .answer {
     height: auto;
-    width: 100%;
+    width: 70%;
 
 }
 
@@ -1097,8 +1097,9 @@
             /*padding-bottom: 5%;*/
         }
 
-        .circle3-text- {
-            margin-left: 1rem;
+        .circle3-text {
+            margin-top: 8%;
+            /*margin-left: 1rem;*/
         }
     }
 }

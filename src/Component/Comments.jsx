@@ -1,4 +1,5 @@
 import bg from '../assets/img/Banner/3576f3e3-3547-4041-b91f-89ba5b13c950.jpg'
+import Carousel from "react-multi-carousel";
 
 export const Comments = () => {
     const comments = [
@@ -46,9 +47,31 @@ export const Comments = () => {
             media: false
         }
     ]
+
+    const responsive = {
+        superLargeDesktop: {
+            // the naming can be any, depends on you.
+            breakpoint: {max: 4000, min: 3000},
+            items: 1
+        },
+        desktop: {
+            breakpoint: {max: 3000, min: 1024},
+            items: 2
+        },
+        tablet: {
+            breakpoint: {max: 1024, min: 600},
+            items: 1
+        },
+        mobile: {
+            breakpoint: {max: 599, min: 0},
+            items: 1
+        }
+    };
+
+
     return (
         <div>
-            <div className={"desktop-comment mt-4 "} style={{marginBottom:"150px"}}>
+            <div className={"desktop-comment mt-4 "} style={{marginBottom: "150px"}}>
                 <div className={"card text-bg-dark"}>
                     <img src={bg} style={{height: "100vh"}} alt="not found"/>
                     <div className="card-img-overlay">
@@ -74,28 +97,29 @@ export const Comments = () => {
                 </div>
             </div>
 
-            <div className={"media-comments"} style={{marginBottom:"150px"}}>
+            <div className={"media-comments"} style={{marginBottom: "150px"}}>
                 <div className={"playfair"} style={{letterSpacing: "1px"}}>
-                    <h1 className={"text-white text-center"}>
+                    <h1 className={"text-white text-center pt-3"}>
                         {localStorage.getItem("lang") === "uzb" ? "Sharhlar" : localStorage.getItem("lang") === "rus" ? "Oтзывы" : "Reviews"}</h1>
                 </div>
                 <div className={"container"}>
                     <div>
-                        {comments.map((item) => (
-                            <>
-                                {!item.media ? (
-                                    <></>
-                                ) : (
-                                    <>
-                                        <div className={"col-12 p-2 text-center"}>
-                                            <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
-                                            <p className={"text-center playfair text-white"}>{localStorage.getItem("lang") === "uzb" ? "Mamnun mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
-                                            <p className={"text-white playfair p-pas"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
-                                        </div>
-                                    </>
-                                )}
-                            </>
-                        ))}
+                        <Carousel responsive={responsive}
+                                  infinite
+                                  arrows={false}
+                                  autoPlay
+                                  autoPlaySpeed={10000}
+                        >
+                            {comments.map((item) => (
+                                <>
+                                    <div className={"col-12 p-2 text-center"}>
+                                        <h5 className={"text-white text-center playfair pt-4"}>{item.name} :</h5>
+                                        <p className={"text-center playfair text-white"}>{localStorage.getItem("lang") === "uzb" ? "Mamnun mijoz" : localStorage.getItem("lang") === "rus" ? "Довольный клиент" : "Satisfied customer"}</p>
+                                        <p className={"text-white playfair p-pas"}>{localStorage.getItem("lang") === "uzb" ? item.commentuz : localStorage.getItem("lang") === "rus" ? item.comment : item.commenteng}</p>
+                                    </div>
+                                </>
+                            ))}
+                        </Carousel>
                     </div>
                 </div>
 
