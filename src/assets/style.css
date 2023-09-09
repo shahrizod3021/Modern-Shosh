@@ -581,10 +581,7 @@
 }
 
 @media (min-width: 820px) {
-    @media (max-width: 1020px) { {
-        width: 40%;
-    }
-
+    @media (max-width: 1020px) {
         .fixed {
             display: block;
             position: fixed;
@@ -614,8 +611,6 @@
             margin: 0 auto;
             width: 100%;
         }
-
-
     }
 }
 
@@ -718,7 +713,6 @@
             display: flex;
         }
 
-        .
         .media-feature {
             width: 90%;
             margin: 0 auto;
@@ -911,9 +905,7 @@
 
     .newscarusle .react-multiple-carousel__arrow {
         margin-bottom: 100px;
-    } {
-    width: 60%;
-}
+    }
 
     .fixed {
         display: block;
@@ -1014,9 +1006,10 @@
 
 @media (max-width: 420px) {
     @media (max-height: 800px) {
-        .media-comments{
+        .media-comments {
             margin-top: 10%;
         }
+
         .circles {
             display: flex;
             flex-direction: column;
@@ -1092,7 +1085,7 @@
             margin-left: 20%;
         }
 
-        .media-order{
+        .media-order {
             /*height: 90vh;*/
             /*padding-bottom: 5%;*/
         }
