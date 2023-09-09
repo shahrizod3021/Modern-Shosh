@@ -85,7 +85,7 @@ export const Footer = () => {
             </div>
             <a href={"tel:+998951464004"} className={"btn btn-dark fixed"}><i className={"fas fa-phone"}
                                                                               style={{padding: "10px 5px"}}></i></a>
-            <a href="#home" className={"fixed-right"}><i className={"fa-solid fa-arrow-up"}></i></a>
+            <a href="#home" className={"text-dark fixed-right"}><i className={"fa-solid fa-arrow-up "}></i></a>
         </div>
     );
 }
