@@ -1056,8 +1056,13 @@
             display: none;
         }
 
+        .answers{
+            margin-left: 7%;
+        }
+
         .panorama {
-            width: 100%;
+            width: 93%;
+            margin: 0 auto;
         }
 
         .shosh_nav {
