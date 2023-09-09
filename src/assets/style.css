@@ -1013,8 +1013,10 @@
 }
 
 @media (max-width: 420px) {
-    @media (max-height: 770px) {
-
+    @media (max-height: 800px) {
+        .media-comments{
+            margin-top: 10%;
+        }
         .circles {
             display: flex;
             flex-direction: column;
