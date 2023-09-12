@@ -6,7 +6,7 @@ export const Ordering = () => {
     const [older, setOlder] = useState(0)
     const [young, setYoung] = useState(0)
     const [number, setNumber] = useState(0)
-    const [phoneNumber, setPhoneNumber] = useState('+998 ')
+    const [phoneNumber, setPhoneNumber] = useState('+')
     const [going_time, setGoing_time] = useState('')
     const [come_time, setCome_time] = useState('')
 
