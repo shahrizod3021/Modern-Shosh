@@ -29,7 +29,7 @@ export const Basic = () => {
                       infinite
                       arrows={false}
                       autoPlay
-                      autoPlaySpeed={3000}
+                      autoPlaySpeed={14000}
             >
                 <div className={"card text-bg-dark"}>
                     <img src={banner1} className={"basic-img"} draggable={"false"} alt=""/>

@@ -47,7 +47,7 @@ export const Request =  () => {
                                 </div>
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"playfair text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Google'da" : localStorage.getItem("lang") === "rus" ? "Мы в Google" : "We are in Google"}</h5>
-                                    <a target={"_blank"} href={"https://www.google.com/maps/place/Shosh+apartments/@41.3376502,69.3050155,14.33z/data=!4m6!3m5!1s0x38aef51605c5a48d:0xc371558773fc02c3!8m2!3d41.3329491!4d69.3138707!16s%2Fg%2F11s3793mvn?hl=ru-RU&entry=ttu"} className={"btn btn-outline-light playfair rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
+                                    <a target={"_blank"} href={"https://www.google.com/maps/place/Hotel+Shosh+Modern/@41.2615658,69.2309568,18.63z/data=!4m20!1m10!3m9!1s0x38ae8ba9cd7471e5:0x51dc5c15367e2b88!2sHotel+Shosh+Modern!5m2!4m1!1i2!8m2!3d41.2615301!4d69.2311691!16s%2Fg%2F11vcmw4szs!3m8!1s0x38ae8ba9cd7471e5:0x51dc5c15367e2b88!5m2!4m1!1i2!8m2!3d41.2615301!4d69.2311691!16s%2Fg%2F11vcmw4szs?hl=ru-US&entry=ttu"} className={"btn btn-outline-light playfair rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                             <hr className={"text-white"}/>
@@ -57,7 +57,7 @@ export const Request =  () => {
                                     className={"map"} frameBorder="0"></iframe>
                                 <div className={"d-flex flex-column"}>
                                     <h5 className={"playfair text-white mb-5"}>{localStorage.getItem("lang") === "uzb" ? "Biz Yandexda" : localStorage.getItem("lang") === "rus" ? "Мы в Yandex " : "We are in Yandex"}</h5>
-                                    <a target={"_blank"} href={"https://yandex.uz/maps/10335/tashkent/?from=mapframe&ll=69.313731%2C41.333047&mode=usermaps&source=mapframe&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=15"} className={"btn btn-outline-light rounded-0 playfair mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
+                                    <a target={"_blank"} href={"https://yandex.uz/maps/org/shosh_modern/153743864084/?from=mapframe&ll=69.230976%2C41.261361&mode=search&sctx=ZAAAAAgBEAAaKAoSCUhRZ%2B4hVFFAEZUNayqLqkRAEhIJJGO1%2BX%2FVgT8Rlpf8T%2F7ubT8iBgABAgMEBSgKOABApJ8GSAFiF2V4cF9pZD1wcnVubmVkX2Zvcm11bGFzagJ1ep0BzcxMPaABAKgBAL0BhegIMMIBBpTi5N68BOoBAPIBAPgBAIICEkhvdGVsIHNob3NoIG1vZGVybooCAJICBTEwMzM1mgIMZGVza3RvcC1tYXBz&sll=69.230976%2C41.261361&source=mapframe&sspn=0.003464%2C0.001455&text=Hotel%20shosh%20modern&um=constructor%3Aa10cc9598f06092e7453b3f834ab46a5cd6e26828c0a6852be6d3a64603ba326&utm_source=mapframe&z=18.45"} className={"btn btn-outline-light rounded-0 playfair mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                             <hr className={"text-white mb-1"}/>
@@ -65,7 +65,7 @@ export const Request =  () => {
                                 <div id={'gis'}><a target={"_blank"} href="https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"><img src={gis}  className={"map gis"} alt=""/></a> </div>
                                 <div className={"d-flex flex-column gis-text"}>
                                     <h5 className={"text-white playfair mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Biz 2GIS da" : localStorage.getItem("lang") === "rus" ? "Мы в 2GIS " : "We are in 2GIS"}</h5>
-                                    <a target={"_blank"} href={"https://2gis.uz/tashkent/firm/70000001061261679?m=69.314119%2C41.333114%2F17.4"} className={"btn playfair btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
+                                    <a target={"_blank"} href={"https://2gis.uz/tashkent/firm/70000001078621031/69.231427%2C41.261741?m=69.231795%2C41.261542%2F19.14"} className={"btn playfair btn-outline-light rounded-0 mt-5"}>{localStorage.getItem("lang") === "uzb" ? "Ko'rish" : localStorage.getItem("lang") === "rus" ? "Открыть" : "Open"}</a>
                                 </div>
                             </div>
                         </div>

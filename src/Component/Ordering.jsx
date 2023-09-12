@@ -6,7 +6,7 @@ export const Ordering = () => {
     const [older, setOlder] = useState(0)
     const [young, setYoung] = useState(0)
     const [number, setNumber] = useState(0)
-    const [phoneNumber, setPhoneNumber] = useState('')
+    const [phoneNumber, setPhoneNumber] = useState('+998 ')
     const [going_time, setGoing_time] = useState('')
     const [come_time, setCome_time] = useState('')
 
@@ -36,14 +36,15 @@ export const Ordering = () => {
                     <div className={"row col-lg-12 row-cols-1"}>
                         <div className={"col-md-4"}>
                             <form>
-                                <small
-                                    className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
-                                <input type={"number"} value={phoneNumber}
-                                       onChange={e => setPhoneNumber(e.target.value)}
-                                       className={"form-phone rounded-0 p-1 text-light"}
-                                       placeholder={'+998 (__) ___ __ __ '}
-                                       required/>
-                                <div className={"row col-12 g-1"}>
+                                <div className="">
+                                    <small
+                                        className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
+                                    <input type="text" className="form-number p-1 bg-transparent text-white"
+                                           value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)}
+                                           placeholder="+998 "
+                                    />
+                                </div>
+                                <div className={"row col-12 g-1 mt-1"}>
                                     <button type={"button"}
                                             onClick={older > 0 ? () => setOlder(older - 1) : () => setOlder(older)}
                                             className={"bg-transparent p-0 border-0 col-2"}><p className={"text-white "}
@@ -103,11 +104,12 @@ export const Ordering = () => {
                                 <div className={"row col-12 g-1"}>
                                     <button type={"button"}
                                             onClick={number > 0 ? () => setNumber(number - 1) : () => setNumber(number)}
-                                            className={"bg-transparent p-0 playfair border-0 col-2"}><p className={"text-white "}
-                                                                                               style={{
-                                                                                                   fontSize: "20px",
-                                                                                                   float: "left"
-                                                                                               }}>-</p></button>
+                                            className={"bg-transparent p-0 playfair border-0 col-2"}><p
+                                        className={"text-white "}
+                                        style={{
+                                            fontSize: "20px",
+                                            float: "left"
+                                        }}>-</p></button>
                                     <input type={"number"}
                                            className={"text-white playfair text-center bg-transparent border-0 m-0 p-0 col-8"}
                                            value={number === 0 ? localStorage.getItem("lang") === "uzb" ? "Xonalar soni" : localStorage.getItem("lang") === "rus" ? "Кол-во Номеров" : "Number of rooms" : number}
@@ -121,7 +123,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 12 ? "btn disabled text-light order-btn mt-4 playfair" : "playfair order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 9 ? "btn disabled text-light order-btn mt-4 playfair" : "playfair order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
                 </div>
             </div>
         </div>
