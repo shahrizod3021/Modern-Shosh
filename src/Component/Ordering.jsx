@@ -41,7 +41,7 @@ export const Ordering = () => {
                                         className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Telefon raqam" : localStorage.getItem("lang") === "rus" ? "Номер телефона" : "Phone number"}</small>
                                     <input type="text" className="form-number p-1 bg-transparent text-white"
                                            value={phoneNumber} onChange={e => setPhoneNumber(e.target.value)}
-                                           placeholder="+998 "
+                                           placeholder="+ "
                                     />
                                 </div>
                                 <div className={"row col-12 g-1 mt-1"}>
@@ -123,7 +123,7 @@ export const Ordering = () => {
                         </div>
                     </div>
                     <button type={'button'} onClick={() => ordering()}
-                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0 || phoneNumber.length !== 9 ? "btn disabled text-light order-btn mt-4 playfair" : "playfair order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
+                            className={number === null || young === null || older === null || going_time.length === 0 || come_time.length === 0  ? "btn disabled text-light order-btn mt-4 playfair" : "playfair order-btn btn btn-lg btn-warning rounded-0 mt-4"}>{localStorage.getItem("lang") === "uzb" ? "Buyurtma qilish" : localStorage.getItem("lang") === "rus" ? "Забронировать" : "Reserve"}</button>
                 </div>
             </div>
         </div>
