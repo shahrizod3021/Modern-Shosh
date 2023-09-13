@@ -273,7 +273,7 @@ export const Rooms = () => {
                                     <img src={singlemed} style={{width: "100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={single} style={{width: "100%"}} alt=""/>
+                                    <img src={singlemed1} style={{width: "100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>

@@ -18,10 +18,6 @@ export const Footer = () => {
                                     <i className="fa-brands fa-telegram me-3"
                                        style={{fontSize: "25px", color: "#ffffff"}}></i>
                                 </a>
-                                <a href={"https://www.twitter.com/"} className={"border-0 bg-transparent"}>
-                                    <i className="fa-brands fa-twitter me-3"
-                                       style={{fontSize: "25px", color: "#ffffff"}}></i>
-                                </a>
                                 <a href={"https://www.facebook.com/"} className={"border-0 bg-transparent"}>
                                     <i className="fa-brands fa-facebook me-3"
                                        style={{fontSize: "25px", color: "#ffffff"}}></i>
@@ -56,10 +52,6 @@ export const Footer = () => {
                     <div className={"d-flex align-items-center"}>
                         <a href={"https://t.me"} className={"border-0 bg-transparent"}>
                             <i className="fa-brands fa-telegram me-5"
-                               style={{fontSize: "30px", color: "#ffffff"}}></i>
-                        </a>
-                        <a href={"https://www.twitter.com/"} className={"border-0 bg-transparent"}>
-                            <i className="fa-brands fa-twitter me-5"
                                style={{fontSize: "30px", color: "#ffffff"}}></i>
                         </a>
                         <a href={"https://www.facebook.com/"} className={"border-0 bg-transparent"}>

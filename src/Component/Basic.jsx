@@ -1,8 +1,7 @@
 import Carousel from "react-multi-carousel";
 import banner from '../assets/img/Banner/banner.png'
-import banner1 from '../assets/img/Banner/banner2.png'
+import banner1 from '../assets/img/Banner/banner4.png'
 import banner2 from '../assets/img/Banner/banner3.png'
-
 export const Basic = () => {
     const responsive = {
         superLargeDesktop: {

@@ -69,7 +69,10 @@ export const Ordering = () => {
                                     className={"text-white playfair"}>{localStorage.getItem("lang") === "uzb" ? "Kelish sanasi" : localStorage.getItem("lang") === "rus" ? "Дата заезда" : "Arrival date"}</small>
                                 <input type="date" id={"dateV"} name={"dateV"}
                                        className="form-date p-1  text-light"
+                                       placeholder={"dd-mm-yyyy"}
+                                       defaultValue={""}
                                        maxLength={10}
+                                       value={come_time}
                                        onChange={e => setCome_time(e.target.value)}
                                 />
                                 <div className={"row col-12 g-1"}>
