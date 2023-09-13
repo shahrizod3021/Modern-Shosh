@@ -12,7 +12,8 @@ import garden2 from '../assets/img/bog/bog2.jpg'
 import gar from '../assets/img/bog/sad (2).png'
 import gar1 from '../assets/img/bog/sad (3).png'
 import singlemed from '../assets/img/single/single.png'
-import singlemed1 from '../assets/img/single/single (2).png'
+import singlemed1 from '../assets/img/single/s.png'
+import single from '../assets/img/single/single (2).png'
 import twin from '../assets/img/tvin/twin.png'
 import twin1 from '../assets/img/tvin/twin (2).png'
 import tvin1 from '../assets/img/tvin/tvin1.jpg'
@@ -272,7 +273,7 @@ export const Rooms = () => {
                                     <img src={singlemed} style={{width: "100%"}} alt=""/>
                                 </div>
                                 <div className={"h-auto"}>
-                                    <img src={singlemed1} style={{width: "100%"}} alt=""/>
+                                    <img src={single} style={{width: "100%"}} alt=""/>
                                 </div>
                             </Carousel>
                         </div>
