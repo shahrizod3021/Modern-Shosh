@@ -17,7 +17,7 @@ export const AnswerAndQuestion = () => {
             <div className={"answer container "} style={{marginBottom:"150px", marginTop: "150px"}}>
                 <h3 className={"text-white text-center playfair mb-4"}>{localStorage.getItem("lang") === "uzb" ? "Tez-tez so'raladigan savollar" : localStorage.getItem("lang") === "rus" ? "\n" +
                     "Часто задаваемыйе вопросы" : "FAQ"}</h3>
-                <div className={"row col-lg-10 answers"}>
+                <div className={"row col-lg-12 answers"}>
                     <div className={"col-lg-6 mb-4 p-0"}>
                         <img   src={localStorage.getItem("lang") === "rus" ?  question : localStorage.getItem("lang") === "uzb" ?  questionuz : questioneng}  className={"panorama"}  alt=""/>
                     </div>
