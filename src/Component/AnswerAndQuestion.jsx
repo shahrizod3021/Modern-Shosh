@@ -1,15 +1,15 @@
-import question from '../assets/AskQuestion/1.png'
-import question1 from '../assets/AskQuestion/2.png'
-import question2 from '../assets/AskQuestion/3.png'
-import question3 from '../assets/AskQuestion/4.png'
-import questioneng from '../assets/AskQuestion/5.png'
-import questioneng1 from '../assets/AskQuestion/6.png'
-import questioneng2 from '../assets/AskQuestion/7.png'
-import questioneng3 from '../assets/AskQuestion/8.png'
-import questionuz from '../assets/AskQuestion/9.png'
-import questionuz1 from '../assets/AskQuestion/10.png'
-import questionuz2 from '../assets/AskQuestion/11.png'
-import questionuz3 from '../assets/AskQuestion/12.png'
+import question from '../assets/AskQuestion/1.jpg'
+import question1 from '../assets/AskQuestion/2.jpg'
+import question2 from '../assets/AskQuestion/3.jpg'
+import question3 from '../assets/AskQuestion/4.jpg'
+import questioneng from '../assets/AskQuestion/5.jpg'
+import questioneng1 from '../assets/AskQuestion/6.jpg'
+import questioneng2 from '../assets/AskQuestion/7.jpg'
+import questioneng3 from '../assets/AskQuestion/8.jpg'
+import questionuz from '../assets/AskQuestion/9.jpg'
+import questionuz1 from '../assets/AskQuestion/12.jpg'
+import questionuz2 from '../assets/AskQuestion/12.jpg'
+import questionuz3 from '../assets/AskQuestion/12.jpg'
 
 export const AnswerAndQuestion = () => {
     return (
@@ -19,7 +19,7 @@ export const AnswerAndQuestion = () => {
                     "Часто задаваемыйе вопросы" : "FAQ"}</h3>
                 <div className={"row col-lg-10 answers"}>
                     <div className={"col-lg-6 mb-4 p-0"}>
-                        <img src={localStorage.getItem("lang") === "rus" ?  question : localStorage.getItem("lang") === "uzb" ?  questionuz : questioneng}  className={"panorama"}  alt=""/>
+                        <img   src={localStorage.getItem("lang") === "rus" ?  question : localStorage.getItem("lang") === "uzb" ?  questionuz : questioneng}  className={"panorama"}  alt=""/>
                     </div>
                     <div className={"col-lg-6 mb-4 p-0"}>
                         <img src={localStorage.getItem("lang") === "rus" ? question1 : localStorage.getItem("lang") === "uzb" ? questionuz1 : questioneng1} className={"panorama"}  alt=""/>

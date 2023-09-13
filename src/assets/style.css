@@ -196,9 +196,8 @@
     border-top: none;
     margin-bottom: 10px;
 }
-::-webkit-datetime-edit-text{
-    
-}
+
+
 
 .form-number:valid,
 .form-number:focus{
