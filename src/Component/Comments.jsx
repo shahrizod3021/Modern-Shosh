@@ -3,49 +3,58 @@ import Carousel from "react-multi-carousel";
 
 export const Comments = () => {
     const comments = [
-        {
-            comment: "Отзыв: Пребывание в отеле «Шош Модерн» оставило приятные впечатления. Очень впечатлен уровнем обслуживания и профессионализмом персонала. Внимание к деталям и быстрое реагирование на запросы сделали мое пребывание комфортным и беззаботным.\n",
-            commentuz: "Shosh Modern mehmonxonasi xizmatlaridan juda mamnunman. Muloyim va foydali xodimlar har doim yordam berishga tayyor. Xonalar toza va qulay, Xonada ishlari o'z vaqtida bajarilgan. Restoranda nonushta mazali va xilma-xil bo'ldi.",
-            commenteng: "Feedback: Staying at the Shosh Modern was a pleasant experience. Very impressed with the level of service and professionalism of the staff. Attention to detail and quick response to requests made my stay comfortable and carefree.\n",
-            name: "John Adam",
-            media: true
-        },
-        {
-            comment: "Отзыв: Очень доволен услугами гостиницы Shosh Modern. Вежливый и отзывчивый персонал всегда готов помочь. Номера чистые и удобные, уборка проводилась своевременно. Завтраки в ресторане были вкусными и разнообразными.",
-            commentuz: "Mulohaza: Shosh Modern mehmonxonasi xizmatlaridan juda mamnunman. Muloyim va foydali xodimlar har doim yordam berishga tayyor. Xonalar toza va qulay, uy-ro'zg'or ishlari o'z vaqtida bajarilgan. Restoranda nonushta mazali va xilma-xil bo'ldi.",
-            commenteng: "Feedback: Very pleased with the services of Shosh Modern Hotel. Polite and helpful staff is always ready to help. Rooms are clean and comfortable, housekeeping was done in a timely manner. Breakfast in the restaurant was delicious and varied.",
-            name: "Lyudmila Safaeva",
-            media: true
-        },
-        {
-            comment: "Отзыв: Хотел бы выразить благодарность за отличный сервис, предоставляемый в отеле «Шош Модерн». На все мои запросы и вопросы были даны быстрые ответы. Уровень обслуживания отличный, персонал профессиональный и внимательный.",
-            commentuz: "Xulosa: Men Shosh Modern mehmonxonasida ko'rsatilgan a'lo xizmat uchun o'z minnatdorchiligimni bildirmoqchiman. Barcha so'rovlarim va savollarimga zudlik bilan javob berildi. Xizmat ko'rsatish darajasi a'lo darajada, xodimlar professional va e'tiborli.",
-            commenteng: "Feedback: I would like to express my gratitude for the excellent service provided at Shosh Modern Hotel. All my inquiries and questions were answered promptly. The level of service is excellent, the staff is professional and attentive.",
-            name: 'Murad Ivanov',
-            media: true
-        },
-        {
 
-            comment: "Отзыв: Отель «Модерн Шош» предлагает первоклассный сервис с индивидуальным подходом. Персонал невероятно внимательный и услужливый, благодаря чему вы почувствуете себя ценным гостем. Они стараются изо всех сил удовлетворить особые запросы и дают отличные рекомендации по изучению окрестностей",
-            commentuz: "Zamonaviy Shosh mehmonxonasi shaxsiy teginish bilan yuqori darajadagi xizmatni taklif etadi. Xodimlar nihoyatda e'tiborli bo'lib, o'zingizni qadrli mehmondek his qilasiz. Ular maxsus so'rovlarni  o'z vaqtida javob berib va mahalliy hududni o'rganish bo'yicha ajoyib tavsiyalar berishar ekan.",
-            commenteng: "Feedback: Modern Shosh Hotel offers top-notch service with a personal touch. The staff is incredibly attentive and helpful, making you feel like a valued guest. They go out of their way to accommodate special requests and provide excellent recommendations for exploring the local area.",
-            name: 'Gaylord Deryck',
+        {
+            comment: "Мое пребывание было отличным, благодаря замечательному персоналу, уютной комнате и восхитительному завтраку.\n" +
+                "У меня был фантастический опыт в этом отеле! Персонал был невероятно дружелюбным и внимательным, что заставило меня чувствовать себя желанным гостем на протяжении всего моего пребывания. Комната была просторной, удобной и ухоженной, обеспечивая расслабляющую атмосферу. Завтрак был вкусным и предлагал различные варианты на любой вкус.\n",
+            commentuz: "Ajoyib xodimlar, shinam xona va mazali nonushta tufayli mening turar joyim ajoyib edi.\n" +
+                "Men bu mehmonxonada ajoyib tajribaga ega bo'ldim! Xodimlar nihoyatda samimiy va diqqatli edilar, bu meni butun qolishim davomida o'zimni baxtli va mamnun his qildim. Xona keng, qulay va yaxshi sharoitda bo'lib, dam olish muhitini ta'minladi. Nonushta mazali va juda turli xil edi.",
+            commenteng: "My stay was excellent, thanks to the wonderful staff, cozy room, and delightful breakfast.\n" +
+                "I had a fantastic experience at this hotel! The staff was incredibly friendly and attentive, making me feel like a welcomed guest throughout my stay. The room was spacious, comfortable, and well-maintained, providing a relaxing atmosphere. Breakfast was delicious and offered various options to suit any taste.\n",
+            name: 'Becky',
             media: false
         },
         {
-            comment: "Краткое описание: Персонал отеля «Современный Шош» известен своим теплым и дружелюбным стилем общения. Они ведут приятные беседы и хотят помочь гостям. Их профессиональный и гостеприимный подход создает комфортную и привлекательную среду для всех.",
-            commenteng: "Feadback: Modern Shosh hotel staff are known for their warm and friendly communication style. They engage in pleasant conversations and want to help guests. Their professional yet welcoming approach creates a comfortable and inviting environment for everyone.",
-            commentuz: "Modern Shosh mehmonxonasi xodimlari samimiy va do'stona muloqot uslubi bilan mashhur. Ular yoqimli muomilasi  bilan ish olib borishadi  va mehmonlarga yordam berishni xohlashadi. Ularning professional, ammo mehmondo'st yondashuvi hamma uchun qulay va jozibali muhit yaratadi.",
-            name: 'Azizbek Olimov',
+            comment: "Все было на высшем уровне.\n" +
+                "Очень понравилось что персонал приветлив. Всегда на связи, в онлайне. Помогут с вопросом и его решением. Идут на встречу гостям. А сам отель понравился тем, что вся мебель пахнет деревом, все новое, чистое. Панорамные окна, кондиционер, которым можно охладится после жаркого Ташкента😅 Все удобства имеются. Не пожалели что выбрали этот отель!👍🏻\n",
+            commentuz: "Hammasi eng yuqori darajada edi.\n" +
+                "Menga xodimlar do'stona munosabatda bo'lishlari juda yoqdi. Har doim aloqada, onlayn. Iltimoslarimizni eshitishdi va uni hal qilishda yordam berishdi. Menga mehmonxonaning o'zi yoqdi, chunki barcha mebellar hali juda yangi, hamma narsa yangi, toza. Panoramik derazalar, issiq Toshkentdan keyin sovishi mumkin bo'lgan konditsioner 😅 barcha qulayliklar mavjud. Biz bu mehmonxonani tanlaganimizdan afsuslanmadik! 👍🏻",
+            commenteng: "Everything was at the highest level.\n" +
+                "I really liked that the staff was friendly. Always available and online. They assist with questions and their solutions. They are accommodating to guests. The hotel itself was appealing because all the furniture smells like wood, everything is new and clean. Panoramic windows, an air conditioner to cool down after the hot Tashkent weather 😅. All amenities are available. We didn't regret choosing this hotel! 👍🏻\n",
+            name: "Акмарал",
+            media: true
+        },
+        {
+            comment: "Доброжелательный персонал, помогли донести багаж до номера. Отель новый, все номера чистые и просторные, в номере всё есть- кондиционер, холодильник, Wi-Fi, телевизор и электрический чайник. Всё работает исправно. Завтраки разнообразные и очень вкусные, все продукты свежие. Спасибо за комфортное проживание, будем рекомендовать вас друзьям!",
+            commentuz: "Do'stona xodimlar yukni xonaga olib kirishga yordam berishdi. Mehmonxona yangi, barcha xonalar toza va keng, xonada hamma narsa bor - konditsioner, muzlatgich, Wi-Fi, televizor va elektr choynak. Hammasi benuqson ishladi. Nonushta turli xil va juda mazali, barcha mahsulotlar yangi. Yashash uchun biz sizni do'stlaringizga tavsiya qilamiz!",
+            commenteng: "Friendly staff, they helped with carrying luggage to the room. The hotel is new, all rooms are clean and spacious, and they include everything you need - air conditioning, a refrigerator, Wi-Fi, a television, and an electric kettle. Everything works perfectly. The breakfasts are diverse and very tasty, with all ingredients fresh. Thank you for the comfortable stay; we will recommend you to our friends!",
+            name: 'Дарья',
+            media: true
+        },
+
+
+        {
+            comment: "Новый отель, все чисто, современный стильный  интерьер. Очень дружелюбный и приятный персонал, даже подсказали где вкусно покушать. На завтраке был вкусный шведский стол (каши, салаты, великолепная самса, фрукты, всякие сладости и много еще всего). Плюс приятный очень ценник. Советуем)",
+            commenteng: "A new hotel, everything is clean, with a modern and stylish interior. Very friendly and pleasant staff, they even recommended a good place to eat. The breakfast was delicious with a variety of options (porridge, salads, excellent samsa, fruits, various sweets, and much more). Plus, it had a very reasonable price. Highly recommended!",
+            commentuz: "Yangi mehmonxona, hamma narsa toza, zamonaviy va zamonaviy interyer. Juda samimiy va yoqimli xodimlar, hatto mazali taomni qayerda tanovul qilishimni aytishdi. Nonushta uchun restoran bor edi (don, salatlar, ajoyib samsa, mevalar, har xil shirinliklar va boshqa ko'p narsalar). Bundan tashqari, juda yoqimli narx. Biz maslahat beramiz)",
+            name: 'Сабина',
             media: false
         },
         {
-            comment: "Отзыв: Отель «Модерн Шош» предоставляет целый ряд полезных удобств и возможностей для комфортного отдыха. К ним относятся бесплатный Wi-Fi, хорошо оборудованный фитнес-центр и красивый сад, где можно расслабиться.",
-            commentuz: "“Modern Shosh” mehmonxonasi qulay yashash uchun bir qator foydali qulayliklar va imkoniyatlarni taqdim etadi. Bularga bepul Wi-Fi, yaxshi jihozlangan fitnes markazi va dam olishingiz mumkin bo'lgan go'zal bog' kiradi.",
-            commenteng: "Feedback: Hotel \"Modern Shosh\" provides a range of useful amenities and opportunities for a comfortable stay. These include free Wi-Fi, a well-equipped fitness center and a beautiful garden where you can relax.",
-            name: "Mümtaz Ayhan ",
+            comment: "Супер чисто, ванная была безупречной. Меню на завтрак был очень разнообразным. Wifi отлично работал на всей территории отеля. Персонал всегда были доступны и очень полезны, когда нам нужна была помощь (например, бронирование такси). Очень рекомендую\n",
+            commentuz: "Juda toza va hammomdagi jihozlar benuqson ishladi. Nonushta menyusi juda xilma-xil. Wi-fi butun hududda juda yaxshi ishladi. Xodimlar har doim ish joyida va bizga yordam kerak bo'lganda har safar qo'llab quvvatlashdi (masalan, taksi bron qilish). Men bu mehmonxonani juda tavsiya qilaman.",
+            commenteng: "Super clean, the bathroom was impeccable. The breakfast menu was very diverse. Wifi worked excellently throughout the hotel's premises. The staff was always available and very helpful when we needed assistance (for example, booking a taxi). Highly recommended.",
+            name: "Thaqif",
+            media: true
+        },
+        {
+            comment: "Безупречно чисто, все новое, кондиционер работает, хороший завтрак, очень удобная кровать, просторный душ.",
+            commentuz: "Xonalar juda toza, hamma narsa yangi, konditsioner ishlaydi, yaxshi nonushta, juda qulay to'shak, keng dush.",
+            commenteng: "Impeccably clean, everything is new, the air conditioner works, great breakfast, very comfortable bed, spacious shower.",
+            name: "Mateusz",
             media: false
         }
+
     ]
 
     const responsive = {
@@ -73,7 +82,7 @@ export const Comments = () => {
         <div>
             <div className={"desktop-comment mt-4 "} style={{marginBottom: "150px"}}>
                 <div className={"card text-bg-dark"}>
-                    <img src={bg} style={{height: "100vh"}} alt="not found"/>
+                    <img src={bg} style={{height: "auto"}} alt="not found"/>
                     <div className="card-img-overlay">
                         <div className={"playfair"} style={{paddingTop: "70px", letterSpacing: "1px"}}>
                             <h1 className={"text-white text-center playfair"}>
