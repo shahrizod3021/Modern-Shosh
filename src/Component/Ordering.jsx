@@ -24,7 +24,7 @@ export const Ordering = () => {
             return toast.error("Telefon raqamingizni kiritishingiz zarur", {duration: 4000})
         }
         const data = {
-            phoneNumber, going_time, come_time, older, child: young, rooms_size: number
+            phoneNumber, going_time, come_time, older, child: young, rooms_size: number, lang: localStorage.getItem("lang")
         }
         await Order(data)
     }

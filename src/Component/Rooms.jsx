@@ -57,7 +57,7 @@ export const Rooms = () => {
         <div id={"about_rooms"}>
             <div className={"desktop desktop-1024"}>
                 <h3 className={"text-white text-center mb-5"}
-                    style={{marginTop: "150px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning honalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
+                    style={{marginTop: "150px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning xonalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
                 <div className={"container"}>
                     <div className={"row col-md-12 mb-5"}>
                         <div className={"col-md-7"}>
@@ -85,7 +85,7 @@ export const Rooms = () => {
                         </div>
                         <div className={"col-md-7"}>
                             <h3 className={"text-white"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Delyuks xona" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Lux"}</h3>
+                                {localStorage.getItem("lang") === "uzb" ? "Delyuks xona" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Deluxe"}</h3>
                             <p className={"text-white p-pas playfair"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Zamonaviy dizaynga ega , bitta ikki kishilik 180*200 o’lchamli karavot va hashamatli divan bilan jixozlangan eng qulay xonalarimizdan biri. Stol va stul bilan jihozlangan ish maydoni mavjud. Xonada yashash uchun zarur bo'lgan barcha kerakli invertarlar mavjud: bepul Wi-fi, konditsioner, muzlatgich, Smart televizor, stol, oynali shkaf, tungi lampalar, shuningdek shaxsiy gigiena vositalari, choyshablar va choy stansiyasi mavjud (2 xil choy, shakar, suv, tefal va idishlar). Ushbu xona katta maydonni sevuvchilar va kechki payt dam olish uchun kino yokida boshqa ko’rsatuvlarni korishni yoqtiradigan mehmonlarimiz uchun juda mos keladi. Bu er-xotin uchun ham, o'zini yaxshi ko'radigan sayohatchilar uchun ham juda mos keladi."
                                     : localStorage.getItem("lang") === "rus" ? "Максимально уютный и роскошный номер с современным дизайном, одной двуспальной кроватью и шикарным диваном. Организовано рабочее пространство с письменным столом и стулом. В номере есть всё необходимое для комфортного проживания: бесплатный Wi-Fi, кондиционер, холодильник, смарт-телевизор, письменный стол, шкаф с зеркалом, тумбочки, а также средства личной гигиены, постельное бельё, а также приборы для чая. Данный номер отлично подойдет для любителей большого пространства и наиболее комфортабельного размещения. Идеально подойдет как для семейной пары, так и для путешественников любящих побаловать себя."
@@ -202,7 +202,7 @@ export const Rooms = () => {
                     <div className={"row col-md-12 mt-5"}>
                         <div className={"col-md-7"}>
                             <h3 className={"text-white"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Konferentsiya zali" : localStorage.getItem("lang") === "rus" ? "Kонференц-зал" : "Conference-hall"}</h3>
+                                {localStorage.getItem("lang") === "uzb" ? "Anjumanlar zali" : localStorage.getItem("lang") === "rus" ? "Kонференц-зал" : "Conference-hall"}</h3>
                             <p className={"text-white playfair me-3 p-pas"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Turli tadbirlar uchun mo'ljallangan keng va qulay xona. O'zining kiyim qo’yish xonasi bilan jihozlangan zal, 50 kishini sig'dira oladi va konferentsiyalar, seminarlar, taqdimotlar va boshqa ish uchrashuvlari uchun barcha zarur jihozlar bilan jihozlangan: proektor, ekran, audio va video uskunalar, mikrofonlar, interfaol doska va boshqalar."
                                     : localStorage.getItem("lang") === "rus" ? "Просторное и комфортабельное помещение, предназначенное для проведения различных мероприятий. Зал оснащенный собственным гардеробом, способен вместить до 50 человек и оборудован  всем необходимым оборудованием для проведения конференций, семинаров, презентаций и других деловых встреч: проектором, экраном, аудио- и видеооборудованием, микрофонами, интерактивной доской и т.д."
@@ -219,7 +219,7 @@ export const Rooms = () => {
             </div>
             <div className={"media media-1024"}>
                 <h3 className={"text-white text-center mb-5"}
-                    style={{marginTop: "70px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning honalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
+                    style={{marginTop: "70px"}}>{localStorage.getItem("lang") === "uzb" ? "Bizning xonalar" : localStorage.getItem("lang") === "rus" ? "Наши номера" : "Our rooms"}</h3>
                 <div className={"container room1"}>
                     <div className={"col-12 "}>
                         <div className={"col-12"} style={{height: "auto"}}>
@@ -255,7 +255,7 @@ export const Rooms = () => {
                         </div>
                         <div className={"col-12 mt-3"}>
                             <h3 className={"text-white text-center mb-4"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Delyuks xona" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Lux"}</h3>
+                                {localStorage.getItem("lang") === "uzb" ? "Delyuks xona" : localStorage.getItem("lang") === "rus" ? "Полулюкс" : "Deluxe"}</h3>
                             <p className={"text-white p-pas playfair"}>
                                 <p className={"text-white tex-start"}>
                                     {localStorage.getItem("lang") === "uzb" ? "Zamonaviy dizaynga ega , bitta ikki kishilik 180*200 o’lchamli karavot va hashamatli divan bilan jixozlangan eng qulay xonalarimizdan biri. Stol va stul bilan jihozlangan ish maydoni mavjud. Xonada yashash uchun zarur bo'lgan barcha kerakli invertarlar mavjud: bepul Wi-fi, konditsioner, muzlatgich, Smart televizor, stol, oynali shkaf, tungi lampalar, shuningdek shaxsiy gigiena vositalari, choyshablar va choy stansiyasi mavjud (2 xil choy, shakar, suv, tefal va idishlar). Ushbu xona katta maydonni sevuvchilar va kechki payt dam olish uchun kino yokida boshqa ko’rsatuvlarni korishni yoqtiradigan mehmonlarimiz uchun juda mos keladi. Bu er-xotin uchun ham, o'zini yaxshi ko'radigan sayohatchilar uchun ham juda mos keladi."
@@ -405,7 +405,7 @@ export const Rooms = () => {
                         </div>
                         <div className={"col-12 mt-3"}>
                             <h3 className={"text-white text-center mb-4"}>
-                                {localStorage.getItem("lang") === "uzb" ? "Konferentsiya zali" : localStorage.getItem("lang") === "rus" ? "Kонференц-зал" : "Conference-hall"}</h3>
+                                {localStorage.getItem("lang") === "uzb" ? "Anjumanlar zali" : localStorage.getItem("lang") === "rus" ? "Kонференц-зал" : "Conference-hall"}</h3>
                             <p className={"text-white p-pas playfair"}>
                                 {localStorage.getItem("lang") === "uzb" ? "Turli tadbirlar uchun mo'ljallangan keng va qulay xona. O'zining kiyim qo’yish xonasi bilan jihozlangan zal, 50 kishini sig'dira oladi va konferentsiyalar, seminarlar, taqdimotlar va boshqa ish uchrashuvlari uchun barcha zarur jihozlar bilan jihozlangan: proektor, ekran, audio va video uskunalar, mikrofonlar, interfaol doska va boshqalar."
                                     : localStorage.getItem("lang") === "rus" ? "Просторное и комфортабельное помещение, предназначенное для проведения различных мероприятий. Зал оснащенный собственным гардеробом, способен вместить до 50 человек и оборудован  всем необходимым оборудованием для проведения конференций, семинаров, презентаций и других деловых встреч: проектором, экраном, аудио- и видеооборудованием, микрофонами, интерактивной доской и т.д."

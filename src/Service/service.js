@@ -17,7 +17,8 @@ export const Order= async (data) => {
     try {
         const res = await axios.post(BaseUrl + Apis.order, data)
         if (isSuccess(res.status)){
-            return toast.success(res.data.message, {duration:3000})
+
+            return toast.success(localStorage.getItem("lang") === "uzb" ? "Buyurtmangiz qabul qilindi" : localStorage.getItem("lang") === "rus" ? "Ваш заказ принят " : "Your order has been accepted")
         }
     }catch (err){
         return toast.error(localStorage.getItem("lang") === "uzb" ? "Buyurtma qabul qilinmadi" : localStorage.getItem("lang") === "rus" ? "Заказ не был принят" : "Order not accepted")

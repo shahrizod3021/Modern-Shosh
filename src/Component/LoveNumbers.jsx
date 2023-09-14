@@ -7,7 +7,9 @@ export const LoveNumbers = () => {
     return (
         <div id={"statistic"}>
             <div className={"mt-5 love-numbers container"}>
-                <h4 className={"text-white  text-center mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Modern Shosh  Fakt va Raqamlarda" : localStorage.getItem("lang") === "rus" ? "Hotel Modern Shosh  В Цифрах и Фактах" : "Hotel Modern Shosh  In Facts and Numbers"}</h4>
+                <h4 className={"text-white desk-title  text-center mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? "Hotel Modern Shosh  Fakt va raqamlarda" : localStorage.getItem("lang") === "rus" ? "Hotel  Shosh Modern  В Цифрах и Фактах" : "Hotel Modern Shosh  In Facts and Numbers"}</h4>
+                <h4 className={"text-white mobile-title text-center mb-5 playfair"}>{localStorage.getItem("lang") === "uzb" ? <>Hotel Modern Shosh <br/> Fakt va raqamlarda</> : localStorage.getItem("lang") === "rus" ? <>Hotel Modern Shosh  <br/> В Цифрах и фактах</> : <>Hotel Modern Shosh <br/> In Facts and numbers</>}</h4>
+
                 <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() => setCounterOn(false)}>
                     <div className={"circles"}>
                         <div className={"w-100 d-flex flex-column align-items-center justify-content-center"}>
