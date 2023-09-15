@@ -94,7 +94,7 @@ export const Comments = () => {
         <div>
             <div className={"desktop-comment mt-4 "} style={{marginBottom: "150px"}}>
                 <div className={"card text-bg-dark"}>
-                    <img src={bg} style={{height: "auto"}} alt="not found"/>
+                    <img src={bg} className={"comment-img"}   style={{height: "auto"}} alt="not found"/>
                     <div className="card-img-overlay">
                         <div className={"playfair"} style={{paddingTop: "70px", letterSpacing: "1px"}}>
                             <h1 className={"text-white text-center playfair"}>

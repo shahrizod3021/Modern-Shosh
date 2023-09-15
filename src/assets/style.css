@@ -378,12 +378,15 @@
 }
 
 .friquently{
-    margin-left: 8%;
+    margin: 0 6%;
 }
 
 @media (max-width: 1450px) {
     .navbar-ul {
         margin: 25px;
+    }
+    .friquently{
+        margin: 0 5%;
     }
 }
 
@@ -406,6 +409,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        height: auto;
     }
 
     .media {
@@ -475,6 +479,7 @@
 
     .media-1024 {
         display: block;
+        height: auto;
     }
 
     .desktop-1024 {
