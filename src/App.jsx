@@ -13,7 +13,7 @@ import {Comments} from "./Component/Comments.jsx";
 
 export const App = () => {
     return(
-        <div className={" w-100 app"}>
+        <div className={"w-100 app"}>
             <Navbar/>
             <Basic/>
             <Ordering/>
